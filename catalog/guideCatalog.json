@@ -1,0 +1,1191 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "draft-2026-07-11",
+  "generatedAt": "2026-07-11T18:14:48.360Z",
+  "medications": [
+    {
+      "id": "acetaminophen",
+      "enabled": true,
+      "name": {
+        "fr": "Acétaminophène",
+        "en": "Acetaminophen"
+      },
+      "category": {
+        "fr": "Douleur et fièvre",
+        "en": "Pain and fever"
+      },
+      "brands": {
+        "fr": "Tylenol, Atasol, Tempra",
+        "en": "Tylenol, Panadol"
+      },
+      "essential": {
+        "fr": "Peut aider la douleur légère ou la fièvre.",
+        "en": "Can help mild pain or fever."
+      },
+      "whyTaken": {
+        "fr": "Peut aider la douleur légère ou la fièvre.",
+        "en": "Can help mild pain or fever."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "acetylsalicylic_acid",
+      "enabled": true,
+      "name": {
+        "fr": "Acide acétylsalicylique",
+        "en": "Acetylsalicylic acid"
+      },
+      "category": {
+        "fr": "Sang",
+        "en": "Blood"
+      },
+      "brands": {
+        "fr": "AAS, Aspirin, ASA",
+        "en": "ASA, Aspirin"
+      },
+      "essential": {
+        "fr": "Aide à réduire le risque de certains caillots.",
+        "en": "Helps lower the risk of certain clots."
+      },
+      "whyTaken": {
+        "fr": "Aide à réduire le risque de certains caillots.",
+        "en": "Helps lower the risk of certain clots."
+      },
+      "goodToKnow": {
+        "fr": "Les bleus ou saignements peuvent être plus fréquents. Vérifiez avec un pharmacien avant d'ajouter un nouveau médicament.",
+        "en": "Bruising or bleeding may happen more often. Check with a pharmacist before adding a new medication."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "allopurinol",
+      "enabled": true,
+      "name": {
+        "fr": "Allopurinol",
+        "en": "Allopurinol"
+      },
+      "category": {
+        "fr": "Os et articulations",
+        "en": "Bones and joints"
+      },
+      "brands": {
+        "fr": "Zyloprim",
+        "en": "Zyloprim"
+      },
+      "essential": {
+        "fr": "Aide à prévenir certaines crises de goutte.",
+        "en": "Helps prevent certain gout attacks."
+      },
+      "whyTaken": {
+        "fr": "Aide à prévenir certaines crises de goutte.",
+        "en": "Helps prevent certain gout attacks."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "amlodipine",
+      "enabled": true,
+      "name": {
+        "fr": "Amlodipine",
+        "en": "Amlodipine"
+      },
+      "category": {
+        "fr": "Cœur et circulation",
+        "en": "Heart and circulation"
+      },
+      "brands": {
+        "fr": "Norvasc",
+        "en": "Norvasc"
+      },
+      "essential": {
+        "fr": "Aide à diminuer la pression artérielle.",
+        "en": "Helps lower blood pressure."
+      },
+      "whyTaken": {
+        "fr": "Aide à diminuer la pression artérielle.",
+        "en": "Helps lower blood pressure."
+      },
+      "goodToKnow": {
+        "fr": "Des étourdissements peuvent arriver, surtout en se levant. Vérifiez avec un professionnel de la santé si cela persiste.",
+        "en": "Dizziness can happen, especially when standing. Check with a healthcare professional if it persists."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "apixaban",
+      "enabled": true,
+      "name": {
+        "fr": "Apixaban",
+        "en": "Apixaban"
+      },
+      "category": {
+        "fr": "Sang",
+        "en": "Blood"
+      },
+      "brands": {
+        "fr": "Eliquis",
+        "en": "Eliquis"
+      },
+      "essential": {
+        "fr": "Aide à prévenir la formation de caillots sanguins.",
+        "en": "Helps prevent blood clots from forming."
+      },
+      "whyTaken": {
+        "fr": "Aide à prévenir la formation de caillots sanguins.",
+        "en": "Helps prevent blood clots from forming."
+      },
+      "goodToKnow": {
+        "fr": "Les bleus ou saignements peuvent être plus fréquents. Vérifiez avec un pharmacien avant d'ajouter un nouveau médicament.",
+        "en": "Bruising or bleeding may happen more often. Check with a pharmacist before adding a new medication."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez rapidement conseil si un saignement est important, ne cesse pas, ou après une chute avec coup à la tête.",
+        "en": "Ask for help promptly if bleeding is heavy, does not stop, or after a fall with a blow to the head."
+      }
+    },
+    {
+      "id": "atorvastatin",
+      "enabled": true,
+      "name": {
+        "fr": "Atorvastatine",
+        "en": "Atorvastatin"
+      },
+      "category": {
+        "fr": "Cœur et circulation",
+        "en": "Heart and circulation"
+      },
+      "brands": {
+        "fr": "Lipitor",
+        "en": "Lipitor"
+      },
+      "essential": {
+        "fr": "Aide à diminuer le cholestérol.",
+        "en": "Helps lower cholesterol."
+      },
+      "whyTaken": {
+        "fr": "Aide à diminuer le cholestérol.",
+        "en": "Helps lower cholesterol."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "bisoprolol",
+      "enabled": true,
+      "name": {
+        "fr": "Bisoprolol",
+        "en": "Bisoprolol"
+      },
+      "category": {
+        "fr": "Cœur et circulation",
+        "en": "Heart and circulation"
+      },
+      "brands": {
+        "fr": "Monocor",
+        "en": "Monocor"
+      },
+      "essential": {
+        "fr": "Aide le cœur à battre plus calmement.",
+        "en": "Helps the heart beat more calmly."
+      },
+      "whyTaken": {
+        "fr": "Aide le cœur à battre plus calmement.",
+        "en": "Helps the heart beat more calmly."
+      },
+      "goodToKnow": {
+        "fr": "Des étourdissements peuvent arriver, surtout en se levant. Vérifiez avec un professionnel de la santé si cela persiste.",
+        "en": "Dizziness can happen, especially when standing. Check with a healthcare professional if it persists."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "budesonide",
+      "enabled": true,
+      "name": {
+        "fr": "Budesonide",
+        "en": "Budesonide"
+      },
+      "category": {
+        "fr": "Respiration",
+        "en": "Breathing"
+      },
+      "brands": {
+        "fr": "Pulmicort",
+        "en": "Pulmicort"
+      },
+      "essential": {
+        "fr": "Aide à contrôler l'inflammation des voies respiratoires.",
+        "en": "Helps control airway inflammation."
+      },
+      "whyTaken": {
+        "fr": "Aide à contrôler l'inflammation des voies respiratoires.",
+        "en": "Helps control airway inflammation."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "candesartan",
+      "enabled": true,
+      "name": {
+        "fr": "Candesartan",
+        "en": "Candesartan"
+      },
+      "category": {
+        "fr": "Cœur et circulation",
+        "en": "Heart and circulation"
+      },
+      "brands": {
+        "fr": "Atacand",
+        "en": "Atacand"
+      },
+      "essential": {
+        "fr": "Aide à diminuer la pression artérielle.",
+        "en": "Helps lower blood pressure."
+      },
+      "whyTaken": {
+        "fr": "Aide à diminuer la pression artérielle.",
+        "en": "Helps lower blood pressure."
+      },
+      "goodToKnow": {
+        "fr": "Des étourdissements peuvent arriver, surtout en se levant. Vérifiez avec un professionnel de la santé si cela persiste.",
+        "en": "Dizziness can happen, especially when standing. Check with a healthcare professional if it persists."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "celecoxib",
+      "enabled": true,
+      "name": {
+        "fr": "Célécoxib",
+        "en": "Celecoxib"
+      },
+      "category": {
+        "fr": "Douleur et fièvre",
+        "en": "Pain and fever"
+      },
+      "brands": {
+        "fr": "Celebrex",
+        "en": "Celebrex"
+      },
+      "essential": {
+        "fr": "Peut aider la douleur et l'inflammation.",
+        "en": "Can help pain and inflammation."
+      },
+      "whyTaken": {
+        "fr": "Peut aider la douleur et l'inflammation.",
+        "en": "Can help pain and inflammation."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "citalopram",
+      "enabled": true,
+      "name": {
+        "fr": "Citalopram",
+        "en": "Citalopram"
+      },
+      "category": {
+        "fr": "Sommeil et système nerveux",
+        "en": "Sleep and nervous system"
+      },
+      "brands": {
+        "fr": "Celexa",
+        "en": "Celexa"
+      },
+      "essential": {
+        "fr": "Utilisé notamment pour la dépression et l'anxiété.",
+        "en": "Used for depression and anxiety, among other conditions."
+      },
+      "whyTaken": {
+        "fr": "Utilisé notamment pour la dépression et l'anxiété.",
+        "en": "Used for depression and anxiety, among other conditions."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez rapidement de l'aide si la personne parle de se faire du mal, devient très agitée ou confuse.",
+        "en": "Ask for help promptly if the person talks about self-harm, becomes very agitated, or seems confused."
+      }
+    },
+    {
+      "id": "clopidogrel",
+      "enabled": true,
+      "name": {
+        "fr": "Clopidogrel",
+        "en": "Clopidogrel"
+      },
+      "category": {
+        "fr": "Sang",
+        "en": "Blood"
+      },
+      "brands": {
+        "fr": "Plavix",
+        "en": "Plavix"
+      },
+      "essential": {
+        "fr": "Aide à réduire le risque de certains caillots.",
+        "en": "Helps lower the risk of certain clots."
+      },
+      "whyTaken": {
+        "fr": "Aide à réduire le risque de certains caillots.",
+        "en": "Helps lower the risk of certain clots."
+      },
+      "goodToKnow": {
+        "fr": "Les bleus ou saignements peuvent être plus fréquents. Vérifiez avec un pharmacien avant d'ajouter un nouveau médicament.",
+        "en": "Bruising or bleeding may happen more often. Check with a pharmacist before adding a new medication."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "edoxaban",
+      "enabled": true,
+      "name": {
+        "fr": "Edoxaban",
+        "en": "Edoxaban"
+      },
+      "category": {
+        "fr": "Sang",
+        "en": "Blood"
+      },
+      "brands": {
+        "fr": "Lixiana",
+        "en": "Lixiana"
+      },
+      "essential": {
+        "fr": "Aide à prévenir la formation de caillots sanguins.",
+        "en": "Helps prevent blood clots from forming."
+      },
+      "whyTaken": {
+        "fr": "Aide à prévenir la formation de caillots sanguins.",
+        "en": "Helps prevent blood clots from forming."
+      },
+      "goodToKnow": {
+        "fr": "Les bleus ou saignements peuvent être plus fréquents. Vérifiez avec un pharmacien avant d'ajouter un nouveau médicament.",
+        "en": "Bruising or bleeding may happen more often. Check with a pharmacist before adding a new medication."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez rapidement conseil si un saignement est important, ne cesse pas, ou après une chute avec coup à la tête.",
+        "en": "Ask for help promptly if bleeding is heavy, does not stop, or after a fall with a blow to the head."
+      }
+    },
+    {
+      "id": "escitalopram",
+      "enabled": true,
+      "name": {
+        "fr": "Escitalopram",
+        "en": "Escitalopram"
+      },
+      "category": {
+        "fr": "Sommeil et système nerveux",
+        "en": "Sleep and nervous system"
+      },
+      "brands": {
+        "fr": "Cipralex",
+        "en": "Cipralex"
+      },
+      "essential": {
+        "fr": "Utilisé notamment pour la dépression et l'anxiété.",
+        "en": "Used for depression and anxiety, among other conditions."
+      },
+      "whyTaken": {
+        "fr": "Utilisé notamment pour la dépression et l'anxiété.",
+        "en": "Used for depression and anxiety, among other conditions."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez rapidement de l'aide si la personne parle de se faire du mal, devient très agitée ou confuse.",
+        "en": "Ask for help promptly if the person talks about self-harm, becomes very agitated, or seems confused."
+      }
+    },
+    {
+      "id": "furosemide",
+      "enabled": true,
+      "name": {
+        "fr": "Furosémide",
+        "en": "Furosemide"
+      },
+      "category": {
+        "fr": "Cœur et circulation",
+        "en": "Heart and circulation"
+      },
+      "brands": {
+        "fr": "Lasix",
+        "en": "Lasix"
+      },
+      "essential": {
+        "fr": "Aide le corps à éliminer l'excès d'eau.",
+        "en": "Helps the body remove extra water."
+      },
+      "whyTaken": {
+        "fr": "Aide le corps à éliminer l'excès d'eau.",
+        "en": "Helps the body remove extra water."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "hydrochlorothiazide",
+      "enabled": true,
+      "name": {
+        "fr": "Hydrochlorothiazide",
+        "en": "Hydrochlorothiazide"
+      },
+      "category": {
+        "fr": "Cœur et circulation",
+        "en": "Heart and circulation"
+      },
+      "brands": {
+        "fr": "HCTZ, HydroDIURIL",
+        "en": "HCTZ, HydroDIURIL"
+      },
+      "essential": {
+        "fr": "Aide le corps à éliminer l'excès d'eau.",
+        "en": "Helps the body remove extra water."
+      },
+      "whyTaken": {
+        "fr": "Aide le corps à éliminer l'excès d'eau.",
+        "en": "Helps the body remove extra water."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "irbesartan",
+      "enabled": true,
+      "name": {
+        "fr": "Irbesartan",
+        "en": "Irbesartan"
+      },
+      "category": {
+        "fr": "Cœur et circulation",
+        "en": "Heart and circulation"
+      },
+      "brands": {
+        "fr": "Avapro",
+        "en": "Avapro"
+      },
+      "essential": {
+        "fr": "Aide à diminuer la pression artérielle.",
+        "en": "Helps lower blood pressure."
+      },
+      "whyTaken": {
+        "fr": "Aide à diminuer la pression artérielle.",
+        "en": "Helps lower blood pressure."
+      },
+      "goodToKnow": {
+        "fr": "Des étourdissements peuvent arriver, surtout en se levant. Vérifiez avec un professionnel de la santé si cela persiste.",
+        "en": "Dizziness can happen, especially when standing. Check with a healthcare professional if it persists."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "levothyroxine",
+      "enabled": true,
+      "name": {
+        "fr": "Lévothyroxine",
+        "en": "Levothyroxine"
+      },
+      "category": {
+        "fr": "Autre médicament",
+        "en": "Other medication"
+      },
+      "brands": {
+        "fr": "Synthroid, Eltroxin",
+        "en": "Synthroid, Eltroxin"
+      },
+      "essential": {
+        "fr": "Remplace l'hormone produite par la thyroïde.",
+        "en": "Replaces the hormone made by the thyroid."
+      },
+      "whyTaken": {
+        "fr": "Remplace l'hormone produite par la thyroïde.",
+        "en": "Replaces the hormone made by the thyroid."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "lorazepam",
+      "enabled": true,
+      "name": {
+        "fr": "Lorazépam",
+        "en": "Lorazepam"
+      },
+      "category": {
+        "fr": "Sommeil et système nerveux",
+        "en": "Sleep and nervous system"
+      },
+      "brands": {
+        "fr": "Ativan",
+        "en": "Ativan"
+      },
+      "essential": {
+        "fr": "Peut aider à calmer l'anxiété ou l'agitation.",
+        "en": "Can help calm anxiety or agitation."
+      },
+      "whyTaken": {
+        "fr": "Peut aider à calmer l'anxiété ou l'agitation.",
+        "en": "Can help calm anxiety or agitation."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "metformin",
+      "enabled": true,
+      "name": {
+        "fr": "Metformine",
+        "en": "Metformin"
+      },
+      "category": {
+        "fr": "Diabète",
+        "en": "Diabetes"
+      },
+      "brands": {
+        "fr": "Glucophage",
+        "en": "Glucophage"
+      },
+      "essential": {
+        "fr": "Aide à contrôler le taux de sucre dans le sang.",
+        "en": "Helps control blood sugar levels."
+      },
+      "whyTaken": {
+        "fr": "Aide à contrôler le taux de sucre dans le sang.",
+        "en": "Helps control blood sugar levels."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "metoprolol",
+      "enabled": true,
+      "name": {
+        "fr": "Métoprolol",
+        "en": "Metoprolol"
+      },
+      "category": {
+        "fr": "Cœur et circulation",
+        "en": "Heart and circulation"
+      },
+      "brands": {
+        "fr": "Lopressor",
+        "en": "Lopressor"
+      },
+      "essential": {
+        "fr": "Aide à ralentir le cœur et réduire son effort.",
+        "en": "Helps slow the heart and reduce its workload."
+      },
+      "whyTaken": {
+        "fr": "Aide à ralentir le cœur et réduire son effort.",
+        "en": "Helps slow the heart and reduce its workload."
+      },
+      "goodToKnow": {
+        "fr": "Des étourdissements peuvent arriver, surtout en se levant. Vérifiez avec un professionnel de la santé si cela persiste.",
+        "en": "Dizziness can happen, especially when standing. Check with a healthcare professional if it persists."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "naproxen",
+      "enabled": true,
+      "name": {
+        "fr": "Naproxène",
+        "en": "Naproxen"
+      },
+      "category": {
+        "fr": "Douleur et fièvre",
+        "en": "Pain and fever"
+      },
+      "brands": {
+        "fr": "Naprosyn, Aleve",
+        "en": "Naprosyn, Aleve"
+      },
+      "essential": {
+        "fr": "Peut aider la douleur et l'inflammation.",
+        "en": "Can help pain and inflammation."
+      },
+      "whyTaken": {
+        "fr": "Peut aider la douleur et l'inflammation.",
+        "en": "Can help pain and inflammation."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "pantoprazole",
+      "enabled": true,
+      "name": {
+        "fr": "Pantoprazole",
+        "en": "Pantoprazole"
+      },
+      "category": {
+        "fr": "Estomac",
+        "en": "Stomach"
+      },
+      "brands": {
+        "fr": "Pantoloc",
+        "en": "Pantoloc"
+      },
+      "essential": {
+        "fr": "Aide à diminuer l'acidité dans l'estomac.",
+        "en": "Helps reduce stomach acid."
+      },
+      "whyTaken": {
+        "fr": "Aide à diminuer l'acidité dans l'estomac.",
+        "en": "Helps reduce stomach acid."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "prednisone",
+      "enabled": true,
+      "name": {
+        "fr": "Prednisone",
+        "en": "Prednisone"
+      },
+      "category": {
+        "fr": "Autre médicament",
+        "en": "Other medication"
+      },
+      "brands": {
+        "fr": "Deltasone",
+        "en": "Deltasone"
+      },
+      "essential": {
+        "fr": "Aide à calmer une inflammation importante.",
+        "en": "Helps calm significant inflammation."
+      },
+      "whyTaken": {
+        "fr": "Aide à calmer une inflammation importante.",
+        "en": "Helps calm significant inflammation."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "quetiapine",
+      "enabled": true,
+      "name": {
+        "fr": "Quetiapine",
+        "en": "Quetiapine"
+      },
+      "category": {
+        "fr": "Sommeil et système nerveux",
+        "en": "Sleep and nervous system"
+      },
+      "brands": {
+        "fr": "Seroquel",
+        "en": "Seroquel"
+      },
+      "essential": {
+        "fr": "Peut aider certains symptômes d'humeur ou de pensée.",
+        "en": "Can help certain mood or thought symptoms."
+      },
+      "whyTaken": {
+        "fr": "Peut aider certains symptômes d'humeur ou de pensée.",
+        "en": "Can help certain mood or thought symptoms."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez rapidement de l'aide si la personne parle de se faire du mal, devient très agitée ou confuse.",
+        "en": "Ask for help promptly if the person talks about self-harm, becomes very agitated, or seems confused."
+      }
+    },
+    {
+      "id": "ramipril",
+      "enabled": true,
+      "name": {
+        "fr": "Ramipril",
+        "en": "Ramipril"
+      },
+      "category": {
+        "fr": "Cœur et circulation",
+        "en": "Heart and circulation"
+      },
+      "brands": {
+        "fr": "Altace",
+        "en": "Altace"
+      },
+      "essential": {
+        "fr": "Aide à diminuer la pression artérielle.",
+        "en": "Helps lower blood pressure."
+      },
+      "whyTaken": {
+        "fr": "Aide à diminuer la pression artérielle.",
+        "en": "Helps lower blood pressure."
+      },
+      "goodToKnow": {
+        "fr": "Des étourdissements peuvent arriver, surtout en se levant. Vérifiez avec un professionnel de la santé si cela persiste.",
+        "en": "Dizziness can happen, especially when standing. Check with a healthcare professional if it persists."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "risedronate",
+      "enabled": true,
+      "name": {
+        "fr": "Risédronate",
+        "en": "Risedronate"
+      },
+      "category": {
+        "fr": "Os et articulations",
+        "en": "Bones and joints"
+      },
+      "brands": {
+        "fr": "Actonel",
+        "en": "Actonel"
+      },
+      "essential": {
+        "fr": "Aide à renforcer les os avec le temps.",
+        "en": "Helps strengthen bones over time."
+      },
+      "whyTaken": {
+        "fr": "Aide à renforcer les os avec le temps.",
+        "en": "Helps strengthen bones over time."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "rivaroxaban",
+      "enabled": true,
+      "name": {
+        "fr": "Rivaroxaban",
+        "en": "Rivaroxaban"
+      },
+      "category": {
+        "fr": "Sang",
+        "en": "Blood"
+      },
+      "brands": {
+        "fr": "Xarelto",
+        "en": "Xarelto"
+      },
+      "essential": {
+        "fr": "Aide à prévenir la formation de caillots sanguins.",
+        "en": "Helps prevent blood clots from forming."
+      },
+      "whyTaken": {
+        "fr": "Aide à prévenir la formation de caillots sanguins.",
+        "en": "Helps prevent blood clots from forming."
+      },
+      "goodToKnow": {
+        "fr": "Les bleus ou saignements peuvent être plus fréquents. Vérifiez avec un pharmacien avant d'ajouter un nouveau médicament.",
+        "en": "Bruising or bleeding may happen more often. Check with a pharmacist before adding a new medication."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez rapidement conseil si un saignement est important, ne cesse pas, ou après une chute avec coup à la tête.",
+        "en": "Ask for help promptly if bleeding is heavy, does not stop, or after a fall with a blow to the head."
+      }
+    },
+    {
+      "id": "rosuvastatin",
+      "enabled": true,
+      "name": {
+        "fr": "Rosuvastatine",
+        "en": "Rosuvastatin"
+      },
+      "category": {
+        "fr": "Cœur et circulation",
+        "en": "Heart and circulation"
+      },
+      "brands": {
+        "fr": "Crestor",
+        "en": "Crestor"
+      },
+      "essential": {
+        "fr": "Aide à diminuer le cholestérol.",
+        "en": "Helps lower cholesterol."
+      },
+      "whyTaken": {
+        "fr": "Aide à diminuer le cholestérol.",
+        "en": "Helps lower cholesterol."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "salbutamol",
+      "enabled": true,
+      "name": {
+        "fr": "Salbutamol",
+        "en": "Salbutamol"
+      },
+      "category": {
+        "fr": "Respiration",
+        "en": "Breathing"
+      },
+      "brands": {
+        "fr": "Ventolin",
+        "en": "Ventolin, Albuterol"
+      },
+      "essential": {
+        "fr": "Aide à respirer lors d'une crise ou d'un essoufflement.",
+        "en": "Helps breathing during a flare-up or shortness of breath."
+      },
+      "whyTaken": {
+        "fr": "Aide à respirer lors d'une crise ou d'un essoufflement.",
+        "en": "Helps breathing during a flare-up or shortness of breath."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "sertraline",
+      "enabled": true,
+      "name": {
+        "fr": "Sertraline",
+        "en": "Sertraline"
+      },
+      "category": {
+        "fr": "Sommeil et système nerveux",
+        "en": "Sleep and nervous system"
+      },
+      "brands": {
+        "fr": "Zoloft",
+        "en": "Zoloft"
+      },
+      "essential": {
+        "fr": "Utilisée notamment pour la dépression et l'anxiété.",
+        "en": "Used for depression and anxiety, among other conditions."
+      },
+      "whyTaken": {
+        "fr": "Utilisée notamment pour la dépression et l'anxiété.",
+        "en": "Used for depression and anxiety, among other conditions."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez rapidement de l'aide si la personne parle de se faire du mal, devient très agitée ou confuse.",
+        "en": "Ask for help promptly if the person talks about self-harm, becomes very agitated, or seems confused."
+      }
+    },
+    {
+      "id": "spironolactone",
+      "enabled": true,
+      "name": {
+        "fr": "Spironolactone",
+        "en": "Spironolactone"
+      },
+      "category": {
+        "fr": "Cœur et circulation",
+        "en": "Heart and circulation"
+      },
+      "brands": {
+        "fr": "Aldactone",
+        "en": "Aldactone"
+      },
+      "essential": {
+        "fr": "Aide à gérer certains surplus de liquide.",
+        "en": "Helps manage certain fluid buildup."
+      },
+      "whyTaken": {
+        "fr": "Aide à gérer certains surplus de liquide.",
+        "en": "Helps manage certain fluid buildup."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "tiotropium",
+      "enabled": true,
+      "name": {
+        "fr": "Tiotropium",
+        "en": "Tiotropium"
+      },
+      "category": {
+        "fr": "Respiration",
+        "en": "Breathing"
+      },
+      "brands": {
+        "fr": "Spiriva",
+        "en": "Spiriva"
+      },
+      "essential": {
+        "fr": "Aide les voies respiratoires à rester plus ouvertes.",
+        "en": "Helps airways stay more open."
+      },
+      "whyTaken": {
+        "fr": "Aide les voies respiratoires à rester plus ouvertes.",
+        "en": "Helps airways stay more open."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "valsartan",
+      "enabled": true,
+      "name": {
+        "fr": "Valsartan",
+        "en": "Valsartan"
+      },
+      "category": {
+        "fr": "Cœur et circulation",
+        "en": "Heart and circulation"
+      },
+      "brands": {
+        "fr": "Diovan",
+        "en": "Diovan"
+      },
+      "essential": {
+        "fr": "Aide à diminuer la pression artérielle.",
+        "en": "Helps lower blood pressure."
+      },
+      "whyTaken": {
+        "fr": "Aide à diminuer la pression artérielle.",
+        "en": "Helps lower blood pressure."
+      },
+      "goodToKnow": {
+        "fr": "Des étourdissements peuvent arriver, surtout en se levant. Vérifiez avec un professionnel de la santé si cela persiste.",
+        "en": "Dizziness can happen, especially when standing. Check with a healthcare professional if it persists."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "venlafaxine",
+      "enabled": true,
+      "name": {
+        "fr": "Venlafaxine",
+        "en": "Venlafaxine"
+      },
+      "category": {
+        "fr": "Sommeil et système nerveux",
+        "en": "Sleep and nervous system"
+      },
+      "brands": {
+        "fr": "Effexor",
+        "en": "Effexor"
+      },
+      "essential": {
+        "fr": "Utilisée notamment pour la dépression et l'anxiété.",
+        "en": "Used for depression and anxiety, among other conditions."
+      },
+      "whyTaken": {
+        "fr": "Utilisée notamment pour la dépression et l'anxiété.",
+        "en": "Used for depression and anxiety, among other conditions."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez rapidement de l'aide si la personne parle de se faire du mal, devient très agitée ou confuse.",
+        "en": "Ask for help promptly if the person talks about self-harm, becomes very agitated, or seems confused."
+      }
+    },
+    {
+      "id": "warfarin",
+      "enabled": true,
+      "name": {
+        "fr": "Warfarine",
+        "en": "Warfarin"
+      },
+      "category": {
+        "fr": "Sang",
+        "en": "Blood"
+      },
+      "brands": {
+        "fr": "Coumadin",
+        "en": "Coumadin"
+      },
+      "essential": {
+        "fr": "Aide à prévenir certains caillots sanguins.",
+        "en": "Helps prevent certain blood clots."
+      },
+      "whyTaken": {
+        "fr": "Aide à prévenir certains caillots sanguins.",
+        "en": "Helps prevent certain blood clots."
+      },
+      "goodToKnow": {
+        "fr": "Les bleus ou saignements peuvent être plus fréquents. Vérifiez avec un pharmacien avant d'ajouter un nouveau médicament.",
+        "en": "Bruising or bleeding may happen more often. Check with a pharmacist before adding a new medication."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez rapidement conseil si un saignement est important, ne cesse pas, ou après une chute avec coup à la tête.",
+        "en": "Ask for help promptly if bleeding is heavy, does not stop, or after a fall with a blow to the head."
+      }
+    },
+    {
+      "id": "zopiclone",
+      "enabled": true,
+      "name": {
+        "fr": "Zopiclone",
+        "en": "Zopiclone"
+      },
+      "category": {
+        "fr": "Sommeil et système nerveux",
+        "en": "Sleep and nervous system"
+      },
+      "brands": {
+        "fr": "Imovane",
+        "en": "Imovane"
+      },
+      "essential": {
+        "fr": "Peut aider à dormir dans certaines situations.",
+        "en": "Can help with sleep in certain situations."
+      },
+      "whyTaken": {
+        "fr": "Peut aider à dormir dans certaines situations.",
+        "en": "Can help with sleep in certain situations."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    }
+  ]
+}
