@@ -1,11 +1,12 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "draft-2026-07-11",
-  "generatedAt": "2026-07-11T18:14:48.360Z",
+  "contentVersion": "clinical-reference-2026-07-11-v2",
+  "generatedAt": "2026-07-12T05:30:38.247Z",
   "medications": [
     {
       "id": "acetaminophen",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Acétaminophène",
         "en": "Acetaminophen"
@@ -18,32 +19,40 @@
         "fr": "Tylenol, Atasol, Tempra",
         "en": "Tylenol, Panadol"
       },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Ne dépassez jamais la dose recommandée.",
+          "en": ""
+        }
+      },
       "essential": {
-        "fr": "Peut aider la douleur légère ou la fièvre.",
+        "fr": "Soulage la douleur et aide à faire baisser la fièvre.",
         "en": "Can help mild pain or fever."
       },
       "whyTaken": {
-        "fr": "Peut aider la douleur légère ou la fièvre.",
+        "fr": "Il est souvent utilisé pour soulager les maux de tête, les douleurs musculaires, les douleurs aux articulations, les douleurs dentaires ou la fièvre.",
         "en": "Can help mild pain or fever."
       },
       "goodToKnow": {
-        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "fr": "Prendre une trop grande quantité d'acétaminophène peut causer de graves dommages au foie, même si la personne se sent bien. Il est donc important de toujours respecter la dose recommandée.\n\nNe dépassez jamais la dose recommandée.",
         "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
       },
       "whenToGetHelp": {
-        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "fr": "Consultez rapidement si une trop grande quantité a été prise, même en l'absence de symptômes. Consultez également si la douleur ou la fièvre persiste ou s'aggrave malgré le traitement.",
         "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
       }
     },
     {
       "id": "acetylsalicylic_acid",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Acide acétylsalicylique",
         "en": "Acetylsalicylic acid"
       },
       "category": {
-        "fr": "Sang",
+        "fr": "Prévention des caillots",
         "en": "Blood"
       },
       "brands": {
@@ -51,57 +60,66 @@
         "en": "ASA, Aspirin"
       },
       "essential": {
-        "fr": "Aide à réduire le risque de certains caillots.",
+        "fr": "Aide à protéger le cœur et les vaisseaux sanguins en réduisant le risque de certains caillots.",
         "en": "Helps lower the risk of certain clots."
       },
       "whyTaken": {
-        "fr": "Aide à réduire le risque de certains caillots.",
+        "fr": "Il est souvent prescrit chez les personnes qui ont déjà eu un infarctus, un AVC ou qui présentent une maladie du cœur ou des artères pour réduire le risque de nouveaux caillots.",
         "en": "Helps lower the risk of certain clots."
       },
       "goodToKnow": {
-        "fr": "Les bleus ou saignements peuvent être plus fréquents. Vérifiez avec un pharmacien avant d'ajouter un nouveau médicament.",
+        "fr": "Comme ce médicament rend le sang moins apte à coaguler, les saignements et les ecchymoses peuvent être plus fréquents. Informez toujours un professionnel de la santé avant de commencer un nouveau médicament, même vendu sans ordonnance.",
         "en": "Bruising or bleeding may happen more often. Check with a pharmacist before adding a new medication."
       },
       "whenToGetHelp": {
-        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
-        "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+        "fr": "Consultez rapidement si un saignement important survient, si vous présentez des selles noires, des vomissements contenant du sang ou une chute avec un coup à la tête.",
+        "en": "Ask for help promptly if bleeding is heavy, does not stop, or after a fall with a blow to the head."
       }
     },
     {
       "id": "allopurinol",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Allopurinol",
         "en": "Allopurinol"
       },
       "category": {
-        "fr": "Os et articulations",
+        "fr": "Goutte",
         "en": "Bones and joints"
       },
       "brands": {
         "fr": "Zyloprim",
         "en": "Zyloprim"
       },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Ce médicament agit progressivement. Il est important de continuer à le prendre régulièrement, même en l'absence de douleur ou pendant une crise, sauf indication contraire d'un professionnel de la santé.",
+          "en": ""
+        }
+      },
       "essential": {
-        "fr": "Aide à prévenir certaines crises de goutte.",
+        "fr": "Aide à prévenir les crises de goutte en diminuant le taux d'acide urique dans le sang.",
         "en": "Helps prevent certain gout attacks."
       },
       "whyTaken": {
-        "fr": "Aide à prévenir certaines crises de goutte.",
+        "fr": "Il est souvent prescrit chez les personnes qui font des crises de goutte répétées ou qui présentent un taux élevé d'acide urique pour réduire le risque de nouvelles crises.",
         "en": "Helps prevent certain gout attacks."
       },
       "goodToKnow": {
-        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "fr": "Ce médicament agit progressivement. Il est important de continuer à le prendre régulièrement, même en l'absence de douleur ou pendant une crise, sauf indication contraire d'un professionnel de la santé.",
         "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
       },
       "whenToGetHelp": {
-        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "fr": "Consultez rapidement si une éruption cutanée apparaît, surtout si elle s'étend, s'accompagne de cloques, de fièvre ou d'un malaise important.",
         "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
       }
     },
     {
       "id": "amlodipine",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Amlodipine",
         "en": "Amlodipine"
@@ -115,57 +133,66 @@
         "en": "Norvasc"
       },
       "essential": {
-        "fr": "Aide à diminuer la pression artérielle.",
+        "fr": "Aide à diminuer la pression artérielle et à protéger le cœur et les vaisseaux sanguins.",
         "en": "Helps lower blood pressure."
       },
       "whyTaken": {
-        "fr": "Aide à diminuer la pression artérielle.",
+        "fr": "Il est souvent prescrit chez les personnes qui ont une pression artérielle élevée ou certaines douleurs à la poitrine appelées angine pour diminuer le risque de complications cardiovasculaires.",
         "en": "Helps lower blood pressure."
       },
       "goodToKnow": {
-        "fr": "Des étourdissements peuvent arriver, surtout en se levant. Vérifiez avec un professionnel de la santé si cela persiste.",
+        "fr": "Des étourdissements peuvent survenir, surtout au début du traitement ou en se levant rapidement. Prenez le temps de vous lever lentement pour réduire le risque de chute.",
         "en": "Dizziness can happen, especially when standing. Check with a healthcare professional if it persists."
       },
       "whenToGetHelp": {
-        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "fr": "Consultez rapidement si vous ressentez un malaise important, une douleur à la poitrine qui s'aggrave, un essoufflement important ou si vous perdez connaissance.",
         "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
       }
     },
     {
       "id": "apixaban",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Apixaban",
         "en": "Apixaban"
       },
       "category": {
-        "fr": "Sang",
+        "fr": "Prévention des caillots",
         "en": "Blood"
       },
       "brands": {
         "fr": "Eliquis",
         "en": "Eliquis"
       },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Tout saignement important ou inhabituel doit être pris au sérieux.",
+          "en": ""
+        }
+      },
       "essential": {
-        "fr": "Aide à prévenir la formation de caillots sanguins.",
+        "fr": "Aide à prévenir la formation de caillots pour réduire le risque d'un AVC ou d'autres complications graves.",
         "en": "Helps prevent blood clots from forming."
       },
       "whyTaken": {
-        "fr": "Aide à prévenir la formation de caillots sanguins.",
+        "fr": "Il est souvent prescrit chez les personnes qui présentent une fibrillation auriculaire pour réduire le risque d'AVC, ou pour traiter et prévenir certains caillots dans les veines ou les poumons.",
         "en": "Helps prevent blood clots from forming."
       },
       "goodToKnow": {
-        "fr": "Les bleus ou saignements peuvent être plus fréquents. Vérifiez avec un pharmacien avant d'ajouter un nouveau médicament.",
+        "fr": "Comme ce médicament rend le sang moins apte à coaguler, les saignements peuvent être plus importants ou durer plus longtemps. Informez toujours un professionnel de la santé avant de commencer un nouveau médicament, même vendu sans ordonnance.\n\nTout saignement important ou inhabituel doit être pris au sérieux.",
         "en": "Bruising or bleeding may happen more often. Check with a pharmacist before adding a new medication."
       },
       "whenToGetHelp": {
-        "fr": "Demandez rapidement conseil si un saignement est important, ne cesse pas, ou après une chute avec coup à la tête.",
+        "fr": "Consultez rapidement si un saignement est important ou ne cesse pas. Les selles noires, les vomissements contenant du sang ou une chute avec un coup à la tête nécessitent également une évaluation rapide.",
         "en": "Ask for help promptly if bleeding is heavy, does not stop, or after a fall with a blow to the head."
       }
     },
     {
       "id": "atorvastatin",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Atorvastatine",
         "en": "Atorvastatin"
@@ -179,25 +206,26 @@
         "en": "Lipitor"
       },
       "essential": {
-        "fr": "Aide à diminuer le cholestérol.",
+        "fr": "Aide à diminuer le cholestérol pour protéger le cœur et les vaisseaux sanguins.",
         "en": "Helps lower cholesterol."
       },
       "whyTaken": {
-        "fr": "Aide à diminuer le cholestérol.",
+        "fr": "Il est souvent prescrit chez les personnes qui ont un taux de cholestérol élevé ou qui ont déjà eu un infarctus, un AVC ou un autre problème du cœur ou des vaisseaux sanguins pour réduire le risque de complications futures.",
         "en": "Helps lower cholesterol."
       },
       "goodToKnow": {
-        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "fr": "Un taux élevé de cholestérol ne provoque généralement aucun symptôme. Il est donc important de continuer ce traitement chaque jour, même lorsque la personne se sent bien.",
         "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
       },
       "whenToGetHelp": {
-        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "fr": "Consultez rapidement si vous ressentez des douleurs musculaires importantes, une faiblesse inhabituelle ou si votre peau ou le blanc de vos yeux deviennent jaunes.",
         "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
       }
     },
     {
       "id": "bisoprolol",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Bisoprolol",
         "en": "Bisoprolol"
@@ -210,28 +238,36 @@
         "fr": "Monocor",
         "en": "Monocor"
       },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Avant d'arrêter ce traitement, parlez-en toujours à un professionnel de la santé.",
+          "en": ""
+        }
+      },
       "essential": {
-        "fr": "Aide le cœur à battre plus calmement.",
+        "fr": "Aide à diminuer la pression artérielle et à réduire le travail demandé au cœur.",
         "en": "Helps the heart beat more calmly."
       },
       "whyTaken": {
-        "fr": "Aide le cœur à battre plus calmement.",
+        "fr": "Il est souvent prescrit chez les personnes qui ont une pression artérielle élevée ou un cœur qui pompe moins efficacement, une condition appelée insuffisance cardiaque.",
         "en": "Helps the heart beat more calmly."
       },
       "goodToKnow": {
-        "fr": "Des étourdissements peuvent arriver, surtout en se levant. Vérifiez avec un professionnel de la santé si cela persiste.",
+        "fr": "Des étourdissements ou une sensation de faiblesse peuvent survenir, surtout au début du traitement ou en se levant rapidement. Prenez le temps de vous lever lentement pour réduire le risque de chute.\n\nAvant d'arrêter ce traitement, parlez-en toujours à un professionnel de la santé.",
         "en": "Dizziness can happen, especially when standing. Check with a healthcare professional if it persists."
       },
       "whenToGetHelp": {
-        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "fr": "Consultez rapidement si vous perdez connaissance, si votre cœur bat très lentement et que vous vous sentez faible ou étourdi, ou si un essoufflement s'aggrave.",
         "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
       }
     },
     {
       "id": "budesonide",
       "enabled": true,
+      "status": "approved",
       "name": {
-        "fr": "Budesonide",
+        "fr": "Budésonide",
         "en": "Budesonide"
       },
       "category": {
@@ -242,26 +278,34 @@
         "fr": "Pulmicort",
         "en": "Pulmicort"
       },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "En cas de crise soudaine, utilisez plutôt votre inhalateur de secours.",
+          "en": ""
+        }
+      },
       "essential": {
-        "fr": "Aide à contrôler l'inflammation des voies respiratoires.",
+        "fr": "Aide à réduire l'inflammation des voies respiratoires pour mieux contrôler l'asthme.",
         "en": "Helps control airway inflammation."
       },
       "whyTaken": {
-        "fr": "Aide à contrôler l'inflammation des voies respiratoires.",
+        "fr": "Il est souvent prescrit chez les personnes qui ont de l'asthme pour prévenir les symptômes, comme la toux, les sifflements et l'essoufflement.",
         "en": "Helps control airway inflammation."
       },
       "goodToKnow": {
-        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "fr": "Ce médicament agit progressivement lorsqu'il est utilisé régulièrement. Après chaque inhalation, rincez-vous la bouche avec de l'eau, puis recrachez-la pour réduire le risque d'irritation ou d'infection dans la bouche.\n\nEn cas de crise soudaine, utilisez plutôt votre inhalateur de secours.",
         "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
       },
       "whenToGetHelp": {
-        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "fr": "Consultez rapidement si votre respiration devient plus difficile, si votre inhalateur de secours soulage moins bien qu'à l'habitude ou si un essoufflement important apparaît soudainement.",
         "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
       }
     },
     {
       "id": "candesartan",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Candesartan",
         "en": "Candesartan"
@@ -294,6 +338,7 @@
     {
       "id": "celecoxib",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Célécoxib",
         "en": "Celecoxib"
@@ -326,6 +371,7 @@
     {
       "id": "citalopram",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Citalopram",
         "en": "Citalopram"
@@ -358,6 +404,7 @@
     {
       "id": "clopidogrel",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Clopidogrel",
         "en": "Clopidogrel"
@@ -390,6 +437,7 @@
     {
       "id": "edoxaban",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Edoxaban",
         "en": "Edoxaban"
@@ -422,6 +470,7 @@
     {
       "id": "escitalopram",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Escitalopram",
         "en": "Escitalopram"
@@ -454,6 +503,7 @@
     {
       "id": "furosemide",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Furosémide",
         "en": "Furosemide"
@@ -486,6 +536,7 @@
     {
       "id": "hydrochlorothiazide",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Hydrochlorothiazide",
         "en": "Hydrochlorothiazide"
@@ -518,6 +569,7 @@
     {
       "id": "irbesartan",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Irbesartan",
         "en": "Irbesartan"
@@ -550,6 +602,7 @@
     {
       "id": "levothyroxine",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Lévothyroxine",
         "en": "Levothyroxine"
@@ -582,6 +635,7 @@
     {
       "id": "lorazepam",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Lorazépam",
         "en": "Lorazepam"
@@ -614,6 +668,7 @@
     {
       "id": "metformin",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Metformine",
         "en": "Metformin"
@@ -646,6 +701,7 @@
     {
       "id": "metoprolol",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Métoprolol",
         "en": "Metoprolol"
@@ -678,6 +734,7 @@
     {
       "id": "naproxen",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Naproxène",
         "en": "Naproxen"
@@ -710,6 +767,7 @@
     {
       "id": "pantoprazole",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Pantoprazole",
         "en": "Pantoprazole"
@@ -742,6 +800,7 @@
     {
       "id": "prednisone",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Prednisone",
         "en": "Prednisone"
@@ -774,6 +833,7 @@
     {
       "id": "quetiapine",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Quetiapine",
         "en": "Quetiapine"
@@ -806,6 +866,7 @@
     {
       "id": "ramipril",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Ramipril",
         "en": "Ramipril"
@@ -838,6 +899,7 @@
     {
       "id": "risedronate",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Risédronate",
         "en": "Risedronate"
@@ -870,6 +932,7 @@
     {
       "id": "rivaroxaban",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Rivaroxaban",
         "en": "Rivaroxaban"
@@ -902,6 +965,7 @@
     {
       "id": "rosuvastatin",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Rosuvastatine",
         "en": "Rosuvastatin"
@@ -934,6 +998,7 @@
     {
       "id": "salbutamol",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Salbutamol",
         "en": "Salbutamol"
@@ -966,6 +1031,7 @@
     {
       "id": "sertraline",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Sertraline",
         "en": "Sertraline"
@@ -998,6 +1064,7 @@
     {
       "id": "spironolactone",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Spironolactone",
         "en": "Spironolactone"
@@ -1030,6 +1097,7 @@
     {
       "id": "tiotropium",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Tiotropium",
         "en": "Tiotropium"
@@ -1062,6 +1130,7 @@
     {
       "id": "valsartan",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Valsartan",
         "en": "Valsartan"
@@ -1094,6 +1163,7 @@
     {
       "id": "venlafaxine",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Venlafaxine",
         "en": "Venlafaxine"
@@ -1126,6 +1196,7 @@
     {
       "id": "warfarin",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Warfarine",
         "en": "Warfarin"
@@ -1158,6 +1229,7 @@
     {
       "id": "zopiclone",
       "enabled": true,
+      "status": "approved",
       "name": {
         "fr": "Zopiclone",
         "en": "Zopiclone"
