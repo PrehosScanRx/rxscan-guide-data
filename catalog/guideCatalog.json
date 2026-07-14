@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "contentVersion": "clinical-reference-2026-07-11-v2",
-  "generatedAt": "2026-07-14T00:39:03.590Z",
+  "generatedAt": "2026-07-14T01:29:42.149Z",
   "medications": [
     {
       "id": "acetaminophen",
@@ -288,6 +288,50 @@
       "whenToGetHelp": {
         "fr": "Consultez rapidement si vous ressentez des douleurs musculaires importantes, une faiblesse inhabituelle ou si votre peau ou le blanc de vos yeux deviennent jaunes.",
         "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "bictegravir_emtricitabine_tenofovir_alafenamide",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Bictegravir / Emtricitabine / Ténofovir alafénamide",
+        "en": "Bictegravir / Emtricitabine / Tenofovir alafenamide"
+      },
+      "category": {
+        "fr": "Infections",
+        "en": "Infections"
+      },
+      "brands": {
+        "fr": "Biktarvy",
+        "en": "Biktarvy"
+      },
+      "aliases": {
+        "fr": "Biktarvy",
+        "en": "Biktarvy"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Prenez ce médicament chaque jour, sans interrompre le traitement.",
+          "en": "Take this medication every day, without interrupting treatment."
+        }
+      },
+      "essential": {
+        "fr": "Aide à contrôler l'infection par le VIH afin de protéger le système immunitaire.",
+        "en": "Helps control HIV infection to protect the immune system."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent prescrit chez les personnes qui vivent avec le VIH afin de contrôler le virus et de préserver leur système immunitaire. Pris régulièrement, il aide à maintenir une bonne santé à long terme.",
+        "en": "It is often prescribed for people living with HIV to control the virus and protect their immune system. Taken regularly, it helps support long-term health."
+      },
+      "goodToKnow": {
+        "fr": "Ce traitement agit seulement s'il est pris régulièrement. Même lorsque vous vous sentez bien, il est important de continuer à le prendre chaque jour comme prescrit.\n\nPrenez ce médicament chaque jour, sans interrompre le traitement.",
+        "en": "This treatment works only when taken regularly. Even when you feel well, it is important to keep taking it every day as prescribed.\n\nTake this medication every day, without interrupting treatment."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez rapidement si vous présentez une réaction importante après le début du traitement, si vous ressentez une grande faiblesse inhabituelle ou si votre état se détériore rapidement.",
+        "en": "Seek help promptly if you have a significant reaction after starting treatment, unusual severe weakness, or if your condition worsens quickly."
       }
     },
     {
