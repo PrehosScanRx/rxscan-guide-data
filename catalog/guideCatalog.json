@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "contentVersion": "clinical-reference-2026-07-11-v2",
-  "generatedAt": "2026-07-12T05:30:38.247Z",
+  "generatedAt": "2026-07-14T00:39:03.590Z",
   "medications": [
     {
       "id": "acetaminophen",
@@ -19,11 +19,15 @@
         "fr": "Tylenol, Atasol, Tempra",
         "en": "Tylenol, Panadol"
       },
+      "aliases": {
+        "fr": "Tylenol, Atasol, Tempra",
+        "en": "Tylenol, Panadol"
+      },
       "keyMessage": {
         "section": "goodToKnow",
         "text": {
           "fr": "Ne dépassez jamais la dose recommandée.",
-          "en": ""
+          "en": "Ne dépassez jamais la dose recommandée."
         }
       },
       "essential": {
@@ -59,12 +63,16 @@
         "fr": "AAS, Aspirin, ASA",
         "en": "ASA, Aspirin"
       },
+      "aliases": {
+        "fr": "AAS, Aspirin, ASA",
+        "en": "ASA, Aspirin"
+      },
       "essential": {
         "fr": "Aide à protéger le cœur et les vaisseaux sanguins en réduisant le risque de certains caillots.",
         "en": "Helps lower the risk of certain clots."
       },
       "whyTaken": {
-        "fr": "Il est souvent prescrit chez les personnes qui ont déjà eu un infarctus, un AVC ou qui présentent une maladie du cœur ou des artères pour réduire le risque de nouveaux caillots.",
+        "fr": "Il est souvent prescrit après un infarctus, un AVC ou lorsqu'il est important de réduire le risque de nouveaux caillots.",
         "en": "Helps lower the risk of certain clots."
       },
       "goodToKnow": {
@@ -72,7 +80,7 @@
         "en": "Bruising or bleeding may happen more often. Check with a pharmacist before adding a new medication."
       },
       "whenToGetHelp": {
-        "fr": "Consultez rapidement si un saignement important survient, si vous présentez des selles noires, des vomissements contenant du sang ou une chute avec un coup à la tête.",
+        "fr": "Les saignements importants demeurent peu fréquents. Consultez rapidement si un saignement important survient, si vous présentez des selles noires, des vomissements contenant du sang ou une chute avec un coup à la tête.",
         "en": "Ask for help promptly if bleeding is heavy, does not stop, or after a fall with a blow to the head."
       }
     },
@@ -92,11 +100,15 @@
         "fr": "Zyloprim",
         "en": "Zyloprim"
       },
+      "aliases": {
+        "fr": "Zyloprim",
+        "en": "Zyloprim"
+      },
       "keyMessage": {
         "section": "goodToKnow",
         "text": {
           "fr": "Ce médicament agit progressivement. Il est important de continuer à le prendre régulièrement, même en l'absence de douleur ou pendant une crise, sauf indication contraire d'un professionnel de la santé.",
-          "en": ""
+          "en": "Ce médicament agit progressivement. Il est important de continuer à le prendre régulièrement, même en l'absence de douleur ou pendant une crise, sauf indication contraire d'un professionnel de la santé."
         }
       },
       "essential": {
@@ -117,6 +129,50 @@
       }
     },
     {
+      "id": "alogliptin_metformin",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Alogliptine / Metformine",
+        "en": "Alogliptine/Metformine"
+      },
+      "category": {
+        "fr": "Diabète",
+        "en": "Diabète"
+      },
+      "brands": {
+        "fr": "Kazano",
+        "en": "Kazano"
+      },
+      "aliases": {
+        "fr": "Kazano",
+        "en": "Kazano"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Prenez ce médicament avec un repas afin de diminuer les maux d'estomac.",
+          "en": "Prenez ce médicament avec un repas afin de diminuer les maux d'estomac."
+        }
+      },
+      "essential": {
+        "fr": "Aide à mieux contrôler le taux de sucre dans le sang.",
+        "en": "Aide à mieux contrôler le taux de sucre dans le sang."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent prescrit chez les personnes qui vivent avec le diabète lorsque plusieurs médicaments sont nécessaires pour maintenir un taux de sucre plus stable et réduire le risque de complications à long terme.",
+        "en": "Il est souvent prescrit chez les personnes qui vivent avec le diabète lorsque plusieurs médicaments sont nécessaires pour maintenir un taux de sucre plus stable et réduire le risque de complications à long terme."
+      },
+      "goodToKnow": {
+        "fr": "Des maux d'estomac, des nausées ou de la diarrhée peuvent survenir, surtout au début du traitement. Prendre ce médicament avec un repas aide généralement à mieux le tolérer.\n\nPrenez ce médicament avec un repas afin de diminuer les maux d'estomac.",
+        "en": "Des maux d'estomac, des nausées ou de la diarrhée peuvent survenir, surtout au début du traitement. Prendre ce médicament avec un repas aide généralement à mieux le tolérer.\n\nPrenez ce médicament avec un repas afin de diminuer les maux d'estomac."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez rapidement si les vomissements ou la diarrhée sont importants ou persistants, si vous ressentez une grande faiblesse inhabituelle ou si votre état se détériore rapidement.",
+        "en": "Consultez rapidement si les vomissements ou la diarrhée sont importants ou persistants, si vous ressentez une grande faiblesse inhabituelle ou si votre état se détériore rapidement."
+      }
+    },
+    {
       "id": "amlodipine",
       "enabled": true,
       "status": "approved",
@@ -132,12 +188,16 @@
         "fr": "Norvasc",
         "en": "Norvasc"
       },
+      "aliases": {
+        "fr": "Norvasc",
+        "en": "Norvasc"
+      },
       "essential": {
         "fr": "Aide à diminuer la pression artérielle et à protéger le cœur et les vaisseaux sanguins.",
         "en": "Helps lower blood pressure."
       },
       "whyTaken": {
-        "fr": "Il est souvent prescrit chez les personnes qui ont une pression artérielle élevée ou certaines douleurs à la poitrine appelées angine pour diminuer le risque de complications cardiovasculaires.",
+        "fr": "Il est souvent prescrit chez les personnes qui ont une pression artérielle élevée. Il peut aussi être utilisé pour soulager certaines douleurs à la poitrine appelées angine.",
         "en": "Helps lower blood pressure."
       },
       "goodToKnow": {
@@ -165,11 +225,15 @@
         "fr": "Eliquis",
         "en": "Eliquis"
       },
+      "aliases": {
+        "fr": "Eliquis",
+        "en": "Eliquis"
+      },
       "keyMessage": {
         "section": "goodToKnow",
         "text": {
           "fr": "Tout saignement important ou inhabituel doit être pris au sérieux.",
-          "en": ""
+          "en": "Tout saignement important ou inhabituel doit être pris au sérieux."
         }
       },
       "essential": {
@@ -185,7 +249,7 @@
         "en": "Bruising or bleeding may happen more often. Check with a pharmacist before adding a new medication."
       },
       "whenToGetHelp": {
-        "fr": "Consultez rapidement si un saignement est important ou ne cesse pas. Les selles noires, les vomissements contenant du sang ou une chute avec un coup à la tête nécessitent également une évaluation rapide.",
+        "fr": "Consultez rapidement si un saignement est important ou ne cesse pas, si vous présentez des selles noires, des vomissements contenant du sang ou si vous faites une chute avec un coup à la tête.",
         "en": "Ask for help promptly if bleeding is heavy, does not stop, or after a fall with a blow to the head."
       }
     },
@@ -199,9 +263,13 @@
       },
       "category": {
         "fr": "Cœur et circulation",
-        "en": "Heart and circulation"
+        "en": "Cholesterol medication"
       },
       "brands": {
+        "fr": "Lipitor",
+        "en": "Lipitor"
+      },
+      "aliases": {
         "fr": "Lipitor",
         "en": "Lipitor"
       },
@@ -232,9 +300,13 @@
       },
       "category": {
         "fr": "Cœur et circulation",
-        "en": "Heart and circulation"
+        "en": "Heart medication"
       },
       "brands": {
+        "fr": "Monocor",
+        "en": "Monocor"
+      },
+      "aliases": {
         "fr": "Monocor",
         "en": "Monocor"
       },
@@ -242,7 +314,7 @@
         "section": "goodToKnow",
         "text": {
           "fr": "Avant d'arrêter ce traitement, parlez-en toujours à un professionnel de la santé.",
-          "en": ""
+          "en": "Avant d'arrêter ce traitement, parlez-en toujours à un professionnel de la santé."
         }
       },
       "essential": {
@@ -272,9 +344,13 @@
       },
       "category": {
         "fr": "Respiration",
-        "en": "Breathing"
+        "en": "Maintenance inhaler"
       },
       "brands": {
+        "fr": "Pulmicort",
+        "en": "Pulmicort"
+      },
+      "aliases": {
         "fr": "Pulmicort",
         "en": "Pulmicort"
       },
@@ -282,7 +358,7 @@
         "section": "goodToKnow",
         "text": {
           "fr": "En cas de crise soudaine, utilisez plutôt votre inhalateur de secours.",
-          "en": ""
+          "en": "En cas de crise soudaine, utilisez plutôt votre inhalateur de secours."
         }
       },
       "essential": {
@@ -307,32 +383,87 @@
       "enabled": true,
       "status": "approved",
       "name": {
-        "fr": "Candesartan",
+        "fr": "Candésartan",
         "en": "Candesartan"
       },
       "category": {
         "fr": "Cœur et circulation",
-        "en": "Heart and circulation"
+        "en": "Blood pressure medication"
       },
       "brands": {
         "fr": "Atacand",
         "en": "Atacand"
       },
+      "aliases": {
+        "fr": "Atacand",
+        "en": "Atacand"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Continuez votre traitement même lorsque vous vous sentez bien.",
+          "en": "Continuez votre traitement même lorsque vous vous sentez bien."
+        }
+      },
       "essential": {
-        "fr": "Aide à diminuer la pression artérielle.",
+        "fr": "Aide à diminuer la pression artérielle et à protéger le cœur et les vaisseaux sanguins.",
         "en": "Helps lower blood pressure."
       },
       "whyTaken": {
-        "fr": "Aide à diminuer la pression artérielle.",
+        "fr": "Il est souvent prescrit chez les personnes qui ont une pression artérielle élevée ou un cœur qui pompe moins efficacement, une condition appelée insuffisance cardiaque, pour réduire le risque de complications cardiovasculaires.",
         "en": "Helps lower blood pressure."
       },
       "goodToKnow": {
-        "fr": "Des étourdissements peuvent arriver, surtout en se levant. Vérifiez avec un professionnel de la santé si cela persiste.",
+        "fr": "Ce médicament aide à protéger votre cœur sur le long terme, même si vous vous sentez bien. Il est important de continuer le traitement comme prescrit.\n\nContinuez votre traitement même lorsque vous vous sentez bien.",
         "en": "Dizziness can happen, especially when standing. Check with a healthcare professional if it persists."
       },
       "whenToGetHelp": {
-        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "fr": "Les réactions importantes sont rares. Consultez rapidement si un gonflement du visage, des lèvres ou de la langue apparaît, ou si vous ressentez un malaise important ou perdez connaissance.",
         "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "carboxymethylcellulose_ophthalmic",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Carboxyméthylcellulose ophtalmique",
+        "en": "Carboxymethylcellulose ophthalmic"
+      },
+      "category": {
+        "fr": "Santé des yeux",
+        "en": "Santé des yeux"
+      },
+      "brands": {
+        "fr": "Refresh Tears, Refresh Plus",
+        "en": "Refresh Tears, Refresh Plus"
+      },
+      "aliases": {
+        "fr": "Refresh Tears, Refresh Plus",
+        "en": "Refresh Tears, Refresh Plus"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Évitez de toucher l'œil ou les cils avec l'embout du flacon et refermez toujours le flacon après chaque utilisation afin de préserver la qualité des gouttes.",
+          "en": "Évitez de toucher l'œil ou les cils avec l'embout du flacon et refermez toujours le flacon après chaque utilisation afin de préserver la qualité des gouttes."
+        }
+      },
+      "essential": {
+        "fr": "Aide à soulager la sécheresse et l'irritation des yeux.",
+        "en": "Aide à soulager la sécheresse et l'irritation des yeux."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent utilisé lorsque les yeux sont secs, irrités, sensibles ou donnent une sensation de brûlure ou de sable. Il aide à garder les yeux bien lubrifiés et plus confortables.",
+        "en": "Il est souvent utilisé lorsque les yeux sont secs, irrités, sensibles ou donnent une sensation de brûlure ou de sable. Il aide à garder les yeux bien lubrifiés et plus confortables."
+      },
+      "goodToKnow": {
+        "fr": "À savoir\n\nVous pouvez utiliser ces gouttes selon les recommandations qui vous ont été données ou lorsque les symptômes réapparaissent.\n\nÉvitez de toucher l'œil ou les cils avec l'embout du flacon et refermez toujours le flacon après chaque utilisation afin de préserver la qualité des gouttes.",
+        "en": "À savoir\n\nVous pouvez utiliser ces gouttes selon les recommandations qui vous ont été données ou lorsque les symptômes réapparaissent.\n\nÉvitez de toucher l'œil ou les cils avec l'embout du flacon et refermez toujours le flacon après chaque utilisation afin de préserver la qualité des gouttes."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez rapidement si la douleur est importante, si la vision diminue soudainement, si l'œil devient très rouge ou si les symptômes persistent malgré l'utilisation des gouttes.",
+        "en": "Consultez rapidement si la douleur est importante, si la vision diminue soudainement, si l'œil devient très rouge ou si les symptômes persistent malgré l'utilisation des gouttes."
       }
     },
     {
@@ -345,26 +476,37 @@
       },
       "category": {
         "fr": "Douleur et fièvre",
-        "en": "Pain and fever"
+        "en": "Pain and inflammation medication"
       },
       "brands": {
         "fr": "Celebrex",
         "en": "Celebrex"
       },
+      "aliases": {
+        "fr": "Celebrex",
+        "en": "Celebrex"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Utilisez la plus petite dose efficace pendant la durée recommandée.",
+          "en": "Utilisez la plus petite dose efficace pendant la durée recommandée."
+        }
+      },
       "essential": {
-        "fr": "Peut aider la douleur et l'inflammation.",
+        "fr": "Aide à soulager la douleur et à diminuer l'inflammation.",
         "en": "Can help pain and inflammation."
       },
       "whyTaken": {
-        "fr": "Peut aider la douleur et l'inflammation.",
+        "fr": "Il est souvent prescrit lorsque des douleurs ou une raideur rendent les activités de tous les jours plus difficiles, notamment chez les personnes qui vivent avec de l'arthrose ou de l'arthrite.",
         "en": "Can help pain and inflammation."
       },
       "goodToKnow": {
-        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "fr": "Ce médicament peut parfois irriter l'estomac. Si des douleurs d'estomac, des brûlements ou des malaises digestifs apparaissent, parlez-en à un professionnel de la santé.\n\nUtilisez la plus petite dose efficace pendant la durée recommandée.",
         "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
       },
       "whenToGetHelp": {
-        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "fr": "Les réactions importantes demeurent peu fréquentes. Consultez rapidement si vous présentez des selles noires, des vomissements contenant du sang, une difficulté à respirer ou un gonflement du visage, des lèvres ou de la langue.",
         "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
       }
     },
@@ -378,26 +520,37 @@
       },
       "category": {
         "fr": "Sommeil et système nerveux",
-        "en": "Sleep and nervous system"
+        "en": "Mood medication"
       },
       "brands": {
         "fr": "Celexa",
         "en": "Celexa"
       },
+      "aliases": {
+        "fr": "Celexa",
+        "en": "Celexa"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "L'amélioration prend du temps. Continuez le traitement comme prescrit.",
+          "en": "L'amélioration prend du temps. Continuez le traitement comme prescrit."
+        }
+      },
       "essential": {
-        "fr": "Utilisé notamment pour la dépression et l'anxiété.",
+        "fr": "Aide à améliorer l'humeur et à diminuer les symptômes de la dépression ou de l'anxiété.",
         "en": "Used for depression and anxiety, among other conditions."
       },
       "whyTaken": {
-        "fr": "Utilisé notamment pour la dépression et l'anxiété.",
+        "fr": "Il est souvent prescrit lorsque la tristesse, les inquiétudes ou l'anxiété rendent le quotidien plus difficile. Il peut aider à retrouver progressivement un meilleur équilibre.",
         "en": "Used for depression and anxiety, among other conditions."
       },
       "goodToKnow": {
-        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "fr": "Ce médicament agit progressivement. Il faut souvent attendre plusieurs semaines avant d'en ressentir tous les bienfaits. Continuez le traitement comme prescrit, même si l'amélioration n'est pas immédiate.\n\nL'amélioration prend du temps. Continuez le traitement comme prescrit.",
         "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
       },
       "whenToGetHelp": {
-        "fr": "Demandez rapidement de l'aide si la personne parle de se faire du mal, devient très agitée ou confuse.",
+        "fr": "Les réactions importantes à ce médicament demeurent peu fréquentes. Restez attentif à tout changement important de l'humeur ou du comportement. N'hésitez pas à demander de l'aide rapidement si vous ou un proche ressentez une grande détresse, avez des idées de vous faire du mal ou si l'état se détériore rapidement.",
         "en": "Ask for help promptly if the person talks about self-harm, becomes very agitated, or seems confused."
       }
     },
@@ -410,28 +563,171 @@
         "en": "Clopidogrel"
       },
       "category": {
-        "fr": "Sang",
-        "en": "Blood"
+        "fr": "Prévention des caillots",
+        "en": "Clot prevention medication"
       },
       "brands": {
         "fr": "Plavix",
         "en": "Plavix"
       },
+      "aliases": {
+        "fr": "Plavix",
+        "en": "Plavix"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Tout saignement important ou inhabituel doit être pris au sérieux.",
+          "en": "Tout saignement important ou inhabituel doit être pris au sérieux."
+        }
+      },
       "essential": {
-        "fr": "Aide à réduire le risque de certains caillots.",
+        "fr": "Aide à réduire le risque de certains caillots afin de protéger le cœur et les vaisseaux sanguins.",
         "en": "Helps lower the risk of certain clots."
       },
       "whyTaken": {
-        "fr": "Aide à réduire le risque de certains caillots.",
+        "fr": "Il est souvent prescrit après un infarctus, un AVC ou après la pose d'un stent pour réduire le risque de nouveaux caillots.",
         "en": "Helps lower the risk of certain clots."
       },
       "goodToKnow": {
-        "fr": "Les bleus ou saignements peuvent être plus fréquents. Vérifiez avec un pharmacien avant d'ajouter un nouveau médicament.",
+        "fr": "Comme ce médicament rend le sang moins apte à coaguler, les bleus et les petits saignements peuvent être plus fréquents. Informez toujours un professionnel de la santé avant de commencer un nouveau médicament, même vendu sans ordonnance.\n\nTout saignement important ou inhabituel doit être pris au sérieux.",
         "en": "Bruising or bleeding may happen more often. Check with a pharmacist before adding a new medication."
       },
       "whenToGetHelp": {
-        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "fr": "Consultez rapidement si un saignement est important ou ne cesse pas, si vous présentez des selles noires, des vomissements contenant du sang ou si vous faites une chute avec un coup à la tête.",
         "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "cyclosporine_ophthalmic",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Cyclosporine ophtalmique",
+        "en": "Cyclosporine ophthalmic"
+      },
+      "category": {
+        "fr": "Santé des yeux",
+        "en": "Santé des yeux"
+      },
+      "brands": {
+        "fr": "Restasis",
+        "en": "Restasis"
+      },
+      "aliases": {
+        "fr": "Restasis",
+        "en": "Restasis"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "L'amélioration prend souvent plusieurs semaines. Continuez le traitement comme prescrit.",
+          "en": "L'amélioration prend souvent plusieurs semaines. Continuez le traitement comme prescrit."
+        }
+      },
+      "essential": {
+        "fr": "Aide à diminuer l'inflammation responsable de la sécheresse des yeux.",
+        "en": "Aide à diminuer l'inflammation responsable de la sécheresse des yeux."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent prescrit lorsque la sécheresse des yeux persiste malgré l'utilisation de larmes artificielles. Il aide les yeux à produire davantage de larmes naturelles avec le temps.",
+        "en": "Il est souvent prescrit lorsque la sécheresse des yeux persiste malgré l'utilisation de larmes artificielles. Il aide les yeux à produire davantage de larmes naturelles avec le temps."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament agit progressivement. Il faut souvent plusieurs semaines avant d'en ressentir tous les bienfaits. Continuez le traitement comme prescrit, même si l'amélioration n'est pas immédiate.\n\nL'amélioration prend souvent plusieurs semaines. Continuez le traitement comme prescrit.",
+        "en": "Ce médicament agit progressivement. Il faut souvent plusieurs semaines avant d'en ressentir tous les bienfaits. Continuez le traitement comme prescrit, même si l'amélioration n'est pas immédiate.\n\nL'amélioration prend souvent plusieurs semaines. Continuez le traitement comme prescrit."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez rapidement si la douleur augmente, si votre vision diminue soudainement, si l'œil devient très rouge ou si les symptômes s'aggravent malgré le traitement.",
+        "en": "Consultez rapidement si la douleur augmente, si votre vision diminue soudainement, si l'œil devient très rouge ou si les symptômes s'aggravent malgré le traitement."
+      }
+    },
+    {
+      "id": "dapagliflozine",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Dapagliflozine",
+        "en": "Dapagliflozin"
+      },
+      "category": {
+        "fr": "Diabète",
+        "en": "Diabète"
+      },
+      "brands": {
+        "fr": "Forxiga",
+        "en": "Forxiga"
+      },
+      "aliases": {
+        "fr": "Forxiga",
+        "en": "Forxiga"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Buvez suffisamment d'eau si vous remarquez que vous urinez davantage que d'habitude.",
+          "en": "Buvez suffisamment d'eau si vous remarquez que vous urinez davantage que d'habitude."
+        }
+      },
+      "essential": {
+        "fr": "Aide à diminuer le taux de sucre dans le sang en favorisant son élimination dans l'urine.",
+        "en": "Aide à diminuer le taux de sucre dans le sang en favorisant son élimination dans l'urine."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent prescrit chez les personnes qui vivent avec le diabète afin de mieux contrôler le taux de sucre dans le sang. Chez certaines personnes, il aide aussi à protéger le cœur et les reins.",
+        "en": "Il est souvent prescrit chez les personnes qui vivent avec le diabète afin de mieux contrôler le taux de sucre dans le sang. Chez certaines personnes, il aide aussi à protéger le cœur et les reins."
+      },
+      "goodToKnow": {
+        "fr": "Comme ce médicament augmente la quantité de sucre éliminée dans l'urine, il est important de bien s'hydrater. Certaines personnes peuvent aussi présenter plus facilement des infections urinaires ou des infections à levures.\n\nBuvez suffisamment d'eau si vous remarquez que vous urinez davantage que d'habitude.",
+        "en": "Comme ce médicament augmente la quantité de sucre éliminée dans l'urine, il est important de bien s'hydrater. Certaines personnes peuvent aussi présenter plus facilement des infections urinaires ou des infections à levures.\n\nBuvez suffisamment d'eau si vous remarquez que vous urinez davantage que d'habitude."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez rapidement si vous présentez des vomissements importants, une grande faiblesse, des signes de déshydratation ou une douleur importante accompagnée de rougeur ou d'un gonflement dans la région génitale.",
+        "en": "Consultez rapidement si vous présentez des vomissements importants, une grande faiblesse, des signes de déshydratation ou une douleur importante accompagnée de rougeur ou d'un gonflement dans la région génitale."
+      }
+    },
+    {
+      "id": "donepezil",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Donépézil",
+        "en": "Donepezil"
+      },
+      "category": {
+        "fr": "Mémoire et fonctions cognitives",
+        "en": "Mémoire et fonctions cognitives"
+      },
+      "brands": {
+        "fr": "Aricept",
+        "en": "Aricept"
+      },
+      "aliases": {
+        "fr": "Aricept",
+        "en": "Aricept"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "L'objectif est souvent de ralentir l'évolution des symptômes plutôt que de les faire disparaître.",
+          "en": "L'objectif est souvent de ralentir l'évolution des symptômes plutôt que de les faire disparaître."
+        }
+      },
+      "essential": {
+        "fr": "Aide à préserver les fonctions de la mémoire et de la pensée pendant un certain temps.",
+        "en": "Aide à préserver les fonctions de la mémoire et de la pensée pendant un certain temps."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent prescrit chez les personnes qui présentent une maladie d'Alzheimer ou un autre trouble de la mémoire. Il peut aider à maintenir plus longtemps certaines capacités du quotidien.",
+        "en": "Il est souvent prescrit chez les personnes qui présentent une maladie d'Alzheimer ou un autre trouble de la mémoire. Il peut aider à maintenir plus longtemps certaines capacités du quotidien."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament agit progressivement et ses effets varient d'une personne à l'autre. Même si les changements sont parfois discrets, il est important de poursuivre le traitement comme prescrit tant qu'il demeure bénéfique.\n\nL'objectif est souvent de ralentir l'évolution des symptômes plutôt que de les faire disparaître.",
+        "en": "Ce médicament agit progressivement et ses effets varient d'une personne à l'autre. Même si les changements sont parfois discrets, il est important de poursuivre le traitement comme prescrit tant qu'il demeure bénéfique.\n\nL'objectif est souvent de ralentir l'évolution des symptômes plutôt que de les faire disparaître."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez rapidement si la personne présente des évanouissements, des étourdissements importants, un ralentissement marqué du rythme cardiaque ou des vomissements importants qui persistent.",
+        "en": "Consultez rapidement si la personne présente des évanouissements, des étourdissements importants, un ralentissement marqué du rythme cardiaque ou des vomissements importants qui persistent."
       }
     },
     {
@@ -443,28 +739,83 @@
         "en": "Edoxaban"
       },
       "category": {
-        "fr": "Sang",
-        "en": "Blood"
+        "fr": "Prévention des caillots",
+        "en": "Anticoagulant"
       },
       "brands": {
         "fr": "Lixiana",
         "en": "Lixiana"
       },
+      "aliases": {
+        "fr": "Lixiana",
+        "en": "Lixiana"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Tout saignement important ou inhabituel doit être pris au sérieux.",
+          "en": "Tout saignement important ou inhabituel doit être pris au sérieux."
+        }
+      },
       "essential": {
-        "fr": "Aide à prévenir la formation de caillots sanguins.",
+        "fr": "Aide à prévenir la formation de caillots pour réduire le risque d'un AVC ou d'autres complications graves.",
         "en": "Helps prevent blood clots from forming."
       },
       "whyTaken": {
-        "fr": "Aide à prévenir la formation de caillots sanguins.",
+        "fr": "Il est souvent prescrit chez les personnes qui présentent une fibrillation auriculaire pour réduire le risque d'AVC, ou pour traiter et prévenir certains caillots dans les veines ou les poumons.",
         "en": "Helps prevent blood clots from forming."
       },
       "goodToKnow": {
-        "fr": "Les bleus ou saignements peuvent être plus fréquents. Vérifiez avec un pharmacien avant d'ajouter un nouveau médicament.",
+        "fr": "Comme ce médicament rend le sang moins apte à coaguler, les saignements peuvent être plus importants ou durer plus longtemps. Informez toujours un professionnel de la santé avant de commencer un nouveau médicament, même vendu sans ordonnance.\n\nTout saignement important ou inhabituel doit être pris au sérieux.",
         "en": "Bruising or bleeding may happen more often. Check with a pharmacist before adding a new medication."
       },
       "whenToGetHelp": {
-        "fr": "Demandez rapidement conseil si un saignement est important, ne cesse pas, ou après une chute avec coup à la tête.",
+        "fr": "Consultez rapidement si un saignement est important ou ne cesse pas, si vous présentez des selles noires, des vomissements contenant du sang ou si vous faites une chute avec un coup à la tête.",
         "en": "Ask for help promptly if bleeding is heavy, does not stop, or after a fall with a blow to the head."
+      }
+    },
+    {
+      "id": "empagliflozine",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Empagliflozine",
+        "en": "Empagliflozin"
+      },
+      "category": {
+        "fr": "Diabète",
+        "en": "Diabète"
+      },
+      "brands": {
+        "fr": "Jardiance",
+        "en": "Jardiance"
+      },
+      "aliases": {
+        "fr": "Jardiance",
+        "en": "Jardiance"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Boire suffisamment d'eau aide à diminuer le risque de déshydratation.",
+          "en": "Boire suffisamment d'eau aide à diminuer le risque de déshydratation."
+        }
+      },
+      "essential": {
+        "fr": "Aide à diminuer le taux de sucre dans le sang en favorisant son élimination dans l'urine.",
+        "en": "Aide à diminuer le taux de sucre dans le sang en favorisant son élimination dans l'urine."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent prescrit chez les personnes qui vivent avec le diabète afin de mieux contrôler le taux de sucre dans le sang. Chez certaines personnes, il aide aussi à protéger le cœur et les reins.",
+        "en": "Il est souvent prescrit chez les personnes qui vivent avec le diabète afin de mieux contrôler le taux de sucre dans le sang. Chez certaines personnes, il aide aussi à protéger le cœur et les reins."
+      },
+      "goodToKnow": {
+        "fr": "Comme ce médicament augmente la quantité de sucre éliminée dans l'urine, il est important de bien s'hydrater. Certaines personnes peuvent aussi présenter plus facilement des infections urinaires ou des infections à levures.\n\nBoire suffisamment d'eau aide à diminuer le risque de déshydratation.",
+        "en": "Comme ce médicament augmente la quantité de sucre éliminée dans l'urine, il est important de bien s'hydrater. Certaines personnes peuvent aussi présenter plus facilement des infections urinaires ou des infections à levures.\n\nBoire suffisamment d'eau aide à diminuer le risque de déshydratation."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez rapidement si vous présentez des vomissements importants, une grande faiblesse, des signes de déshydratation ou une douleur importante accompagnée de rougeur ou d'un gonflement dans la région génitale.",
+        "en": "Consultez rapidement si vous présentez des vomissements importants, une grande faiblesse, des signes de déshydratation ou une douleur importante accompagnée de rougeur ou d'un gonflement dans la région génitale."
       }
     },
     {
@@ -477,27 +828,258 @@
       },
       "category": {
         "fr": "Sommeil et système nerveux",
-        "en": "Sleep and nervous system"
+        "en": "Mood medication"
       },
       "brands": {
         "fr": "Cipralex",
         "en": "Cipralex"
       },
+      "aliases": {
+        "fr": "Cipralex",
+        "en": "Cipralex"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "L'amélioration prend du temps. Continuez le traitement comme prescrit.",
+          "en": "L'amélioration prend du temps. Continuez le traitement comme prescrit."
+        }
+      },
       "essential": {
-        "fr": "Utilisé notamment pour la dépression et l'anxiété.",
+        "fr": "Aide à améliorer l'humeur et à diminuer les symptômes de la dépression ou de l'anxiété.",
         "en": "Used for depression and anxiety, among other conditions."
       },
       "whyTaken": {
-        "fr": "Utilisé notamment pour la dépression et l'anxiété.",
+        "fr": "Il est souvent prescrit lorsque la tristesse, les inquiétudes ou l'anxiété rendent le quotidien plus difficile. Il peut aider à retrouver progressivement un meilleur équilibre.",
         "en": "Used for depression and anxiety, among other conditions."
       },
       "goodToKnow": {
-        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "fr": "Ce médicament agit progressivement. Il faut souvent attendre plusieurs semaines avant d'en ressentir tous les bienfaits. Continuez le traitement comme prescrit, même si l'amélioration n'est pas immédiate.\n\nL'amélioration prend du temps. Continuez le traitement comme prescrit.",
         "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
       },
       "whenToGetHelp": {
-        "fr": "Demandez rapidement de l'aide si la personne parle de se faire du mal, devient très agitée ou confuse.",
+        "fr": "Les réactions importantes à ce médicament demeurent peu fréquentes. Restez attentif à tout changement important de l'humeur ou du comportement. N'hésitez pas à demander de l'aide rapidement si vous ou un proche ressentez une grande détresse, avez des idées de vous faire du mal ou si l'état se détériore rapidement.",
         "en": "Ask for help promptly if the person talks about self-harm, becomes very agitated, or seems confused."
+      }
+    },
+    {
+      "id": "ethinyl_estradiol_drospirenone",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Éthinylestradiol / Drospirénone",
+        "en": "Ethinyl estradiol/drospirenone"
+      },
+      "category": {
+        "fr": "Contraception et santé hormonale",
+        "en": "Contraception et santé hormonale"
+      },
+      "brands": {
+        "fr": "Yaz, Yasmin",
+        "en": "Yaz, Yasmin"
+      },
+      "aliases": {
+        "fr": "Yaz, Yasmin",
+        "en": "Yaz, Yasmin"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Prenez votre comprimé chaque jour à peu près à la même heure.",
+          "en": "Prenez votre comprimé chaque jour à peu près à la même heure."
+        }
+      },
+      "essential": {
+        "fr": "Aide à prévenir une grossesse et à régulariser le cycle menstruel.",
+        "en": "Aide à prévenir une grossesse et à régulariser le cycle menstruel."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent prescrit pour prévenir une grossesse. Selon la situation, il peut aussi aider à rendre les règles plus régulières, à diminuer les douleurs menstruelles ou à améliorer certains problèmes d'acné.",
+        "en": "Il est souvent prescrit pour prévenir une grossesse. Selon la situation, il peut aussi aider à rendre les règles plus régulières, à diminuer les douleurs menstruelles ou à améliorer certains problèmes d'acné."
+      },
+      "goodToKnow": {
+        "fr": "Pour être pleinement efficace, ce médicament doit être pris chaque jour selon l'horaire prévu. Si un comprimé est oublié, suivez les recommandations qui vous ont été données ou consultez la notice du produit.\n\nPrenez votre comprimé chaque jour à peu près à la même heure.",
+        "en": "Pour être pleinement efficace, ce médicament doit être pris chaque jour selon l'horaire prévu. Si un comprimé est oublié, suivez les recommandations qui vous ont été données ou consultez la notice du produit.\n\nPrenez votre comprimé chaque jour à peu près à la même heure."
+      },
+      "whenToGetHelp": {
+        "fr": "Les réactions importantes demeurent rares. Consultez rapidement si vous présentez une douleur importante à une jambe, une douleur soudaine à la poitrine, un essoufflement important ou un mal de tête très intense accompagné de troubles de la vision.",
+        "en": "Les réactions importantes demeurent rares. Consultez rapidement si vous présentez une douleur importante à une jambe, une douleur soudaine à la poitrine, un essoufflement important ou un mal de tête très intense accompagné de troubles de la vision."
+      }
+    },
+    {
+      "id": "ethinyl_estradiol_levonorgestrel",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Éthinylestradiol / Lévonorgestrel",
+        "en": "Ethinyl estradiol/levonorgestrel"
+      },
+      "category": {
+        "fr": "Contraception et santé hormonale",
+        "en": "Contraception et santé hormonale"
+      },
+      "brands": {
+        "fr": "Alesse, Aviane, Seasonale (adapter selon les marques présentes dans RxScan Data)",
+        "en": "Alesse, Aviane, Seasonale (adapter selon les marques présentes dans RxScan Data)"
+      },
+      "aliases": {
+        "fr": "Alesse, Aviane, Seasonale (adapter selon les marques présentes dans RxScan Data)",
+        "en": "Alesse, Aviane, Seasonale (adapter selon les marques présentes dans RxScan Data)"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Prenez votre comprimé chaque jour à peu près à la même heure.",
+          "en": "Prenez votre comprimé chaque jour à peu près à la même heure."
+        }
+      },
+      "essential": {
+        "fr": "Aide à prévenir une grossesse et à régulariser le cycle menstruel.",
+        "en": "Aide à prévenir une grossesse et à régulariser le cycle menstruel."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent prescrit pour prévenir une grossesse. Selon la situation, il peut aussi aider à rendre les règles plus régulières, à diminuer les douleurs menstruelles ou à réduire l'abondance des saignements.",
+        "en": "Il est souvent prescrit pour prévenir une grossesse. Selon la situation, il peut aussi aider à rendre les règles plus régulières, à diminuer les douleurs menstruelles ou à réduire l'abondance des saignements."
+      },
+      "goodToKnow": {
+        "fr": "Pour être pleinement efficace, ce médicament doit être pris chaque jour selon l'horaire prévu. Si un comprimé est oublié, suivez les recommandations qui vous ont été données ou consultez la notice du produit.\n\nPrenez votre comprimé chaque jour à peu près à la même heure.",
+        "en": "Pour être pleinement efficace, ce médicament doit être pris chaque jour selon l'horaire prévu. Si un comprimé est oublié, suivez les recommandations qui vous ont été données ou consultez la notice du produit.\n\nPrenez votre comprimé chaque jour à peu près à la même heure."
+      },
+      "whenToGetHelp": {
+        "fr": "Les réactions importantes demeurent rares. Consultez rapidement si vous présentez une douleur importante à une jambe, une douleur soudaine à la poitrine, un essoufflement important ou un mal de tête très intense accompagné de troubles de la vision.",
+        "en": "Les réactions importantes demeurent rares. Consultez rapidement si vous présentez une douleur importante à une jambe, une douleur soudaine à la poitrine, un essoufflement important ou un mal de tête très intense accompagné de troubles de la vision."
+      }
+    },
+    {
+      "id": "ethinyl_estradiol_norethindrone",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Éthinylestradiol / Noréthindrone",
+        "en": "Ethinyl estradiol/norethindrone"
+      },
+      "category": {
+        "fr": "Contraception et santé hormonale",
+        "en": "Contraception et santé hormonale"
+      },
+      "brands": {
+        "fr": "Synphasic (adapter selon les marques présentes dans RxScan Data)",
+        "en": "Synphasic (adapter selon les marques présentes dans RxScan Data)"
+      },
+      "aliases": {
+        "fr": "Synphasic (adapter selon les marques présentes dans RxScan Data)",
+        "en": "Synphasic (adapter selon les marques présentes dans RxScan Data)"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Prenez votre comprimé chaque jour à peu près à la même heure.",
+          "en": "Prenez votre comprimé chaque jour à peu près à la même heure."
+        }
+      },
+      "essential": {
+        "fr": "Aide à prévenir une grossesse et à régulariser le cycle menstruel.",
+        "en": "Aide à prévenir une grossesse et à régulariser le cycle menstruel."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent prescrit pour prévenir une grossesse. Selon la situation, il peut aussi aider à rendre les règles plus régulières, à diminuer les douleurs menstruelles ou à réduire l'abondance des saignements.",
+        "en": "Il est souvent prescrit pour prévenir une grossesse. Selon la situation, il peut aussi aider à rendre les règles plus régulières, à diminuer les douleurs menstruelles ou à réduire l'abondance des saignements."
+      },
+      "goodToKnow": {
+        "fr": "Pour être pleinement efficace, ce médicament doit être pris chaque jour selon l'horaire prévu. Si un comprimé est oublié, suivez les recommandations qui vous ont été données ou consultez la notice du produit.\n\nPrenez votre comprimé chaque jour à peu près à la même heure.",
+        "en": "Pour être pleinement efficace, ce médicament doit être pris chaque jour selon l'horaire prévu. Si un comprimé est oublié, suivez les recommandations qui vous ont été données ou consultez la notice du produit.\n\nPrenez votre comprimé chaque jour à peu près à la même heure."
+      },
+      "whenToGetHelp": {
+        "fr": "Les réactions importantes demeurent rares. Consultez rapidement si vous présentez une douleur importante à une jambe, une douleur soudaine à la poitrine, un essoufflement important ou un mal de tête très intense accompagné de troubles de la vision.",
+        "en": "Les réactions importantes demeurent rares. Consultez rapidement si vous présentez une douleur importante à une jambe, une douleur soudaine à la poitrine, un essoufflement important ou un mal de tête très intense accompagné de troubles de la vision."
+      }
+    },
+    {
+      "id": "fluticasone_nasal",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Fluticasone nasale",
+        "en": "Fluticasone nasal"
+      },
+      "category": {
+        "fr": "Allergies",
+        "en": "Allergies"
+      },
+      "brands": {
+        "fr": "Flonase, Avamys",
+        "en": "Flonase, Avamys"
+      },
+      "aliases": {
+        "fr": "Flonase, Avamys",
+        "en": "Flonase, Avamys"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Utilisez ce vaporisateur chaque jour pendant la période recommandée, même si les symptômes diminuent.",
+          "en": "Utilisez ce vaporisateur chaque jour pendant la période recommandée, même si les symptômes diminuent."
+        }
+      },
+      "essential": {
+        "fr": "Aide à diminuer l'inflammation dans le nez afin de soulager les symptômes d'allergie.",
+        "en": "Aide à diminuer l'inflammation dans le nez afin de soulager les symptômes d'allergie."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent prescrit lorsque les allergies provoquent un nez bouché, des éternuements ou un écoulement nasal persistant. Utilisé régulièrement, il aide à mieux contrôler ces symptômes.",
+        "en": "Il est souvent prescrit lorsque les allergies provoquent un nez bouché, des éternuements ou un écoulement nasal persistant. Utilisé régulièrement, il aide à mieux contrôler ces symptômes."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament agit progressivement. Il faut parfois quelques jours avant d'en ressentir tous les bienfaits. Utilisé chaque jour selon les recommandations, il est plus efficace que lorsqu'il est pris seulement au besoin.\n\nUtilisez ce vaporisateur chaque jour pendant la période recommandée, même si les symptômes diminuent.",
+        "en": "Ce médicament agit progressivement. Il faut parfois quelques jours avant d'en ressentir tous les bienfaits. Utilisé chaque jour selon les recommandations, il est plus efficace que lorsqu'il est pris seulement au besoin.\n\nUtilisez ce vaporisateur chaque jour pendant la période recommandée, même si les symptômes diminuent."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez rapidement si vous présentez un saignement de nez important ou qui se répète souvent, une douleur importante au nez ou si les symptômes persistent malgré le traitement.",
+        "en": "Consultez rapidement si vous présentez un saignement de nez important ou qui se répète souvent, une douleur importante au nez ou si les symptômes persistent malgré le traitement."
+      }
+    },
+    {
+      "id": "fluticasone_umeclidinium_vilanterol",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Fluticasone / Umeclidinium / Vilanterol",
+        "en": "Fluticasone/umeclidinium/vilanterol"
+      },
+      "category": {
+        "fr": "Respiration",
+        "en": "Respiration"
+      },
+      "brands": {
+        "fr": "Trelegy Ellipta",
+        "en": "Trelegy Ellipta"
+      },
+      "aliases": {
+        "fr": "Trelegy Ellipta",
+        "en": "Trelegy Ellipta"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Utilisez cet inhalateur chaque jour, même lorsque vous vous sentez bien.",
+          "en": "Utilisez cet inhalateur chaque jour, même lorsque vous vous sentez bien."
+        }
+      },
+      "essential": {
+        "fr": "Aide à mieux respirer en gardant les voies respiratoires ouvertes et en diminuant leur inflammation.",
+        "en": "Aide à mieux respirer en gardant les voies respiratoires ouvertes et en diminuant leur inflammation."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent prescrit chez les personnes qui vivent avec une maladie pulmonaire chronique, comme la MPOC ou certains cas d'asthme, afin de diminuer les symptômes et de prévenir les exacerbations.",
+        "en": "Il est souvent prescrit chez les personnes qui vivent avec une maladie pulmonaire chronique, comme la MPOC ou certains cas d'asthme, afin de diminuer les symptômes et de prévenir les exacerbations."
+      },
+      "goodToKnow": {
+        "fr": "Cet inhalateur agit progressivement et doit être utilisé chaque jour pour être pleinement efficace, même lorsque la respiration semble bonne. Après chaque inhalation, rincez-vous la bouche avec de l'eau, puis recrachez-la afin de diminuer le risque d'irritation ou d'infection dans la bouche.\n\nUtilisez cet inhalateur chaque jour, même lorsque vous vous sentez bien.",
+        "en": "Cet inhalateur agit progressivement et doit être utilisé chaque jour pour être pleinement efficace, même lorsque la respiration semble bonne. Après chaque inhalation, rincez-vous la bouche avec de l'eau, puis recrachez-la afin de diminuer le risque d'irritation ou d'infection dans la bouche.\n\nUtilisez cet inhalateur chaque jour, même lorsque vous vous sentez bien."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez rapidement si votre respiration devient plus difficile, si votre inhalateur de secours soulage moins bien qu'à l'habitude ou si un essoufflement important apparaît soudainement.",
+        "en": "Consultez rapidement si votre respiration devient plus difficile, si votre inhalateur de secours soulage moins bien qu'à l'habitude ou si un essoufflement important apparaît soudainement."
       }
     },
     {
@@ -510,9 +1092,13 @@
       },
       "category": {
         "fr": "Cœur et circulation",
-        "en": "Heart and circulation"
+        "en": "Diuretic"
       },
       "brands": {
+        "fr": "Lasix",
+        "en": "Lasix"
+      },
+      "aliases": {
         "fr": "Lasix",
         "en": "Lasix"
       },
@@ -521,16 +1107,60 @@
         "en": "Helps the body remove extra water."
       },
       "whyTaken": {
-        "fr": "Aide le corps à éliminer l'excès d'eau.",
+        "fr": "Il est souvent prescrit lorsque le corps retient trop d'eau, ce qui peut causer de l'enflure, un essoufflement ou une prise de poids rapide. Il aide à éliminer cet excès de liquide.",
         "en": "Helps the body remove extra water."
       },
       "goodToKnow": {
-        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "fr": "Ce médicament augmente la quantité d'urine produite. Il est souvent préférable de le prendre le matin afin de limiter les déplacements aux toilettes pendant la nuit.",
         "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
       },
       "whenToGetHelp": {
-        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "fr": "Consultez rapidement si vous ressentez des étourdissements importants, si vous perdez connaissance ou si vous présentez une soif intense accompagnée d'une grande faiblesse ou d'une diminution importante de la quantité d'urine.",
         "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "gliclazide",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Gliclazide",
+        "en": "Gliclazide"
+      },
+      "category": {
+        "fr": "Diabète",
+        "en": "Diabète"
+      },
+      "brands": {
+        "fr": "Diamicron",
+        "en": "Diamicron"
+      },
+      "aliases": {
+        "fr": "Diamicron",
+        "en": "Diamicron"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Évitez de sauter un repas après avoir pris ce médicament.",
+          "en": "Évitez de sauter un repas après avoir pris ce médicament."
+        }
+      },
+      "essential": {
+        "fr": "Aide le corps à produire davantage d'insuline afin de diminuer le taux de sucre dans le sang.",
+        "en": "Aide le corps à produire davantage d'insuline afin de diminuer le taux de sucre dans le sang."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent prescrit chez les personnes qui vivent avec le diabète lorsque le taux de sucre dans le sang demeure trop élevé. Il aide à mieux contrôler la glycémie et à réduire le risque de complications à long terme.",
+        "en": "Il est souvent prescrit chez les personnes qui vivent avec le diabète lorsque le taux de sucre dans le sang demeure trop élevé. Il aide à mieux contrôler la glycémie et à réduire le risque de complications à long terme."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament peut parfois faire baisser le taux de sucre plus que prévu, surtout si un repas est sauté ou retardé. Il est important de prendre les repas régulièrement selon les recommandations reçues.\n\nÉvitez de sauter un repas après avoir pris ce médicament.",
+        "en": "Ce médicament peut parfois faire baisser le taux de sucre plus que prévu, surtout si un repas est sauté ou retardé. Il est important de prendre les repas régulièrement selon les recommandations reçues.\n\nÉvitez de sauter un repas après avoir pris ce médicament."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez rapidement si la personne présente des signes d'hypoglycémie importante, comme une confusion, une perte de connaissance ou des convulsions, ou si les malaises persistent malgré la prise de sucre.",
+        "en": "Consultez rapidement si la personne présente des signes d'hypoglycémie importante, comme une confusion, une perte de connaissance ou des convulsions, ou si les malaises persistent malgré la prise de sucre."
       }
     },
     {
@@ -543,27 +1173,75 @@
       },
       "category": {
         "fr": "Cœur et circulation",
-        "en": "Heart and circulation"
+        "en": "Diuretic"
       },
       "brands": {
         "fr": "HCTZ, HydroDIURIL",
         "en": "HCTZ, HydroDIURIL"
       },
+      "aliases": {
+        "fr": "HCTZ, HydroDIURIL",
+        "en": "HCTZ, HydroDIURIL"
+      },
       "essential": {
-        "fr": "Aide le corps à éliminer l'excès d'eau.",
+        "fr": "Aide à diminuer la pression artérielle en aidant le corps à éliminer l'excès d'eau.",
         "en": "Helps the body remove extra water."
       },
       "whyTaken": {
-        "fr": "Aide le corps à éliminer l'excès d'eau.",
+        "fr": "Il est souvent prescrit chez les personnes qui ont une pression artérielle élevée. En aidant le corps à éliminer un peu plus d'eau et de sel, il contribue à protéger le cœur et les vaisseaux sanguins.",
         "en": "Helps the body remove extra water."
       },
       "goodToKnow": {
-        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "fr": "Ce médicament peut augmenter la quantité d'urine produite, surtout au début du traitement. Il est souvent plus pratique de le prendre le matin afin de limiter les déplacements aux toilettes pendant la nuit.",
         "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
       },
       "whenToGetHelp": {
-        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "fr": "Consultez rapidement si vous ressentez des étourdissements importants, si vous perdez connaissance ou si vous présentez une grande faiblesse accompagnée de vomissements, de diarrhée ou d'une soif importante.",
         "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "insulin_glargine",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Insuline glargine",
+        "en": "Insulin glargine"
+      },
+      "category": {
+        "fr": "Diabète",
+        "en": "Diabète"
+      },
+      "brands": {
+        "fr": "Lantus, Basaglar, Toujeo",
+        "en": "Lantus, Basaglar, Toujeo"
+      },
+      "aliases": {
+        "fr": "Lantus, Basaglar, Toujeo",
+        "en": "Lantus, Basaglar, Toujeo"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Essayez de l'administrer chaque jour à la même heure.",
+          "en": "Essayez de l'administrer chaque jour à la même heure."
+        }
+      },
+      "essential": {
+        "fr": "Aide à maintenir un taux de sucre stable dans le sang tout au long de la journée.",
+        "en": "Aide à maintenir un taux de sucre stable dans le sang tout au long de la journée."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent prescrit chez les personnes qui vivent avec le diabète lorsque le corps ne produit plus assez d'insuline ou n'arrive plus à bien l'utiliser. Il aide à maintenir un taux de sucre plus stable entre les repas et pendant la nuit.",
+        "en": "Il est souvent prescrit chez les personnes qui vivent avec le diabète lorsque le corps ne produit plus assez d'insuline ou n'arrive plus à bien l'utiliser. Il aide à maintenir un taux de sucre plus stable entre les repas et pendant la nuit."
+      },
+      "goodToKnow": {
+        "fr": "Cette insuline agit lentement et de façon prolongée. Elle est généralement administrée une fois par jour, à la même heure, afin d'assurer un effet stable.\n\nEssayez de l'administrer chaque jour à la même heure.",
+        "en": "Cette insuline agit lentement et de façon prolongée. Elle est généralement administrée une fois par jour, à la même heure, afin d'assurer un effet stable.\n\nEssayez de l'administrer chaque jour à la même heure."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez rapidement si la personne présente des signes d'hypoglycémie importante, comme une confusion, une perte de connaissance ou des convulsions, ou si le taux de sucre demeure très élevé malgré le traitement.",
+        "en": "Consultez rapidement si la personne présente des signes d'hypoglycémie importante, comme une confusion, une perte de connaissance ou des convulsions, ou si le taux de sucre demeure très élevé malgré le traitement."
       }
     },
     {
@@ -608,28 +1286,83 @@
         "en": "Levothyroxine"
       },
       "category": {
-        "fr": "Autre médicament",
-        "en": "Other medication"
+        "fr": "Remplacement hormonal",
+        "en": "Thyroid medication"
       },
       "brands": {
         "fr": "Synthroid, Eltroxin",
         "en": "Synthroid, Eltroxin"
       },
+      "aliases": {
+        "fr": "Synthroid, Eltroxin",
+        "en": "Synthroid, Eltroxin"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Prenez ce médicament chaque jour de la même façon afin d'assurer un traitement stable.",
+          "en": "Prenez ce médicament chaque jour de la même façon afin d'assurer un traitement stable."
+        }
+      },
       "essential": {
-        "fr": "Remplace l'hormone produite par la thyroïde.",
+        "fr": "Remplace l'hormone normalement produite par la thyroïde.",
         "en": "Replaces the hormone made by the thyroid."
       },
       "whyTaken": {
-        "fr": "Remplace l'hormone produite par la thyroïde.",
+        "fr": "Il est souvent prescrit lorsque la thyroïde ne produit plus assez d'hormones. Il aide à retrouver progressivement un fonctionnement plus normal de l'organisme.",
         "en": "Replaces the hormone made by the thyroid."
       },
       "goodToKnow": {
-        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "fr": "Ce médicament est généralement plus efficace lorsqu'il est pris le matin, à jeun, avec un verre d'eau. Attendez habituellement de 30 à 60 minutes avant de manger ou de prendre d'autres médicaments, sauf indication contraire d'un professionnel de la santé.\n\nPrenez ce médicament chaque jour de la même façon afin d'assurer un traitement stable.",
         "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
       },
       "whenToGetHelp": {
-        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "fr": "Consultez si vous ressentez des palpitations importantes, une douleur à la poitrine, un essoufflement inhabituel ou si votre état change de façon importante après un ajustement de la dose.",
         "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "linaclotide",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Linaclotide",
+        "en": "Linaclotide"
+      },
+      "category": {
+        "fr": "Digestion",
+        "en": "Digestion"
+      },
+      "brands": {
+        "fr": "Constella",
+        "en": "Constella"
+      },
+      "aliases": {
+        "fr": "Constella",
+        "en": "Constella"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Buvez suffisamment d'eau si de la diarrhée apparaît.",
+          "en": "Buvez suffisamment d'eau si de la diarrhée apparaît."
+        }
+      },
+      "essential": {
+        "fr": "Aide à soulager la constipation chronique et à améliorer le fonctionnement de l'intestin.",
+        "en": "Aide à soulager la constipation chronique et à améliorer le fonctionnement de l'intestin."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent prescrit lorsque la constipation persiste malgré les changements alimentaires ou d'autres traitements. Chez certaines personnes, il aide aussi à diminuer les douleurs et l'inconfort liés au syndrome de l'intestin irritable avec constipation.",
+        "en": "Il est souvent prescrit lorsque la constipation persiste malgré les changements alimentaires ou d'autres traitements. Chez certaines personnes, il aide aussi à diminuer les douleurs et l'inconfort liés au syndrome de l'intestin irritable avec constipation."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament agit directement dans l'intestin et peut provoquer de la diarrhée, surtout au début du traitement. Si cela se produit, il est important de remplacer les liquides perdus.\n\nBuvez suffisamment d'eau si de la diarrhée apparaît.",
+        "en": "Ce médicament agit directement dans l'intestin et peut provoquer de la diarrhée, surtout au début du traitement. Si cela se produit, il est important de remplacer les liquides perdus.\n\nBuvez suffisamment d'eau si de la diarrhée apparaît."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez rapidement si la diarrhée est importante ou persistante, si vous présentez des signes de déshydratation, des douleurs abdominales importantes ou si votre état se détériore.",
+        "en": "Consultez rapidement si la diarrhée est importante ou persistante, si vous présentez des signes de déshydratation, des douleurs abdominales importantes ou si votre état se détériore."
       }
     },
     {
@@ -642,26 +1375,37 @@
       },
       "category": {
         "fr": "Sommeil et système nerveux",
-        "en": "Sleep and nervous system"
+        "en": "Anxiety medication"
       },
       "brands": {
         "fr": "Ativan",
         "en": "Ativan"
       },
+      "aliases": {
+        "fr": "Ativan",
+        "en": "Ativan"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Prenez ce médicament seulement selon les indications qui vous ont été données.",
+          "en": "Prenez ce médicament seulement selon les indications qui vous ont été données."
+        }
+      },
       "essential": {
-        "fr": "Peut aider à calmer l'anxiété ou l'agitation.",
+        "fr": "Aide à calmer rapidement l'anxiété ou l'agitation.",
         "en": "Can help calm anxiety or agitation."
       },
       "whyTaken": {
-        "fr": "Peut aider à calmer l'anxiété ou l'agitation.",
+        "fr": "Il est souvent prescrit lorsque l'anxiété, une grande inquiétude ou une agitation importante rendent le moment difficile à traverser. Il agit rapidement pour procurer un soulagement temporaire.",
         "en": "Can help calm anxiety or agitation."
       },
       "goodToKnow": {
-        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "fr": "Ce médicament peut provoquer de la somnolence ou diminuer la vigilance. Évitez de conduire ou d'utiliser des machines si vous vous sentez somnolent après l'avoir pris.\n\nPrenez ce médicament seulement selon les indications qui vous ont été données.",
         "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
       },
       "whenToGetHelp": {
-        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "fr": "Consultez rapidement si la somnolence est importante, si la respiration devient difficile ou si la personne est difficile à réveiller.",
         "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
       }
     },
@@ -675,22 +1419,33 @@
       },
       "category": {
         "fr": "Diabète",
-        "en": "Diabetes"
+        "en": "Diabetes medication"
       },
       "brands": {
         "fr": "Glucophage",
         "en": "Glucophage"
+      },
+      "aliases": {
+        "fr": "Glucophage",
+        "en": "Glucophage"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Prendre la metformine avec un repas aide souvent à diminuer les maux d'estomac.",
+          "en": "Prendre la metformine avec un repas aide souvent à diminuer les maux d'estomac."
+        }
       },
       "essential": {
         "fr": "Aide à contrôler le taux de sucre dans le sang.",
         "en": "Helps control blood sugar levels."
       },
       "whyTaken": {
-        "fr": "Aide à contrôler le taux de sucre dans le sang.",
+        "fr": "Il est souvent prescrit chez les personnes qui vivent avec le diabète afin d'aider à maintenir un taux de sucre plus stable et à réduire le risque de complications à long terme.",
         "en": "Helps control blood sugar levels."
       },
       "goodToKnow": {
-        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "fr": "Des maux d'estomac, des nausées ou de la diarrhée peuvent survenir, surtout au début du traitement. Ces effets s'améliorent souvent avec le temps. Prendre ce médicament avec un repas aide généralement à mieux le tolérer.\n\nPrendre la metformine avec un repas aide souvent à diminuer les maux d'estomac.",
         "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
       },
       "whenToGetHelp": {
@@ -732,6 +1487,138 @@
       }
     },
     {
+      "id": "mometasone_inhaled",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Mométasone inhalée",
+        "en": "Mometasone inhaled"
+      },
+      "category": {
+        "fr": "Respiration",
+        "en": "Respiration"
+      },
+      "brands": {
+        "fr": "Asmanex",
+        "en": "Asmanex"
+      },
+      "aliases": {
+        "fr": "Asmanex",
+        "en": "Asmanex"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "En cas de crise soudaine, utilisez plutôt votre inhalateur de secours.",
+          "en": "En cas de crise soudaine, utilisez plutôt votre inhalateur de secours."
+        }
+      },
+      "essential": {
+        "fr": "Aide à diminuer l'inflammation des voies respiratoires afin de mieux contrôler l'asthme.",
+        "en": "Aide à diminuer l'inflammation des voies respiratoires afin de mieux contrôler l'asthme."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent prescrit lorsque l'asthme rend la respiration plus difficile. Utilisé chaque jour, il aide à prévenir la toux, les sifflements et l'essoufflement.",
+        "en": "Il est souvent prescrit lorsque l'asthme rend la respiration plus difficile. Utilisé chaque jour, il aide à prévenir la toux, les sifflements et l'essoufflement."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament agit progressivement lorsqu'il est utilisé régulièrement. Après chaque inhalation, rincez-vous la bouche avec de l'eau, puis recrachez-la afin de diminuer le risque d'irritation ou d'infection dans la bouche.\n\nEn cas de crise soudaine, utilisez plutôt votre inhalateur de secours.",
+        "en": "Ce médicament agit progressivement lorsqu'il est utilisé régulièrement. Après chaque inhalation, rincez-vous la bouche avec de l'eau, puis recrachez-la afin de diminuer le risque d'irritation ou d'infection dans la bouche.\n\nEn cas de crise soudaine, utilisez plutôt votre inhalateur de secours."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez rapidement si votre respiration devient plus difficile, si votre inhalateur de secours soulage moins bien qu'à l'habitude ou si un essoufflement important apparaît soudainement.",
+        "en": "Consultez rapidement si votre respiration devient plus difficile, si votre inhalateur de secours soulage moins bien qu'à l'habitude ou si un essoufflement important apparaît soudainement."
+      }
+    },
+    {
+      "id": "mometasone_nasal",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Mométasone nasale",
+        "en": "Mometasone nasal"
+      },
+      "category": {
+        "fr": "Allergies",
+        "en": "Allergies"
+      },
+      "brands": {
+        "fr": "Nasonex",
+        "en": "Nasonex"
+      },
+      "aliases": {
+        "fr": "Nasonex",
+        "en": "Nasonex"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Utilisez ce vaporisateur chaque jour pendant la période recommandée, même si les symptômes diminuent.",
+          "en": "Utilisez ce vaporisateur chaque jour pendant la période recommandée, même si les symptômes diminuent."
+        }
+      },
+      "essential": {
+        "fr": "Aide à diminuer l'inflammation dans le nez afin de soulager les symptômes d'allergie.",
+        "en": "Aide à diminuer l'inflammation dans le nez afin de soulager les symptômes d'allergie."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent prescrit lorsque les allergies provoquent un nez bouché, des éternuements ou un écoulement nasal persistant. Utilisé régulièrement, il aide à mieux contrôler ces symptômes.",
+        "en": "Il est souvent prescrit lorsque les allergies provoquent un nez bouché, des éternuements ou un écoulement nasal persistant. Utilisé régulièrement, il aide à mieux contrôler ces symptômes."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament agit progressivement. Il faut parfois quelques jours avant d'en ressentir tous les bienfaits. Utilisé chaque jour selon les recommandations, il est plus efficace que lorsqu'il est pris seulement au besoin.\n\nUtilisez ce vaporisateur chaque jour pendant la période recommandée, même si les symptômes diminuent.",
+        "en": "Ce médicament agit progressivement. Il faut parfois quelques jours avant d'en ressentir tous les bienfaits. Utilisé chaque jour selon les recommandations, il est plus efficace que lorsqu'il est pris seulement au besoin.\n\nUtilisez ce vaporisateur chaque jour pendant la période recommandée, même si les symptômes diminuent."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez rapidement si vous présentez un saignement de nez important ou qui se répète souvent, une douleur importante au nez ou si les symptômes persistent malgré le traitement.",
+        "en": "Consultez rapidement si vous présentez un saignement de nez important ou qui se répète souvent, une douleur importante au nez ou si les symptômes persistent malgré le traitement."
+      }
+    },
+    {
+      "id": "morphine",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Morphine",
+        "en": "Morphine"
+      },
+      "category": {
+        "fr": "Douleur",
+        "en": "Douleur"
+      },
+      "brands": {
+        "fr": "MS Contin, Statex, M-Eslon",
+        "en": "MS Contin, Statex, M-Eslon"
+      },
+      "aliases": {
+        "fr": "MS Contin, Statex, M-Eslon",
+        "en": "MS Contin, Statex, M-Eslon"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Prenez toujours la morphine exactement comme elle vous a été prescrite.",
+          "en": "Prenez toujours la morphine exactement comme elle vous a été prescrite."
+        }
+      },
+      "essential": {
+        "fr": "Aide à soulager les douleurs importantes.",
+        "en": "Aide à soulager les douleurs importantes."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent prescrit lorsque la douleur est importante et ne peut pas être suffisamment soulagée par d'autres médicaments. Il permet à plusieurs personnes de retrouver un meilleur confort malgré une maladie ou après une chirurgie.",
+        "en": "Il est souvent prescrit lorsque la douleur est importante et ne peut pas être suffisamment soulagée par d'autres médicaments. Il permet à plusieurs personnes de retrouver un meilleur confort malgré une maladie ou après une chirurgie."
+      },
+      "goodToKnow": {
+        "fr": "La morphine est un médicament puissant qui doit être pris exactement comme il a été prescrit. Lorsqu'elle est utilisée correctement, elle est un traitement reconnu et sécuritaire pour soulager la douleur. Si vous avez des questions ou des inquiétudes, parlez-en à votre médecin, à votre pharmacien ou à un autre professionnel de la santé.\n\nPrenez toujours la morphine exactement comme elle vous a été prescrite.",
+        "en": "La morphine est un médicament puissant qui doit être pris exactement comme il a été prescrit. Lorsqu'elle est utilisée correctement, elle est un traitement reconnu et sécuritaire pour soulager la douleur. Si vous avez des questions ou des inquiétudes, parlez-en à votre médecin, à votre pharmacien ou à un autre professionnel de la santé.\n\nPrenez toujours la morphine exactement comme elle vous a été prescrite."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez immédiatement si la personne est très difficile à réveiller, si sa respiration devient très lente ou difficile, ou si elle perd connaissance.",
+        "en": "Consultez immédiatement si la personne est très difficile à réveiller, si sa respiration devient très lente ou difficile, ou si elle perd connaissance."
+      }
+    },
+    {
       "id": "naproxen",
       "enabled": true,
       "status": "approved",
@@ -765,6 +1652,182 @@
       }
     },
     {
+      "id": "nitroglycerin",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Nitroglycérine",
+        "en": "Nitroglycerin"
+      },
+      "category": {
+        "fr": "Cœur et circulation",
+        "en": "Cœur et circulation"
+      },
+      "brands": {
+        "fr": "Nitrostat, Nitrolingual",
+        "en": "Nitrostat, Nitrolingual"
+      },
+      "aliases": {
+        "fr": "Nitrostat, Nitrolingual",
+        "en": "Nitrostat, Nitrolingual"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Gardez toujours votre nitroglycérine avec vous.",
+          "en": "Gardez toujours votre nitroglycérine avec vous."
+        }
+      },
+      "essential": {
+        "fr": "Aide à soulager rapidement une douleur à la poitrine causée par un manque d'oxygène au cœur.",
+        "en": "Aide à soulager rapidement une douleur à la poitrine causée par un manque d'oxygène au cœur."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent prescrit chez les personnes qui ressentent des douleurs à la poitrine appelées angine. Il agit rapidement pour améliorer l'apport en oxygène au cœur et soulager la douleur.",
+        "en": "Il est souvent prescrit chez les personnes qui ressentent des douleurs à la poitrine appelées angine. Il agit rapidement pour améliorer l'apport en oxygène au cœur et soulager la douleur."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament agit rapidement, mais son effet est de courte durée. Il est destiné à être utilisé au moment d'une douleur à la poitrine ou selon les indications qui vous ont été données. Il peut parfois provoquer des maux de tête ou des étourdissements.\n\nGardez toujours votre nitroglycérine avec vous.",
+        "en": "Ce médicament agit rapidement, mais son effet est de courte durée. Il est destiné à être utilisé au moment d'une douleur à la poitrine ou selon les indications qui vous ont été données. Il peut parfois provoquer des maux de tête ou des étourdissements.\n\nGardez toujours votre nitroglycérine avec vous."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez immédiatement si la douleur à la poitrine persiste ou s'aggrave malgré l'utilisation de la nitroglycérine, ou si elle s'accompagne d'un essoufflement important, d'une perte de connaissance ou d'un malaise important.",
+        "en": "Consultez immédiatement si la douleur à la poitrine persiste ou s'aggrave malgré l'utilisation de la nitroglycérine, ou si elle s'accompagne d'un essoufflement important, d'une perte de connaissance ou d'un malaise important."
+      }
+    },
+    {
+      "id": "ofloxacin_otic",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Ofloxacine otique",
+        "en": "Ofloxacin otic"
+      },
+      "category": {
+        "fr": "Santé des oreilles",
+        "en": "Santé des oreilles"
+      },
+      "brands": {
+        "fr": "Floxin Otic",
+        "en": "Floxin Otic"
+      },
+      "aliases": {
+        "fr": "Floxin Otic",
+        "en": "Floxin Otic"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Même si l'oreille semble guérie, le traitement doit être poursuivi jusqu'à la fin.",
+          "en": "Même si l'oreille semble guérie, le traitement doit être poursuivi jusqu'à la fin."
+        }
+      },
+      "essential": {
+        "fr": "Aide à traiter certaines infections bactériennes de l'oreille.",
+        "en": "Aide à traiter certaines infections bactériennes de l'oreille."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent prescrit lorsqu'une infection de l'oreille provoque de la douleur, un écoulement ou de l'irritation. Il aide à éliminer les bactéries responsables de l'infection.",
+        "en": "Il est souvent prescrit lorsqu'une infection de l'oreille provoque de la douleur, un écoulement ou de l'irritation. Il aide à éliminer les bactéries responsables de l'infection."
+      },
+      "goodToKnow": {
+        "fr": "Même si la douleur diminue rapidement, il est important de poursuivre le traitement pendant toute la durée prescrite. Évitez de toucher l'oreille avec l'embout du flacon afin de garder les gouttes propres.\n\nMême si l'oreille semble guérie, le traitement doit être poursuivi jusqu'à la fin.",
+        "en": "Même si la douleur diminue rapidement, il est important de poursuivre le traitement pendant toute la durée prescrite. Évitez de toucher l'oreille avec l'embout du flacon afin de garder les gouttes propres.\n\nMême si l'oreille semble guérie, le traitement doit être poursuivi jusqu'à la fin."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez rapidement si la douleur augmente, si un écoulement important persiste, si de la fièvre apparaît ou si les symptômes ne commencent pas à s'améliorer après quelques jours de traitement.",
+        "en": "Consultez rapidement si la douleur augmente, si un écoulement important persiste, si de la fièvre apparaît ou si les symptômes ne commencent pas à s'améliorer après quelques jours de traitement."
+      }
+    },
+    {
+      "id": "olopatadine_ophthalmic",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Olopatadine ophtalmique",
+        "en": "Olopatadine ophthalmic"
+      },
+      "category": {
+        "fr": "Santé des yeux",
+        "en": "Santé des yeux"
+      },
+      "brands": {
+        "fr": "Patanol, Pataday",
+        "en": "Patanol, Pataday"
+      },
+      "aliases": {
+        "fr": "Patanol, Pataday",
+        "en": "Patanol, Pataday"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Évitez de vous frotter les yeux, même s'ils démangent.",
+          "en": "Évitez de vous frotter les yeux, même s'ils démangent."
+        }
+      },
+      "essential": {
+        "fr": "Aide à soulager les démangeaisons et l'irritation causées par les allergies des yeux.",
+        "en": "Aide à soulager les démangeaisons et l'irritation causées par les allergies des yeux."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent utilisé lorsque les allergies provoquent des yeux rouges, qui piquent ou qui larmoient. Il aide à diminuer rapidement ces symptômes.",
+        "en": "Il est souvent utilisé lorsque les allergies provoquent des yeux rouges, qui piquent ou qui larmoient. Il aide à diminuer rapidement ces symptômes."
+      },
+      "goodToKnow": {
+        "fr": "Essayez d'éviter de vous frotter les yeux, même s'ils démangent, car cela peut aggraver l'irritation. Si vous portez des lentilles cornéennes, suivez les recommandations qui vous ont été données avant de remettre vos lentilles après l'application des gouttes.\n\nÉvitez de vous frotter les yeux, même s'ils démangent.",
+        "en": "Essayez d'éviter de vous frotter les yeux, même s'ils démangent, car cela peut aggraver l'irritation. Si vous portez des lentilles cornéennes, suivez les recommandations qui vous ont été données avant de remettre vos lentilles après l'application des gouttes.\n\nÉvitez de vous frotter les yeux, même s'ils démangent."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez rapidement si la douleur est importante, si votre vision diminue soudainement, si l'œil devient très rouge ou si les symptômes persistent malgré le traitement.",
+        "en": "Consultez rapidement si la douleur est importante, si votre vision diminue soudainement, si l'œil devient très rouge ou si les symptômes persistent malgré le traitement."
+      }
+    },
+    {
+      "id": "oxycodone",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Oxycodone",
+        "en": "Oxycodone"
+      },
+      "category": {
+        "fr": "Douleur",
+        "en": "Douleur"
+      },
+      "brands": {
+        "fr": "OxyContin, Supeudol",
+        "en": "OxyContin, Supeudol"
+      },
+      "aliases": {
+        "fr": "OxyContin, Supeudol",
+        "en": "OxyContin, Supeudol"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Prenez toujours l'oxycodone exactement comme elle vous a été prescrite.",
+          "en": "Prenez toujours l'oxycodone exactement comme elle vous a été prescrite."
+        }
+      },
+      "essential": {
+        "fr": "Aide à soulager les douleurs importantes.",
+        "en": "Aide à soulager les douleurs importantes."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent prescrit lorsque la douleur est importante et ne peut pas être suffisamment soulagée par d'autres médicaments. Il peut aider à retrouver un meilleur confort et à reprendre plus facilement les activités du quotidien.",
+        "en": "Il est souvent prescrit lorsque la douleur est importante et ne peut pas être suffisamment soulagée par d'autres médicaments. Il peut aider à retrouver un meilleur confort et à reprendre plus facilement les activités du quotidien."
+      },
+      "goodToKnow": {
+        "fr": "L'oxycodone est un médicament puissant qui doit être pris exactement comme il a été prescrit. Lorsqu'il est utilisé correctement, il est un traitement reconnu et sécuritaire pour soulager la douleur. Si vous avez des questions ou des inquiétudes, parlez-en à votre médecin, à votre pharmacien ou à un autre professionnel de la santé.\n\nPrenez toujours l'oxycodone exactement comme elle vous a été prescrite.",
+        "en": "L'oxycodone est un médicament puissant qui doit être pris exactement comme il a été prescrit. Lorsqu'il est utilisé correctement, il est un traitement reconnu et sécuritaire pour soulager la douleur. Si vous avez des questions ou des inquiétudes, parlez-en à votre médecin, à votre pharmacien ou à un autre professionnel de la santé.\n\nPrenez toujours l'oxycodone exactement comme elle vous a été prescrite."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez immédiatement si la personne est très difficile à réveiller, si sa respiration devient très lente ou difficile, ou si elle perd connaissance.",
+        "en": "Consultez immédiatement si la personne est très difficile à réveiller, si sa respiration devient très lente ou difficile, ou si elle perd connaissance."
+      }
+    },
+    {
       "id": "pantoprazole",
       "enabled": true,
       "status": "approved",
@@ -774,26 +1837,37 @@
       },
       "category": {
         "fr": "Estomac",
-        "en": "Stomach"
+        "en": "Stomach medication"
       },
       "brands": {
         "fr": "Pantoloc",
         "en": "Pantoloc"
+      },
+      "aliases": {
+        "fr": "Pantoloc",
+        "en": "Pantoloc"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Prenez-le de préférence avant le premier repas de la journée, si c'est ainsi qu'il vous a été prescrit.",
+          "en": "Prenez-le de préférence avant le premier repas de la journée, si c'est ainsi qu'il vous a été prescrit."
+        }
       },
       "essential": {
         "fr": "Aide à diminuer l'acidité dans l'estomac.",
         "en": "Helps reduce stomach acid."
       },
       "whyTaken": {
-        "fr": "Aide à diminuer l'acidité dans l'estomac.",
+        "fr": "Il est souvent prescrit lorsque les brûlements d'estomac, le reflux acide ou un ulcère provoquent des symptômes. Il peut aussi être utilisé pour protéger l'estomac chez certaines personnes qui prennent d'autres médicaments.",
         "en": "Helps reduce stomach acid."
       },
       "goodToKnow": {
-        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "fr": "Ce médicament agit progressivement. Il peut parfois falloir quelques jours avant d'obtenir son plein effet. Lorsqu'il est prescrit une fois par jour, il est généralement préférable de le prendre avant le premier repas de la journée.\n\nPrenez-le de préférence avant le premier repas de la journée, si c'est ainsi qu'il vous a été prescrit.",
         "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
       },
       "whenToGetHelp": {
-        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "fr": "Consultez rapidement si vous présentez des difficultés à avaler, des vomissements contenant du sang, des selles noires ou une douleur importante à l'estomac qui persiste malgré le traitement.",
         "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
       }
     },
@@ -806,28 +1880,83 @@
         "en": "Prednisone"
       },
       "category": {
-        "fr": "Autre médicament",
-        "en": "Other medication"
+        "fr": "Inflammation et système immunitaire",
+        "en": "Corticosteroid"
       },
       "brands": {
         "fr": "Deltasone",
         "en": "Deltasone"
       },
+      "aliases": {
+        "fr": "Deltasone",
+        "en": "Deltasone"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Un traitement prolongé doit habituellement être diminué progressivement avant d'être arrêté.",
+          "en": "Un traitement prolongé doit habituellement être diminué progressivement avant d'être arrêté."
+        }
+      },
       "essential": {
-        "fr": "Aide à calmer une inflammation importante.",
+        "fr": "Aide à diminuer une inflammation importante et à calmer une réaction excessive du système immunitaire.",
         "en": "Helps calm significant inflammation."
       },
       "whyTaken": {
-        "fr": "Aide à calmer une inflammation importante.",
+        "fr": "Il est souvent prescrit lorsque l'inflammation ou une réaction du système immunitaire provoque des symptômes importants, comme lors d'une crise d'asthme, d'une réaction allergique ou de certaines maladies inflammatoires.",
         "en": "Helps calm significant inflammation."
       },
       "goodToKnow": {
-        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "fr": "Lorsque ce médicament est pris pendant plusieurs jours ou plusieurs semaines, il ne doit généralement pas être arrêté brusquement. Suivez toujours les indications données pour diminuer la dose lorsque cela est nécessaire.\n\nUn traitement prolongé doit habituellement être diminué progressivement avant d'être arrêté.",
         "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
       },
       "whenToGetHelp": {
-        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "fr": "Consultez rapidement si vous présentez une difficulté importante à respirer, une forte fièvre accompagnée d'un état général qui se détériore, ou si votre état s'aggrave malgré le traitement.",
         "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "prucalopride",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Prucalopride",
+        "en": "Prucalopride"
+      },
+      "category": {
+        "fr": "Digestion",
+        "en": "Digestion"
+      },
+      "brands": {
+        "fr": "Resotran",
+        "en": "Resotran"
+      },
+      "aliases": {
+        "fr": "Resotran",
+        "en": "Resotran"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Les effets du début du traitement s'améliorent souvent après quelques jours.",
+          "en": "Les effets du début du traitement s'améliorent souvent après quelques jours."
+        }
+      },
+      "essential": {
+        "fr": "Aide l'intestin à retrouver un fonctionnement plus régulier afin de soulager la constipation chronique.",
+        "en": "Aide l'intestin à retrouver un fonctionnement plus régulier afin de soulager la constipation chronique."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent prescrit lorsque la constipation persiste malgré les changements alimentaires ou d'autres traitements. Il aide l'intestin à évacuer les selles plus facilement et plus régulièrement.",
+        "en": "Il est souvent prescrit lorsque la constipation persiste malgré les changements alimentaires ou d'autres traitements. Il aide l'intestin à évacuer les selles plus facilement et plus régulièrement."
+      },
+      "goodToKnow": {
+        "fr": "Des maux de tête, des douleurs abdominales ou de la diarrhée peuvent survenir, surtout au début du traitement. Ces effets diminuent souvent après quelques jours.\n\nLes effets du début du traitement s'améliorent souvent après quelques jours.",
+        "en": "Des maux de tête, des douleurs abdominales ou de la diarrhée peuvent survenir, surtout au début du traitement. Ces effets diminuent souvent après quelques jours.\n\nLes effets du début du traitement s'améliorent souvent après quelques jours."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez rapidement si la diarrhée est importante ou persistante, si vous présentez des douleurs abdominales importantes ou si votre état se détériore.",
+        "en": "Consultez rapidement si la diarrhée est importante ou persistante, si vous présentez des douleurs abdominales importantes ou si votre état se détériore."
       }
     },
     {
@@ -835,31 +1964,35 @@
       "enabled": true,
       "status": "approved",
       "name": {
-        "fr": "Quetiapine",
+        "fr": "Quétiapine",
         "en": "Quetiapine"
       },
       "category": {
         "fr": "Sommeil et système nerveux",
-        "en": "Sleep and nervous system"
+        "en": "Mental health medication"
       },
       "brands": {
         "fr": "Seroquel",
         "en": "Seroquel"
       },
+      "aliases": {
+        "fr": "Seroquel",
+        "en": "Seroquel"
+      },
       "essential": {
-        "fr": "Peut aider certains symptômes d'humeur ou de pensée.",
+        "fr": "Aide à stabiliser l'humeur et à calmer certains symptômes du système nerveux.",
         "en": "Can help certain mood or thought symptoms."
       },
       "whyTaken": {
-        "fr": "Peut aider certains symptômes d'humeur ou de pensée.",
+        "fr": "Il est souvent prescrit lorsque des difficultés importantes liées à l'humeur, à l'anxiété, au sommeil ou à la pensée rendent le quotidien plus difficile. Selon la situation, il peut être utilisé pour différentes raisons.",
         "en": "Can help certain mood or thought symptoms."
       },
       "goodToKnow": {
-        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "fr": "Ce médicament peut provoquer de la somnolence, surtout au début du traitement ou après une augmentation de la dose. Si cela vous arrive, évitez de conduire ou d'utiliser des machines jusqu'à ce que vous sachiez comment il vous affecte.",
         "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
       },
       "whenToGetHelp": {
-        "fr": "Demandez rapidement de l'aide si la personne parle de se faire du mal, devient très agitée ou confuse.",
+        "fr": "Consultez rapidement si vous présentez une forte fièvre accompagnée d'une grande raideur musculaire, si vous perdez connaissance ou si votre état se détériore rapidement.",
         "en": "Ask for help promptly if the person talks about self-harm, becomes very agitated, or seems confused."
       }
     },
@@ -873,26 +2006,30 @@
       },
       "category": {
         "fr": "Cœur et circulation",
-        "en": "Heart and circulation"
+        "en": "Blood pressure medication"
       },
       "brands": {
         "fr": "Altace",
         "en": "Altace"
       },
+      "aliases": {
+        "fr": "Altace",
+        "en": "Altace"
+      },
       "essential": {
-        "fr": "Aide à diminuer la pression artérielle.",
+        "fr": "Aide à diminuer la pression artérielle et à protéger le cœur et les vaisseaux sanguins.",
         "en": "Helps lower blood pressure."
       },
       "whyTaken": {
-        "fr": "Aide à diminuer la pression artérielle.",
+        "fr": "Il est souvent prescrit chez les personnes qui ont une pression artérielle élevée. Il peut aussi être utilisé pour protéger le cœur après certains problèmes cardiovasculaires ou lorsque celui-ci pompe moins efficacement.",
         "en": "Helps lower blood pressure."
       },
       "goodToKnow": {
-        "fr": "Des étourdissements peuvent arriver, surtout en se levant. Vérifiez avec un professionnel de la santé si cela persiste.",
+        "fr": "Une toux sèche peut parfois apparaître pendant le traitement. Si elle devient persistante ou dérangeante, parlez-en à un professionnel de la santé. Des étourdissements peuvent aussi survenir, surtout au début du traitement ou en se levant rapidement.",
         "en": "Dizziness can happen, especially when standing. Check with a healthcare professional if it persists."
       },
       "whenToGetHelp": {
-        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "fr": "Les réactions importantes demeurent rares. Consultez rapidement si un gonflement du visage, des lèvres ou de la langue apparaît, si vous perdez connaissance ou si vous ressentez un malaise important.",
         "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
       }
     },
@@ -938,27 +2075,38 @@
         "en": "Rivaroxaban"
       },
       "category": {
-        "fr": "Sang",
-        "en": "Blood"
+        "fr": "Prévention des caillots",
+        "en": "Anticoagulant"
       },
       "brands": {
         "fr": "Xarelto",
         "en": "Xarelto"
       },
+      "aliases": {
+        "fr": "Xarelto",
+        "en": "Xarelto"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Tout saignement important ou inhabituel doit être pris au sérieux.",
+          "en": "Tout saignement important ou inhabituel doit être pris au sérieux."
+        }
+      },
       "essential": {
-        "fr": "Aide à prévenir la formation de caillots sanguins.",
+        "fr": "Aide à prévenir la formation de caillots pour réduire le risque d'un AVC ou d'autres complications graves.",
         "en": "Helps prevent blood clots from forming."
       },
       "whyTaken": {
-        "fr": "Aide à prévenir la formation de caillots sanguins.",
+        "fr": "Il est souvent prescrit chez les personnes qui présentent une fibrillation auriculaire pour réduire le risque d'AVC, ou pour traiter et prévenir certains caillots dans les veines ou les poumons.",
         "en": "Helps prevent blood clots from forming."
       },
       "goodToKnow": {
-        "fr": "Les bleus ou saignements peuvent être plus fréquents. Vérifiez avec un pharmacien avant d'ajouter un nouveau médicament.",
+        "fr": "Comme ce médicament rend le sang moins apte à coaguler, les saignements peuvent être plus importants ou durer plus longtemps. Informez toujours un professionnel de la santé avant de commencer un nouveau médicament, même vendu sans ordonnance.\n\nTout saignement important ou inhabituel doit être pris au sérieux.",
         "en": "Bruising or bleeding may happen more often. Check with a pharmacist before adding a new medication."
       },
       "whenToGetHelp": {
-        "fr": "Demandez rapidement conseil si un saignement est important, ne cesse pas, ou après une chute avec coup à la tête.",
+        "fr": "Consultez rapidement si un saignement est important ou ne cesse pas, si vous présentez des selles noires, des vomissements contenant du sang ou si vous faites une chute avec un coup à la tête.",
         "en": "Ask for help promptly if bleeding is heavy, does not stop, or after a fall with a blow to the head."
       }
     },
@@ -972,27 +2120,68 @@
       },
       "category": {
         "fr": "Cœur et circulation",
-        "en": "Heart and circulation"
+        "en": "Cholesterol medication"
       },
       "brands": {
         "fr": "Crestor",
         "en": "Crestor"
       },
+      "aliases": {
+        "fr": "Crestor",
+        "en": "Crestor"
+      },
       "essential": {
-        "fr": "Aide à diminuer le cholestérol.",
+        "fr": "Aide à diminuer le cholestérol pour protéger le cœur et les vaisseaux sanguins.",
         "en": "Helps lower cholesterol."
       },
       "whyTaken": {
-        "fr": "Aide à diminuer le cholestérol.",
+        "fr": "Il est souvent prescrit chez les personnes qui ont un taux de cholestérol élevé ou qui ont déjà eu un infarctus, un AVC ou un autre problème du cœur ou des vaisseaux sanguins pour réduire le risque de complications futures.",
         "en": "Helps lower cholesterol."
       },
       "goodToKnow": {
-        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "fr": "Un taux élevé de cholestérol ne provoque généralement aucun symptôme. Il est donc important de continuer ce traitement chaque jour, même lorsque la personne se sent bien.",
         "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
       },
       "whenToGetHelp": {
-        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "fr": "Consultez rapidement si vous ressentez des douleurs musculaires importantes, une faiblesse inhabituelle ou si votre peau ou le blanc de vos yeux deviennent jaunes.",
         "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "sacubitril_valsartan",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Sacubitril / Valsartan",
+        "en": "Sacubitril/valsartan"
+      },
+      "category": {
+        "fr": "Cœur et circulation",
+        "en": "Cœur et circulation"
+      },
+      "brands": {
+        "fr": "Entresto",
+        "en": "Entresto"
+      },
+      "aliases": {
+        "fr": "Entresto",
+        "en": "Entresto"
+      },
+      "essential": {
+        "fr": "Aide le cœur à fonctionner plus efficacement et à diminuer les symptômes de l'insuffisance cardiaque.",
+        "en": "Aide le cœur à fonctionner plus efficacement et à diminuer les symptômes de l'insuffisance cardiaque."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent prescrit chez les personnes dont le cœur pompe moins efficacement, une condition appelée insuffisance cardiaque. Il aide le cœur à travailler plus efficacement et à réduire le risque de complications.",
+        "en": "Il est souvent prescrit chez les personnes dont le cœur pompe moins efficacement, une condition appelée insuffisance cardiaque. Il aide le cœur à travailler plus efficacement et à réduire le risque de complications."
+      },
+      "goodToKnow": {
+        "fr": "Ce traitement aide votre cœur sur le long terme. Même si vous ne remarquez pas immédiatement une amélioration, il est important de le prendre régulièrement comme prescrit.",
+        "en": "Ce traitement aide votre cœur sur le long terme. Même si vous ne remarquez pas immédiatement une amélioration, il est important de le prendre régulièrement comme prescrit."
+      },
+      "whenToGetHelp": {
+        "fr": "Les réactions importantes demeurent rares. Consultez rapidement si un gonflement du visage, des lèvres ou de la langue apparaît, si vous perdez connaissance ou si votre essoufflement s'aggrave rapidement.",
+        "en": "Les réactions importantes demeurent rares. Consultez rapidement si un gonflement du visage, des lèvres ou de la langue apparaît, si vous perdez connaissance ou si votre essoufflement s'aggrave rapidement."
       }
     },
     {
@@ -1005,27 +2194,126 @@
       },
       "category": {
         "fr": "Respiration",
-        "en": "Breathing"
+        "en": "Reliever inhaler"
       },
       "brands": {
         "fr": "Ventolin",
         "en": "Ventolin, Albuterol"
       },
+      "aliases": {
+        "fr": "Ventolin",
+        "en": "Ventolin, Albuterol"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Gardez toujours votre inhalateur de secours à portée de main.",
+          "en": "Gardez toujours votre inhalateur de secours à portée de main."
+        }
+      },
       "essential": {
-        "fr": "Aide à respirer lors d'une crise ou d'un essoufflement.",
+        "fr": "Aide à soulager rapidement l'essoufflement pendant une crise.",
         "en": "Helps breathing during a flare-up or shortness of breath."
       },
       "whyTaken": {
-        "fr": "Aide à respirer lors d'une crise ou d'un essoufflement.",
+        "fr": "Il est souvent utilisé lors d'une crise d'asthme ou lorsque la respiration devient soudainement difficile. Il agit rapidement pour ouvrir les voies respiratoires et faciliter la respiration.",
         "en": "Helps breathing during a flare-up or shortness of breath."
       },
       "goodToKnow": {
-        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "fr": "Ce médicament agit rapidement, mais son effet est de courte durée. Si vous devez l'utiliser plus souvent qu'à l'habitude, il est important d'en parler à un professionnel de la santé, car cela peut signifier que l'asthme est moins bien contrôlé.\n\nGardez toujours votre inhalateur de secours à portée de main.",
         "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
       },
       "whenToGetHelp": {
-        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "fr": "Consultez rapidement si l'essoufflement ne s'améliore pas après l'utilisation de l'inhalateur, revient rapidement ou devient plus important malgré le traitement.",
         "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "salbutamol_ipratropium",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Salbutamol / Ipratropium",
+        "en": "Salbutamol/Ipratropium"
+      },
+      "category": {
+        "fr": "Respiration",
+        "en": "Respiration"
+      },
+      "brands": {
+        "fr": "Combivent",
+        "en": "Combivent"
+      },
+      "aliases": {
+        "fr": "Combivent",
+        "en": "Combivent"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Gardez toujours votre inhalateur de secours à portée de main.",
+          "en": "Gardez toujours votre inhalateur de secours à portée de main."
+        }
+      },
+      "essential": {
+        "fr": "Aide à ouvrir rapidement les voies respiratoires afin de faciliter la respiration.",
+        "en": "Aide à ouvrir rapidement les voies respiratoires afin de faciliter la respiration."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent utilisé lorsque la respiration devient difficile en raison d'une maladie pulmonaire, comme la MPOC ou parfois l'asthme. Il agit rapidement pour soulager l'essoufflement.",
+        "en": "Il est souvent utilisé lorsque la respiration devient difficile en raison d'une maladie pulmonaire, comme la MPOC ou parfois l'asthme. Il agit rapidement pour soulager l'essoufflement."
+      },
+      "goodToKnow": {
+        "fr": "Cet inhalateur agit rapidement, mais son effet est de courte durée. Utilisez-le selon les recommandations qui vous ont été données. Si vous devez l'utiliser plus souvent qu'à l'habitude, parlez-en à un professionnel de la santé.\n\nGardez toujours votre inhalateur de secours à portée de main.",
+        "en": "Cet inhalateur agit rapidement, mais son effet est de courte durée. Utilisez-le selon les recommandations qui vous ont été données. Si vous devez l'utiliser plus souvent qu'à l'habitude, parlez-en à un professionnel de la santé.\n\nGardez toujours votre inhalateur de secours à portée de main."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez rapidement si votre respiration ne s'améliore pas après l'utilisation de l'inhalateur, revient rapidement ou devient plus difficile malgré le traitement.",
+        "en": "Consultez rapidement si votre respiration ne s'améliore pas après l'utilisation de l'inhalateur, revient rapidement ou devient plus difficile malgré le traitement."
+      }
+    },
+    {
+      "id": "semaglutide",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Sémaglutide",
+        "en": "Semaglutide"
+      },
+      "category": {
+        "fr": "Diabète",
+        "en": "Diabète"
+      },
+      "brands": {
+        "fr": "Ozempic, Rybelsus",
+        "en": "Ozempic, Rybelsus"
+      },
+      "aliases": {
+        "fr": "Ozempic, Rybelsus",
+        "en": "Ozempic, Rybelsus"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Les nausées du début sont souvent temporaires et s'améliorent progressivement.",
+          "en": "Les nausées du début sont souvent temporaires et s'améliorent progressivement."
+        }
+      },
+      "essential": {
+        "fr": "Aide à mieux contrôler le taux de sucre dans le sang.",
+        "en": "Aide à mieux contrôler le taux de sucre dans le sang."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent prescrit chez les personnes qui vivent avec le diabète afin d'aider à maintenir un taux de sucre plus stable. Selon la situation, il peut aussi être utilisé dans le cadre d'une démarche de perte de poids.",
+        "en": "Il est souvent prescrit chez les personnes qui vivent avec le diabète afin d'aider à maintenir un taux de sucre plus stable. Selon la situation, il peut aussi être utilisé dans le cadre d'une démarche de perte de poids."
+      },
+      "goodToKnow": {
+        "fr": "Des nausées, une diminution de l'appétit ou des malaises digestifs peuvent survenir, surtout au début du traitement. Ces effets diminuent souvent avec le temps. Manger plus lentement et en plus petites portions aide généralement à mieux les tolérer.\n\nLes nausées du début sont souvent temporaires et s'améliorent progressivement.",
+        "en": "Des nausées, une diminution de l'appétit ou des malaises digestifs peuvent survenir, surtout au début du traitement. Ces effets diminuent souvent avec le temps. Manger plus lentement et en plus petites portions aide généralement à mieux les tolérer.\n\nLes nausées du début sont souvent temporaires et s'améliorent progressivement."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez rapidement si vous présentez une douleur importante et persistante au haut de l'abdomen, surtout si elle s'accompagne de vomissements, ou si les vomissements sont importants et empêchent de boire ou de manger.",
+        "en": "Consultez rapidement si vous présentez une douleur importante et persistante au haut de l'abdomen, surtout si elle s'accompagne de vomissements, ou si les vomissements sont importants et empêchent de boire ou de manger."
       }
     },
     {
@@ -1038,26 +2326,37 @@
       },
       "category": {
         "fr": "Sommeil et système nerveux",
-        "en": "Sleep and nervous system"
+        "en": "Mood medication"
       },
       "brands": {
         "fr": "Zoloft",
         "en": "Zoloft"
       },
+      "aliases": {
+        "fr": "Zoloft",
+        "en": "Zoloft"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "L'amélioration prend du temps. Continuez le traitement comme prescrit.",
+          "en": "L'amélioration prend du temps. Continuez le traitement comme prescrit."
+        }
+      },
       "essential": {
-        "fr": "Utilisée notamment pour la dépression et l'anxiété.",
+        "fr": "Aide à améliorer l'humeur et à diminuer les symptômes de la dépression ou de l'anxiété.",
         "en": "Used for depression and anxiety, among other conditions."
       },
       "whyTaken": {
-        "fr": "Utilisée notamment pour la dépression et l'anxiété.",
+        "fr": "Il est souvent prescrit lorsque la tristesse, les inquiétudes ou l'anxiété rendent le quotidien plus difficile. Il peut aider à retrouver progressivement un meilleur équilibre.",
         "en": "Used for depression and anxiety, among other conditions."
       },
       "goodToKnow": {
-        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "fr": "Ce médicament agit progressivement. Il faut souvent attendre plusieurs semaines avant d'en ressentir tous les bienfaits. Continuez le traitement comme prescrit, même si l'amélioration n'est pas immédiate.\n\nL'amélioration prend du temps. Continuez le traitement comme prescrit.",
         "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
       },
       "whenToGetHelp": {
-        "fr": "Demandez rapidement de l'aide si la personne parle de se faire du mal, devient très agitée ou confuse.",
+        "fr": "Les réactions importantes à ce médicament demeurent peu fréquentes. Restez attentif à tout changement important de l'humeur ou du comportement. N'hésitez pas à demander de l'aide rapidement si vous ou un proche ressentez une grande détresse, avez des idées de vous faire du mal ou si l'état se détériore rapidement.",
         "en": "Ask for help promptly if the person talks about self-harm, becomes very agitated, or seems confused."
       }
     },
@@ -1071,26 +2370,37 @@
       },
       "category": {
         "fr": "Cœur et circulation",
-        "en": "Heart and circulation"
+        "en": "Diuretic"
       },
       "brands": {
         "fr": "Aldactone",
         "en": "Aldactone"
       },
+      "aliases": {
+        "fr": "Aldactone",
+        "en": "Aldactone"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Présentez-vous aux prises de sang qui vous sont demandées pendant le traitement.",
+          "en": "Présentez-vous aux prises de sang qui vous sont demandées pendant le traitement."
+        }
+      },
       "essential": {
-        "fr": "Aide à gérer certains surplus de liquide.",
+        "fr": "Aide le corps à éliminer l'excès d'eau tout en aidant le cœur à mieux fonctionner.",
         "en": "Helps manage certain fluid buildup."
       },
       "whyTaken": {
-        "fr": "Aide à gérer certains surplus de liquide.",
+        "fr": "Il est souvent prescrit lorsque le corps retient trop d'eau ou lorsque le cœur pompe moins efficacement, une condition appelée insuffisance cardiaque. Il aide à diminuer l'enflure, l'essoufflement et le risque de complications.",
         "en": "Helps manage certain fluid buildup."
       },
       "goodToKnow": {
-        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "fr": "Ce médicament agit progressivement. Des analyses de sang sont parfois nécessaires afin de vérifier que le traitement demeure bien adapté. Prenez le médicament exactement comme il vous a été prescrit.\n\nPrésentez-vous aux prises de sang qui vous sont demandées pendant le traitement.",
         "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
       },
       "whenToGetHelp": {
-        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "fr": "Consultez rapidement si vous ressentez une grande faiblesse, des palpitations importantes, si vous perdez connaissance ou si votre essoufflement s'aggrave rapidement.",
         "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
       }
     },
@@ -1128,6 +2438,94 @@
       }
     },
     {
+      "id": "tobramycin_ophthalmic",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Tobramycine ophtalmique",
+        "en": "Tobramycin ophthalmic"
+      },
+      "category": {
+        "fr": "Santé des yeux",
+        "en": "Santé des yeux"
+      },
+      "brands": {
+        "fr": "Tobrex",
+        "en": "Tobrex"
+      },
+      "aliases": {
+        "fr": "Tobrex",
+        "en": "Tobrex"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Même si l'œil semble guéri, le traitement doit être poursuivi jusqu'à la fin.",
+          "en": "Même si l'œil semble guéri, le traitement doit être poursuivi jusqu'à la fin."
+        }
+      },
+      "essential": {
+        "fr": "Aide à traiter certaines infections bactériennes de l'œil.",
+        "en": "Aide à traiter certaines infections bactériennes de l'œil."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent prescrit lorsque l'œil est infecté et présente des rougeurs, un écoulement ou une irritation causés par une bactérie.",
+        "en": "Il est souvent prescrit lorsque l'œil est infecté et présente des rougeurs, un écoulement ou une irritation causés par une bactérie."
+      },
+      "goodToKnow": {
+        "fr": "Les symptômes s'améliorent souvent avant que l'infection soit complètement guérie. Il est important de poursuivre le traitement pendant toute la durée prescrite. Évitez de toucher l'œil ou les cils avec l'embout du flacon afin de garder les gouttes propres.\n\nMême si l'œil semble guéri, le traitement doit être poursuivi jusqu'à la fin.",
+        "en": "Les symptômes s'améliorent souvent avant que l'infection soit complètement guérie. Il est important de poursuivre le traitement pendant toute la durée prescrite. Évitez de toucher l'œil ou les cils avec l'embout du flacon afin de garder les gouttes propres.\n\nMême si l'œil semble guéri, le traitement doit être poursuivi jusqu'à la fin."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez rapidement si la douleur augmente, si votre vision diminue, si l'œil devient très enflé ou si les symptômes ne commencent pas à s'améliorer après quelques jours de traitement.",
+        "en": "Consultez rapidement si la douleur augmente, si votre vision diminue, si l'œil devient très enflé ou si les symptômes ne commencent pas à s'améliorer après quelques jours de traitement."
+      }
+    },
+    {
+      "id": "tretinoin_topical",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Trétinoïne topique",
+        "en": "Tretinoin topical"
+      },
+      "category": {
+        "fr": "Peau",
+        "en": "Peau"
+      },
+      "brands": {
+        "fr": "Stieva-A, Retin-A",
+        "en": "Stieva-A, Retin-A"
+      },
+      "aliases": {
+        "fr": "Stieva-A, Retin-A",
+        "en": "Stieva-A, Retin-A"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Protégez votre peau du soleil pendant le traitement.",
+          "en": "Protégez votre peau du soleil pendant le traitement."
+        }
+      },
+      "essential": {
+        "fr": "Aide à améliorer l'acné en favorisant le renouvellement de la peau.",
+        "en": "Aide à améliorer l'acné en favorisant le renouvellement de la peau."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent prescrit lorsque les boutons persistent malgré les soins habituels. Utilisé régulièrement, il aide à dégager les pores et à améliorer progressivement l'apparence de la peau.",
+        "en": "Il est souvent prescrit lorsque les boutons persistent malgré les soins habituels. Utilisé régulièrement, il aide à dégager les pores et à améliorer progressivement l'apparence de la peau."
+      },
+      "goodToKnow": {
+        "fr": "Il est normal que la peau devienne plus sèche, plus sensible ou légèrement irritée au début du traitement. Ces effets diminuent souvent avec le temps. Utilisez une crème hydratante au besoin et protégez votre peau du soleil.\n\nProtégez votre peau du soleil pendant le traitement.",
+        "en": "Il est normal que la peau devienne plus sèche, plus sensible ou légèrement irritée au début du traitement. Ces effets diminuent souvent avec le temps. Utilisez une crème hydratante au besoin et protégez votre peau du soleil.\n\nProtégez votre peau du soleil pendant le traitement."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez rapidement si l'irritation devient importante, si la peau présente un gonflement marqué ou si une réaction allergique apparaît.",
+        "en": "Consultez rapidement si l'irritation devient importante, si la peau présente un gonflement marqué ou si une réaction allergique apparaît."
+      }
+    },
+    {
       "id": "valsartan",
       "enabled": true,
       "status": "approved",
@@ -1158,6 +2556,50 @@
       "whenToGetHelp": {
         "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
         "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "valsartan_hydrochlorothiazide",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Valsartan / Hydrochlorothiazide",
+        "en": "Valsartan/Hydrochlorothiazide"
+      },
+      "category": {
+        "fr": "Cœur et circulation",
+        "en": "Cœur et circulation"
+      },
+      "brands": {
+        "fr": "Diovan HCT",
+        "en": "Diovan HCT"
+      },
+      "aliases": {
+        "fr": "Diovan HCT",
+        "en": "Diovan HCT"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Prenez ce médicament de préférence le matin.",
+          "en": "Prenez ce médicament de préférence le matin."
+        }
+      },
+      "essential": {
+        "fr": "Aide à diminuer la pression artérielle afin de protéger le cœur et les vaisseaux sanguins.",
+        "en": "Aide à diminuer la pression artérielle afin de protéger le cœur et les vaisseaux sanguins."
+      },
+      "whyTaken": {
+        "fr": "Il est souvent prescrit lorsque plusieurs médicaments sont nécessaires pour bien contrôler une pression artérielle élevée. Cette association aide à mieux protéger le cœur et les vaisseaux sanguins à long terme.",
+        "en": "Il est souvent prescrit lorsque plusieurs médicaments sont nécessaires pour bien contrôler une pression artérielle élevée. Cette association aide à mieux protéger le cœur et les vaisseaux sanguins à long terme."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament peut augmenter la quantité d'urine produite, surtout au début du traitement. Il est souvent plus pratique de le prendre le matin afin de limiter les déplacements aux toilettes pendant la nuit.\n\nPrenez ce médicament de préférence le matin.",
+        "en": "Ce médicament peut augmenter la quantité d'urine produite, surtout au début du traitement. Il est souvent plus pratique de le prendre le matin afin de limiter les déplacements aux toilettes pendant la nuit.\n\nPrenez ce médicament de préférence le matin."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez rapidement si vous perdez connaissance, si vous ressentez des étourdissements importants qui persistent ou si votre état se détériore malgré le traitement.",
+        "en": "Consultez rapidement si vous perdez connaissance, si vous ressentez des étourdissements importants qui persistent ou si votre état se détériore malgré le traitement."
       }
     },
     {
@@ -1202,27 +2644,38 @@
         "en": "Warfarin"
       },
       "category": {
-        "fr": "Sang",
-        "en": "Blood"
+        "fr": "Prévention des caillots",
+        "en": "Anticoagulant"
       },
       "brands": {
         "fr": "Coumadin",
         "en": "Coumadin"
       },
+      "aliases": {
+        "fr": "Coumadin",
+        "en": "Coumadin"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Il est important de respecter les prises de sang et les ajustements de dose recommandés.",
+          "en": "Il est important de respecter les prises de sang et les ajustements de dose recommandés."
+        }
+      },
       "essential": {
-        "fr": "Aide à prévenir certains caillots sanguins.",
+        "fr": "Aide à prévenir certains caillots afin de réduire le risque d'un AVC ou d'autres complications graves.",
         "en": "Helps prevent certain blood clots."
       },
       "whyTaken": {
-        "fr": "Aide à prévenir certains caillots sanguins.",
+        "fr": "Il est souvent prescrit chez les personnes qui présentent une fibrillation auriculaire, qui portent une valve cardiaque mécanique ou qui ont déjà eu certains caillots afin de réduire le risque de nouvelles complications.",
         "en": "Helps prevent certain blood clots."
       },
       "goodToKnow": {
-        "fr": "Les bleus ou saignements peuvent être plus fréquents. Vérifiez avec un pharmacien avant d'ajouter un nouveau médicament.",
+        "fr": "La dose de ce médicament peut devoir être ajustée selon les résultats de prises de sang régulières. Informez toujours un professionnel de la santé avant de commencer un nouveau médicament, même vendu sans ordonnance, car plusieurs médicaments peuvent modifier son effet.\n\nIl est important de respecter les prises de sang et les ajustements de dose recommandés.",
         "en": "Bruising or bleeding may happen more often. Check with a pharmacist before adding a new medication."
       },
       "whenToGetHelp": {
-        "fr": "Demandez rapidement conseil si un saignement est important, ne cesse pas, ou après une chute avec coup à la tête.",
+        "fr": "Consultez rapidement si un saignement est important ou ne cesse pas, si vous présentez des selles noires, des vomissements contenant du sang ou si vous faites une chute avec un coup à la tête.",
         "en": "Ask for help promptly if bleeding is heavy, does not stop, or after a fall with a blow to the head."
       }
     },
@@ -1236,26 +2689,37 @@
       },
       "category": {
         "fr": "Sommeil et système nerveux",
-        "en": "Sleep and nervous system"
+        "en": "Sleep medication"
       },
       "brands": {
         "fr": "Imovane",
         "en": "Imovane"
       },
+      "aliases": {
+        "fr": "Imovane",
+        "en": "Imovane"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Prévoyez une nuit complète de sommeil après avoir pris ce médicament.",
+          "en": "Prévoyez une nuit complète de sommeil après avoir pris ce médicament."
+        }
+      },
       "essential": {
-        "fr": "Peut aider à dormir dans certaines situations.",
+        "fr": "Aide à s'endormir plus facilement lors d'une période d'insomnie.",
         "en": "Can help with sleep in certain situations."
       },
       "whyTaken": {
-        "fr": "Peut aider à dormir dans certaines situations.",
+        "fr": "Il est souvent prescrit lorsque les difficultés à dormir rendent les journées plus difficiles. Il est généralement utilisé pour une courte période.",
         "en": "Can help with sleep in certain situations."
       },
       "goodToKnow": {
-        "fr": "Ce médicament peut avoir plusieurs usages. Vérifiez avec un professionnel de la santé si quelque chose n'est pas clair.",
+        "fr": "Ce médicament peut provoquer de la somnolence au réveil, surtout si la nuit de sommeil est trop courte.\n\nPrévoyez une nuit complète de sommeil après avoir pris ce médicament.",
         "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
       },
       "whenToGetHelp": {
-        "fr": "Demandez conseil si un nouveau symptôme inquiète, s'aggrave ou perturbe le quotidien.",
+        "fr": "Consultez rapidement si vous présentez une confusion importante, un comportement inhabituel pendant le sommeil ou une somnolence importante qui persiste durant la journée.",
         "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
       }
     }
