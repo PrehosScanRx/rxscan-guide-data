@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "contentVersion": "clinical-reference-2026-07-13-v3",
-  "generatedAt": "2026-07-14T03:18:49.660Z",
+  "generatedAt": "2026-07-14T05:02:38.745Z",
   "medications": [
     {
       "id": "acarbose",
@@ -26,8 +26,8 @@
       "keyMessage": {
         "section": "goodToKnow",
         "text": {
-          "fr": "Prenez ce médicament au début de chaque repas.",
-          "en": "Prenez ce médicament au début de chaque repas."
+          "fr": "Prenez ce médicament au début du repas afin qu'il puisse agir efficacement.",
+          "en": "Prenez ce médicament au début du repas afin qu'il puisse agir efficacement."
         }
       },
       "essential": {
@@ -35,16 +35,16 @@
         "en": "Aide à diminuer le taux de sucre dans le sang après les repas."
       },
       "whyTaken": {
-        "fr": "Il est souvent prescrit chez les personnes qui vivent avec le diabète lorsque le taux de sucre augmente surtout après les repas. Il aide à mieux contrôler la glycémie et à réduire le risque de complications à long terme.",
-        "en": "Il est souvent prescrit chez les personnes qui vivent avec le diabète lorsque le taux de sucre augmente surtout après les repas. Il aide à mieux contrôler la glycémie et à réduire le risque de complications à long terme."
+        "fr": "Il est souvent prescrit chez les personnes qui vivent avec le diabète lorsque le taux de sucre augmente surtout après les repas. Il aide à mieux contrôler le taux de sucre et à réduire le risque de complications à long terme.",
+        "en": "Il est souvent prescrit chez les personnes qui vivent avec le diabète lorsque le taux de sucre augmente surtout après les repas. Il aide à mieux contrôler le taux de sucre et à réduire le risque de complications à long terme."
       },
       "goodToKnow": {
-        "fr": "Ce médicament agit sur la digestion des sucres et doit être pris au début d'un repas pour être pleinement efficace. Des gaz, des ballonnements ou des diarrhées peuvent parfois survenir, surtout au début du traitement.\n\nPrenez ce médicament au début de chaque repas.",
-        "en": "Ce médicament agit sur la digestion des sucres et doit être pris au début d'un repas pour être pleinement efficace. Des gaz, des ballonnements ou des diarrhées peuvent parfois survenir, surtout au début du traitement.\n\nPrenez ce médicament au début de chaque repas."
+        "fr": "Ce médicament agit sur la digestion des sucres et doit être pris au début d'un repas pour être pleinement efficace. Des gaz, des ballonnements ou de la diarrhée peuvent parfois survenir, surtout au début du traitement.\n\nPrenez ce médicament au début du repas afin qu'il puisse agir efficacement.",
+        "en": "Ce médicament agit sur la digestion des sucres et doit être pris au début d'un repas pour être pleinement efficace. Des gaz, des ballonnements ou de la diarrhée peuvent parfois survenir, surtout au début du traitement.\n\nPrenez ce médicament au début du repas afin qu'il puisse agir efficacement."
       },
       "whenToGetHelp": {
-        "fr": "Consultez rapidement si les douleurs abdominales sont importantes, si la diarrhée est importante ou persistante, ou si votre état se détériore malgré le traitement.",
-        "en": "Consultez rapidement si les douleurs abdominales sont importantes, si la diarrhée est importante ou persistante, ou si votre état se détériore malgré le traitement."
+        "fr": "Consultez rapidement si les douleurs abdominales sont importantes, si de la diarrhée est importante ou persistante, ou si votre état se détériore malgré le traitement.",
+        "en": "Consultez rapidement si les douleurs abdominales sont importantes, si de la diarrhée est importante ou persistante, ou si votre état se détériore malgré le traitement."
       }
     },
     {
@@ -374,7 +374,7 @@
         "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
       },
       "whenToGetHelp": {
-        "fr": "Consultez rapidement si vous ressentez des douleurs musculaires importantes, une faiblesse inhabituelle ou si votre peau ou le blanc de vos yeux deviennent jaunes.",
+        "fr": "Consultez rapidement si vous ressentez des douleurs musculaires importantes ou inexpliquées, une faiblesse inhabituelle ou si votre peau ou le blanc de vos yeux deviennent jaunes.",
         "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
       }
     },
@@ -624,7 +624,7 @@
         "en": "Dizziness can happen, especially when standing. Check with a healthcare professional if it persists."
       },
       "whenToGetHelp": {
-        "fr": "Les réactions importantes sont rares. Consultez rapidement si un gonflement du visage, des lèvres ou de la langue apparaît, ou si vous ressentez un malaise important ou perdez connaissance.",
+        "fr": "Les réactions importantes demeurent rares. Consultez rapidement si un gonflement du visage, des lèvres ou de la langue apparaît, si vous perdez connaissance ou si vous vous sentez très faible ou étourdi.",
         "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
       }
     },
@@ -664,8 +664,8 @@
         "en": "Il est souvent utilisé lorsque les yeux sont secs, irrités, sensibles ou donnent une sensation de brûlure ou de sable. Il aide à garder les yeux bien lubrifiés et plus confortables."
       },
       "goodToKnow": {
-        "fr": "À savoir\n\nVous pouvez utiliser ces gouttes selon les recommandations qui vous ont été données ou lorsque les symptômes réapparaissent.\n\nÉvitez de toucher l'œil ou les cils avec l'embout du flacon et refermez toujours le flacon après chaque utilisation afin de préserver la qualité des gouttes.",
-        "en": "À savoir\n\nVous pouvez utiliser ces gouttes selon les recommandations qui vous ont été données ou lorsque les symptômes réapparaissent.\n\nÉvitez de toucher l'œil ou les cils avec l'embout du flacon et refermez toujours le flacon après chaque utilisation afin de préserver la qualité des gouttes."
+        "fr": "Vous pouvez utiliser ces gouttes selon les recommandations qui vous ont été données ou lorsque les symptômes réapparaissent.\n\nÉvitez de toucher l'œil ou les cils avec l'embout du flacon et refermez toujours le flacon après chaque utilisation afin de préserver la qualité des gouttes.",
+        "en": "Vous pouvez utiliser ces gouttes selon les recommandations qui vous ont été données ou lorsque les symptômes réapparaissent.\n\nÉvitez de toucher l'œil ou les cils avec l'embout du flacon et refermez toujours le flacon après chaque utilisation afin de préserver la qualité des gouttes."
       },
       "whenToGetHelp": {
         "fr": "Consultez rapidement si la douleur est importante, si la vision diminue soudainement, si l'œil devient très rouge ou si les symptômes persistent malgré l'utilisation des gouttes.",
@@ -1571,7 +1571,7 @@
         "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
       },
       "whenToGetHelp": {
-        "fr": "Consultez rapidement si vous ressentez des étourdissements importants, si vous perdez connaissance ou si vous présentez une soif intense accompagnée d'une grande faiblesse ou d'une diminution importante de la quantité d'urine.",
+        "fr": "Consultez rapidement si vous ressentez des étourdissements importants, si vous perdez connaissance ou si vous présentez une soif intense accompagnée d'une grande faiblesse ou  si vous urinez beaucoup moins qu'à l'habitude.",
         "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
       }
     },
@@ -1651,8 +1651,8 @@
         "en": "Aide le corps à produire davantage d'insuline afin de diminuer le taux de sucre dans le sang."
       },
       "whyTaken": {
-        "fr": "Il est souvent prescrit chez les personnes qui vivent avec le diabète lorsque le taux de sucre dans le sang demeure trop élevé. Il aide à mieux contrôler la glycémie et à réduire le risque de complications à long terme.",
-        "en": "Il est souvent prescrit chez les personnes qui vivent avec le diabète lorsque le taux de sucre dans le sang demeure trop élevé. Il aide à mieux contrôler la glycémie et à réduire le risque de complications à long terme."
+        "fr": "Il est souvent prescrit chez les personnes qui vivent avec le diabète lorsque le taux de sucre dans le sang demeure trop élevé. Il aide à mieux contrôler le taux de sucre dans le sang et à réduire le risque de complications à long terme.",
+        "en": "Il est souvent prescrit chez les personnes qui vivent avec le diabète lorsque le taux de sucre dans le sang demeure trop élevé. Il aide à mieux contrôler le taux de sucre dans le sang et à réduire le risque de complications à long terme."
       },
       "goodToKnow": {
         "fr": "Ce médicament peut parfois faire baisser le taux de sucre plus que prévu, surtout si un repas est sauté ou retardé. Il est important de prendre les repas régulièrement selon les recommandations reçues.\n\nÉvitez de sauter un repas après avoir pris ce médicament.",
@@ -2391,8 +2391,8 @@
       "keyMessage": {
         "section": "goodToKnow",
         "text": {
-          "fr": "Prenez toujours l'oxycodone exactement comme elle vous a été prescrite.",
-          "en": "Prenez toujours l'oxycodone exactement comme elle vous a été prescrite."
+          "fr": "Prenez toujours l'oxycodone exactement comme il vous a été prescrite.",
+          "en": "Prenez toujours l'oxycodone exactement comme il vous a été prescrite."
         }
       },
       "essential": {
@@ -2404,8 +2404,8 @@
         "en": "Il est souvent prescrit lorsque la douleur est importante et ne peut pas être suffisamment soulagée par d'autres médicaments. Il peut aider à retrouver un meilleur confort et à reprendre plus facilement les activités du quotidien."
       },
       "goodToKnow": {
-        "fr": "L'oxycodone est un médicament puissant qui doit être pris exactement comme il a été prescrit. Lorsqu'il est utilisé correctement, il est un traitement reconnu et sécuritaire pour soulager la douleur. Si vous avez des questions ou des inquiétudes, parlez-en à votre médecin, à votre pharmacien ou à un autre professionnel de la santé.\n\nPrenez toujours l'oxycodone exactement comme elle vous a été prescrite.",
-        "en": "L'oxycodone est un médicament puissant qui doit être pris exactement comme il a été prescrit. Lorsqu'il est utilisé correctement, il est un traitement reconnu et sécuritaire pour soulager la douleur. Si vous avez des questions ou des inquiétudes, parlez-en à votre médecin, à votre pharmacien ou à un autre professionnel de la santé.\n\nPrenez toujours l'oxycodone exactement comme elle vous a été prescrite."
+        "fr": "L'oxycodone est un médicament puissant qui doit être pris exactement comme il a été prescrit. Lorsqu'il est utilisé correctement, il est un traitement reconnu et sécuritaire pour soulager la douleur. Si vous avez des questions ou des inquiétudes, parlez-en à votre médecin, à votre pharmacien ou à un autre professionnel de la santé.\n\nPrenez toujours l'oxycodone exactement comme il vous a été prescrite.",
+        "en": "L'oxycodone est un médicament puissant qui doit être pris exactement comme il a été prescrit. Lorsqu'il est utilisé correctement, il est un traitement reconnu et sécuritaire pour soulager la douleur. Si vous avez des questions ou des inquiétudes, parlez-en à votre médecin, à votre pharmacien ou à un autre professionnel de la santé.\n\nPrenez toujours l'oxycodone exactement comme il vous a été prescrite."
       },
       "whenToGetHelp": {
         "fr": "Consultez immédiatement si la personne est très difficile à réveiller, si sa respiration devient très lente ou difficile, ou si elle perd connaissance.",
@@ -2492,7 +2492,7 @@
         "en": "Helps calm significant inflammation."
       },
       "goodToKnow": {
-        "fr": "Lorsque ce médicament est pris pendant plusieurs jours ou plusieurs semaines, il ne doit généralement pas être arrêté brusquement. Suivez toujours les indications données pour diminuer la dose lorsque cela est nécessaire.\n\nUn traitement prolongé doit habituellement être diminué progressivement avant d'être arrêté.",
+        "fr": "Lorsque ce médicament est pris pendant plusieurs semaines, il ne doit généralement pas être arrêté brusquement. Suivez toujours les indications données pour diminuer la dose lorsque cela est nécessaire.\n\nUn traitement prolongé doit habituellement être diminué progressivement avant d'être arrêté.",
         "en": "This medication can have several uses. Check with a healthcare professional if anything is unclear."
       },
       "whenToGetHelp": {
