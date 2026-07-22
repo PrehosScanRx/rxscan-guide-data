@@ -1,0 +1,8 @@
+*.json text eol=lf
+*.js text eol=lf
+*.md text eol=lf
+
+releases/** text eol=lf
+channels/** text eol=lf
+schema/** text eol=lf
+catalog/** text eol=lf

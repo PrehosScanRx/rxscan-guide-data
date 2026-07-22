@@ -20,3 +20,7 @@ and full SHA-256. A release is valid only when schema, identity, path, byte,
 hash, record, counter, content-version, provenance, and file-set checks pass.
 
 Never edit an existing release. Generate a new release for every correction.
+
+Immutable JSON artifacts are hashed over their exact UTF-8 bytes without a BOM
+and with LF line endings. Repository `.gitattributes` rules enforce LF on every
+platform. Validation rejects CRLF, lone CR, BOM, and any byte/hash mismatch.
