@@ -1,0 +1,23 @@
+{
+  "name": "rxscan-guide-data",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "check": "node scripts/check-js.js",
+    "lint": "npm run check",
+    "validate:catalog": "node scripts/validate-catalog.js",
+    "build:guide-release": "node scripts/build-guide-release.js",
+    "validate:guide-release": "node scripts/validate-guide-release.js",
+    "promote:guide-stable": "node scripts/promote-guide-stable.js",
+    "rollback:guide-stable": "node scripts/rollback-guide-stable.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "ajv": "8.20.0",
+    "ajv-formats": "3.0.1"
+  }
+}
