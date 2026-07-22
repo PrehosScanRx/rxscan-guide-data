@@ -6,6 +6,7 @@ import path from "node:path";
 import test from "node:test";
 import {
   ROOT,
+  assertCanonicalUtf8Lf,
   atomicWriteJson,
   canonicalJson,
   compileSchemas,
@@ -101,6 +102,37 @@ test("Draft 2020-12 schemas compile and reject malformed values", () => {
     const candidate = structuredClone(prepared.manifest);
     mutation(candidate);
     assert.equal(validateManifestSchema(candidate), false);
+  }
+});
+
+test("immutable artifacts reject CRLF and BOM", () => {
+  assert.equal(assertCanonicalUtf8Lf(Buffer.from("{\n}\n")), "{\n}\n");
+  assert.throws(() => assertCanonicalUtf8Lf(Buffer.from("{\r\n}\r\n")), /must use LF/);
+  assert.throws(() => assertCanonicalUtf8Lf(Buffer.from([0xef, 0xbb, 0xbf, 0x7b, 0x7d, 0x0a])), /without BOM/);
+});
+
+test("gitattributes preserve immutable LF bytes across Windows checkout modes", () => {
+  const source = fs.mkdtempSync(path.join(os.tmpdir(), "guide-release-git-source-"));
+  fs.mkdirSync(path.join(source, "releases", "fixture", "catalog"), { recursive: true });
+  fs.copyFileSync(path.join(ROOT, ".gitattributes"), path.join(source, ".gitattributes"));
+  const expected = Buffer.from("{\n  \"fixture\": true\n}\n", "utf8");
+  const artifact = path.join(source, "releases", "fixture", "catalog", "guideCatalog.json");
+  fs.writeFileSync(artifact, expected);
+  const git = (cwd, ...args) => childProcess.execFileSync("git", args, { cwd, stdio: "pipe" });
+  git(source, "init");
+  git(source, "config", "user.name", "Guide Release Test");
+  git(source, "config", "user.email", "guide-release-test@example.invalid");
+  git(source, "add", ".");
+  git(source, "commit", "-m", "fixture");
+  for (const mode of ["true", "input", "false"]) {
+    const clone = fs.mkdtempSync(path.join(os.tmpdir(), `guide-release-git-${mode}-`));
+    fs.rmSync(clone, { recursive: true });
+    childProcess.execFileSync("git", ["-c", `core.autocrlf=${mode}`, "clone", "--quiet", source, clone], { stdio: "pipe" });
+    const checkedOut = fs.readFileSync(path.join(clone, "releases", "fixture", "catalog", "guideCatalog.json"));
+    assert.equal(checkedOut.equals(expected), true, `core.autocrlf=${mode} must preserve exact LF bytes`);
+    assertCanonicalUtf8Lf(checkedOut, `core.autocrlf=${mode}`);
+    const attr = childProcess.execFileSync("git", ["check-attr", "eol", "--", "releases/fixture/catalog/guideCatalog.json"], { cwd: clone, encoding: "utf8" });
+    assert.match(attr, /eol: lf/);
   }
 });
 

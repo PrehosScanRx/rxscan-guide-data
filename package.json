@@ -10,6 +10,7 @@
     "check": "node scripts/check-js.js",
     "lint": "npm run check",
     "validate:catalog": "node scripts/validate-catalog.js",
+    "validate:line-endings": "node scripts/validate-line-endings.js",
     "build:guide-release": "node scripts/build-guide-release.js",
     "validate:guide-release": "node scripts/validate-guide-release.js",
     "promote:guide-stable": "node scripts/promote-guide-stable.js",
