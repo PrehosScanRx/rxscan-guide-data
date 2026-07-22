@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.rxscan.ca/guide-data/guide-channel-pointer-1.0.0.schema.json",
+  "title": "RxScan Guide channel pointer",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "channel", "releaseId", "manifestPath", "manifestSha256", "generation", "promotedAt", "previousReleaseId", "rollbackReason", "approvalId", "releaseHistory"],
+  "properties": {
+    "schemaVersion": { "const": "1.0.0" },
+    "channel": { "const": "stable" },
+    "releaseId": { "type": ["string", "null"] },
+    "manifestPath": { "type": ["string", "null"] },
+    "manifestSha256": { "type": ["string", "null"] },
+    "generation": { "type": "integer", "minimum": 0 },
+    "promotedAt": { "type": ["string", "null"], "format": "date-time" },
+    "previousReleaseId": { "type": ["string", "null"] },
+    "rollbackReason": { "type": ["string", "null"] },
+    "approvalId": { "type": ["string", "null"] },
+    "releaseHistory": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^guide-catalog-[a-z0-9][a-z0-9._-]+\\+[a-f0-9]{12}$" }
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "generation": { "const": 0 } } },
+      "then": { "properties": { "releaseId": { "const": null }, "manifestPath": { "const": null }, "manifestSha256": { "const": null }, "promotedAt": { "const": null }, "previousReleaseId": { "const": null }, "rollbackReason": { "const": null }, "approvalId": { "const": null }, "releaseHistory": { "type": "array", "maxItems": 0 } } },
+      "else": { "properties": { "releaseId": { "type": "string", "pattern": "^guide-catalog-[a-z0-9][a-z0-9._-]+\\+[a-f0-9]{12}$" }, "manifestPath": { "type": "string", "pattern": "^releases/[A-Za-z0-9+._-]+/manifest\\.json$" }, "manifestSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }, "promotedAt": { "type": "string", "format": "date-time" }, "approvalId": { "type": "string", "minLength": 1 }, "releaseHistory": { "type": "array", "minItems": 1 } } }
+    }
+  ]
+}

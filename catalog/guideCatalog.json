@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "clinical-reference-2026-07-13-v3",
-  "generatedAt": "2026-07-14T05:02:38.745Z",
+  "contentVersion": "clinical-reference-2026-07-15-v1",
+  "generatedAt": "2026-07-15T18:46:45.850Z",
   "medications": [
     {
       "id": "acarbose",
@@ -2036,6 +2036,270 @@
       "whenToGetHelp": {
         "fr": "Consultez rapidement si les vomissements ou la diarrhée sont importants ou persistants, si vous ressentez une grande faiblesse inhabituelle accompagnée d'un essoufflement important, ou si votre état se détériore rapidement.",
         "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "methocarbamol",
+      "enabled": true,
+      "status": "review",
+      "name": {
+        "fr": "Méthocarbamol",
+        "en": "Methocarbamol"
+      },
+      "category": {
+        "fr": "Douleur et fièvre",
+        "en": "Pain and fever"
+      },
+      "brands": {
+        "fr": "Robaxin, Robaxin 750, Robaxin Injectable LIQ 100MG/ML",
+        "en": "Robaxin, Robaxin 750, Robaxin Injectable LIQ 100MG/ML"
+      },
+      "aliases": {
+        "fr": "Robaxin, Robaxin 750, Robaxin Injectable LIQ 100MG/ML",
+        "en": "Robaxin, Robaxin 750, Robaxin Injectable LIQ 100MG/ML"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Vérifiez l'étiquette : Robaxin contient du méthocarbamol seulement.",
+          "en": "Check the label: Robaxin contains methocarbamol only."
+        }
+      },
+      "essential": {
+        "fr": "Aide à relâcher les muscles et à soulager les spasmes musculaires douloureux.",
+        "en": "Helps relax muscles and relieve painful muscle spasms."
+      },
+      "whyTaken": {
+        "fr": "Il est utilisé pour soulager temporairement la douleur et la raideur liées à certains spasmes musculaires, par exemple au dos ou au cou.",
+        "en": "It is used for temporary relief of pain and stiffness related to some muscle spasms, such as in the back or neck."
+      },
+      "goodToKnow": {
+        "fr": "Ce médicament peut causer de la somnolence ou des étourdissements. Évitez l'alcool et soyez prudent avant de conduire ou d'utiliser de la machinerie.\n\nVérifiez l'étiquette : Robaxin contient du méthocarbamol seulement.",
+        "en": "This medication may cause drowsiness or dizziness. Avoid alcohol and use caution before driving or operating machinery.\n\nCheck the label: Robaxin contains methocarbamol only."
+      },
+      "whenToGetHelp": {
+        "fr": "Demandez rapidement de l'aide si une réaction allergique importante survient, si la personne perd connaissance ou si son état se détériore rapidement.",
+        "en": "Get help promptly for a serious allergic reaction, loss of consciousness, or rapid worsening."
+      }
+    },
+    {
+      "id": "methocarbamol_acetaminophen",
+      "enabled": true,
+      "status": "review",
+      "name": {
+        "fr": "Méthocarbamol / Acétaminophène",
+        "en": "Methocarbamol / Acetaminophen"
+      },
+      "category": {
+        "fr": "Douleur et fièvre",
+        "en": "Pain and fever"
+      },
+      "brands": {
+        "fr": "Robaxacet, Robaxacet Extra Strength, Robaxacet Tablets",
+        "en": "Robaxacet, Robaxacet Extra Strength, Robaxacet Tablets"
+      },
+      "aliases": {
+        "fr": "Robaxacet, Robaxacet Extra Strength, Robaxacet Tablets",
+        "en": "Robaxacet, Robaxacet Extra Strength, Robaxacet Tablets"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Ne prenez pas un autre produit contenant de l'acétaminophène en même temps sans l'avis d'un professionnel.",
+          "en": "Do not take another acetaminophen-containing product at the same time without professional advice."
+        }
+      },
+      "essential": {
+        "fr": "Associe un relaxant musculaire et un antidouleur pour soulager la douleur liée aux spasmes musculaires.",
+        "en": "Combines a muscle relaxant and a pain reliever for pain related to muscle spasms."
+      },
+      "whyTaken": {
+        "fr": "Cette association est utilisée pour le soulagement temporaire de douleurs comme les maux de dos, les muscles tendus, les foulures et les entorses lorsqu'un spasme musculaire est présent.",
+        "en": "This combination is used for temporary relief of pain such as back pain, tense muscles, strains, and sprains when muscle spasm is present."
+      },
+      "goodToKnow": {
+        "fr": "Ce produit contient déjà de l'acétaminophène et du méthocarbamol. Vérifiez les ingrédients de vos autres médicaments pour éviter de prendre deux produits qui contiennent de l'acétaminophène.\n\nNe prenez pas un autre produit contenant de l'acétaminophène en même temps sans l'avis d'un professionnel.",
+        "en": "This product already contains acetaminophen and methocarbamol. Check your other medicines to avoid taking two products that contain acetaminophen.\n\nDo not take another acetaminophen-containing product at the same time without professional advice."
+      },
+      "whenToGetHelp": {
+        "fr": "Communiquez immédiatement avec un centre antipoison si une trop grande quantité peut avoir été prise, même sans symptôme. Demandez aussi de l'aide pour une somnolence extrême ou une réaction allergique importante.",
+        "en": "Contact a poison centre immediately if too much may have been taken, even without symptoms. Also get help for extreme drowsiness or a serious allergic reaction."
+      }
+    },
+    {
+      "id": "methocarbamol_acetaminophen_codeine",
+      "enabled": true,
+      "status": "review",
+      "name": {
+        "fr": "Méthocarbamol / Acétaminophène / Codéine",
+        "en": "Methocarbamol / Acetaminophen / Codeine"
+      },
+      "category": {
+        "fr": "Douleur et fièvre",
+        "en": "Pain and fever"
+      },
+      "brands": {
+        "fr": "Robaxacet-8",
+        "en": "Robaxacet-8"
+      },
+      "aliases": {
+        "fr": "Robaxacet-8",
+        "en": "Robaxacet-8"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Ne doublez ni l'acétaminophène ni la codéine avec un autre produit sans avis professionnel.",
+          "en": "Do not duplicate acetaminophen or codeine with another product without professional advice."
+        }
+      },
+      "essential": {
+        "fr": "Associe un relaxant musculaire et deux antidouleurs, dont la codéine, pour soulager certaines douleurs liées aux spasmes musculaires.",
+        "en": "Combines a muscle relaxant and two pain relievers, including codeine, for some pain related to muscle spasms."
+      },
+      "whyTaken": {
+        "fr": "Cette association peut être utilisée lorsque la douleur musculaire accompagnée de spasmes nécessite aussi un antidouleur opioïde.",
+        "en": "This combination may be used when muscle pain with spasms also requires an opioid pain reliever."
+      },
+      "goodToKnow": {
+        "fr": "Ce produit contient déjà de l'acétaminophène, de la codéine et du méthocarbamol. Il peut causer de la somnolence et ralentir la respiration; évitez l'alcool et vérifiez tous les autres médicaments pris.\n\nNe doublez ni l'acétaminophène ni la codéine avec un autre produit sans avis professionnel.",
+        "en": "This product already contains acetaminophen, codeine, and methocarbamol. It may cause drowsiness and slow breathing; avoid alcohol and check all other medicines being taken.\n\nDo not duplicate acetaminophen or codeine with another product without professional advice."
+      },
+      "whenToGetHelp": {
+        "fr": "Appelez immédiatement les services d'urgence si la personne est très somnolente, difficile à réveiller ou respire lentement. Communiquez avec un centre antipoison si une trop grande quantité peut avoir été prise.",
+        "en": "Call emergency services immediately if the person is extremely drowsy, hard to wake, or breathing slowly. Contact a poison centre if too much may have been taken."
+      }
+    },
+    {
+      "id": "methocarbamol_acetylsalicylic_acid",
+      "enabled": true,
+      "status": "review",
+      "name": {
+        "fr": "Méthocarbamol / Acide acétylsalicylique",
+        "en": "Methocarbamol / Acetylsalicylic acid"
+      },
+      "category": {
+        "fr": "Douleur et fièvre",
+        "en": "Pain and fever"
+      },
+      "brands": {
+        "fr": "Robaxisal, Robaxisal Tablets, Robaxisal Caplets, Robaxisal Extra Strength",
+        "en": "Robaxisal, Robaxisal Tablets, Robaxisal Caplets, Robaxisal Extra Strength"
+      },
+      "aliases": {
+        "fr": "Robaxisal, Robaxisal Tablets, Robaxisal Caplets, Robaxisal Extra Strength",
+        "en": "Robaxisal, Robaxisal Tablets, Robaxisal Caplets, Robaxisal Extra Strength"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Ne prenez pas un autre produit contenant de l'AAS/ASA en même temps sans avis professionnel.",
+          "en": "Do not take another ASA-containing product at the same time without professional advice."
+        }
+      },
+      "essential": {
+        "fr": "Associe un relaxant musculaire et de l'acide acétylsalicylique pour soulager la douleur liée aux spasmes musculaires.",
+        "en": "Combines a muscle relaxant and acetylsalicylic acid for pain related to muscle spasms."
+      },
+      "whyTaken": {
+        "fr": "Cette association est utilisée pour le soulagement temporaire de douleurs musculaires accompagnées de spasmes, comme certains maux de dos, foulures ou entorses.",
+        "en": "This combination is used for temporary relief of muscle pain with spasms, such as some back pain, strains, or sprains."
+      },
+      "goodToKnow": {
+        "fr": "Ce produit contient déjà de l'acide acétylsalicylique (AAS/ASA) et du méthocarbamol. Vérifiez les ingrédients de vos autres médicaments pour éviter un double emploi et un risque accru de saignement.\n\nNe prenez pas un autre produit contenant de l'AAS/ASA en même temps sans avis professionnel.",
+        "en": "This product already contains acetylsalicylic acid (ASA) and methocarbamol. Check your other medicines to avoid duplication and increased bleeding risk.\n\nDo not take another ASA-containing product at the same time without professional advice."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez rapidement pour des selles noires, des vomissements contenant du sang, un saignement important, une difficulté à respirer ou une somnolence extrême.",
+        "en": "Get help promptly for black stools, vomiting blood, major bleeding, trouble breathing, or extreme drowsiness."
+      }
+    },
+    {
+      "id": "methocarbamol_acetylsalicylic_acid_codeine",
+      "enabled": true,
+      "status": "review",
+      "name": {
+        "fr": "Méthocarbamol / Acide acétylsalicylique / Codéine",
+        "en": "Methocarbamol / Acetylsalicylic acid / Codeine"
+      },
+      "category": {
+        "fr": "Douleur et fièvre",
+        "en": "Pain and fever"
+      },
+      "brands": {
+        "fr": "Robaxisal C-1/8 Tablets, Robaxisal C 1/4, Robaxisal C 1/2",
+        "en": "Robaxisal C-1/8 Tablets, Robaxisal C 1/4, Robaxisal C 1/2"
+      },
+      "aliases": {
+        "fr": "Robaxisal C-1/8 Tablets, Robaxisal C 1/4, Robaxisal C 1/2",
+        "en": "Robaxisal C-1/8 Tablets, Robaxisal C 1/4, Robaxisal C 1/2"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Ne doublez ni l'AAS/ASA ni la codéine avec un autre produit sans avis professionnel.",
+          "en": "Do not duplicate ASA or codeine with another product without professional advice."
+        }
+      },
+      "essential": {
+        "fr": "Associe un relaxant musculaire et deux antidouleurs, dont la codéine, pour soulager certaines douleurs liées aux spasmes musculaires.",
+        "en": "Combines a muscle relaxant and two pain relievers, including codeine, for some pain related to muscle spasms."
+      },
+      "whyTaken": {
+        "fr": "Cette association peut être utilisée lorsque la douleur musculaire accompagnée de spasmes nécessite aussi un antidouleur opioïde.",
+        "en": "This combination may be used when muscle pain with spasms also requires an opioid pain reliever."
+      },
+      "goodToKnow": {
+        "fr": "Ce produit contient déjà de l'acide acétylsalicylique (AAS/ASA), de la codéine et du méthocarbamol. Il peut augmenter le risque de saignement, causer de la somnolence et ralentir la respiration.\n\nNe doublez ni l'AAS/ASA ni la codéine avec un autre produit sans avis professionnel.",
+        "en": "This product already contains acetylsalicylic acid (ASA), codeine, and methocarbamol. It may increase bleeding risk, cause drowsiness, and slow breathing.\n\nDo not duplicate ASA or codeine with another product without professional advice."
+      },
+      "whenToGetHelp": {
+        "fr": "Appelez immédiatement les services d'urgence si la personne est difficile à réveiller ou respire lentement. Consultez rapidement pour des selles noires, des vomissements contenant du sang ou un saignement important.",
+        "en": "Call emergency services immediately if the person is hard to wake or breathing slowly. Get help promptly for black stools, vomiting blood, or major bleeding."
+      }
+    },
+    {
+      "id": "methocarbamol_ibuprofen",
+      "enabled": true,
+      "status": "review",
+      "name": {
+        "fr": "Méthocarbamol / Ibuprofène",
+        "en": "Methocarbamol / Ibuprofen"
+      },
+      "category": {
+        "fr": "Douleur et fièvre",
+        "en": "Pain and fever"
+      },
+      "brands": {
+        "fr": "Robax Platine",
+        "en": "Robax Platinum"
+      },
+      "aliases": {
+        "fr": "Robax Platine",
+        "en": "Robax Platinum"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Ne combinez pas ce produit avec un autre médicament contenant de l'ibuprofène ou un autre anti-inflammatoire sans avis professionnel.",
+          "en": "Do not combine this product with another medicine containing ibuprofen or another anti-inflammatory without professional advice."
+        }
+      },
+      "essential": {
+        "fr": "Associe un relaxant musculaire et un anti-inflammatoire pour soulager la douleur liée aux spasmes musculaires.",
+        "en": "Combines a muscle relaxant and an anti-inflammatory for pain related to muscle spasms."
+      },
+      "whyTaken": {
+        "fr": "Cette association est utilisée pour le soulagement temporaire de douleurs comme les maux de dos, les muscles tendus, les foulures et les entorses.",
+        "en": "This combination is used for temporary relief of pain such as back pain, tense muscles, strains, and sprains."
+      },
+      "goodToKnow": {
+        "fr": "Ce produit contient déjà de l'ibuprofène, un anti-inflammatoire non stéroïdien, et du méthocarbamol. Vérifiez les ingrédients avant de prendre un autre antidouleur ou anti-inflammatoire.\n\nNe combinez pas ce produit avec un autre médicament contenant de l'ibuprofène ou un autre anti-inflammatoire sans avis professionnel.",
+        "en": "This product already contains ibuprofen, a non-steroidal anti-inflammatory drug, and methocarbamol. Check ingredients before taking another pain reliever or anti-inflammatory.\n\nDo not combine this product with another medicine containing ibuprofen or another anti-inflammatory without professional advice."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez rapidement pour des selles noires, des vomissements contenant du sang, une difficulté à respirer, un gonflement du visage ou une somnolence extrême.",
+        "en": "Get help promptly for black stools, vomiting blood, trouble breathing, facial swelling, or extreme drowsiness."
       }
     },
     {
