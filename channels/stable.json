@@ -1,13 +1,15 @@
 {
-  "approvalId": null,
+  "approvalId": "guide-v1-initial-release-windows-safe",
   "channel": "stable",
-  "generation": 0,
-  "manifestPath": null,
-  "manifestSha256": null,
+  "generation": 1,
+  "manifestPath": "releases/guide-catalog-clinical-reference-2026-07-15-v1-lf1+848b0b336837/manifest.json",
+  "manifestSha256": "db09200c313c36df8c86e0481cbee2e969d97579aca33674d69ba02cb554d30b",
   "previousReleaseId": null,
-  "promotedAt": null,
-  "releaseId": null,
-  "releaseHistory": [],
+  "promotedAt": "2026-07-22T02:12:48.928Z",
+  "releaseHistory": [
+    "guide-catalog-clinical-reference-2026-07-15-v1-lf1+848b0b336837"
+  ],
+  "releaseId": "guide-catalog-clinical-reference-2026-07-15-v1-lf1+848b0b336837",
   "rollbackReason": null,
   "schemaVersion": "1.0.0"
 }
