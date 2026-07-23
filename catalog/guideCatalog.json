@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "clinical-reference-2026-07-15-v1-lf1",
-  "generatedAt": "2026-07-15T18:46:45.850Z",
+  "contentVersion": "clinical-reference-2026-07-15-v1",
+  "generatedAt": "2026-07-23T00:41:05.424Z",
   "medications": [
     {
       "id": "acarbose",
@@ -2085,7 +2085,7 @@
     {
       "id": "methocarbamol_acetaminophen",
       "enabled": true,
-      "status": "review",
+      "status": "approved",
       "name": {
         "fr": "Méthocarbamol / Acétaminophène",
         "en": "Methocarbamol / Acetaminophen"
@@ -2762,6 +2762,94 @@
       "whenToGetHelp": {
         "fr": "Consultez rapidement si vous présentez une difficulté importante à respirer, une forte fièvre accompagnée d'un état général qui se détériore, ou si votre état s'aggrave malgré le traitement.",
         "en": "Ask for advice if a new symptom is concerning, gets worse, or affects daily life."
+      }
+    },
+    {
+      "id": "premixed_human_insulin",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Insuline humaine prémélangée",
+        "en": "Premixed human insulin"
+      },
+      "category": {
+        "fr": "Diabète",
+        "en": "Diabetes"
+      },
+      "brands": {
+        "fr": "Humulin 30/70, Novolin 70/30",
+        "en": "Humulin 30/70, Novolin 70/30"
+      },
+      "aliases": {
+        "fr": "Humulin 30/70, Novolin 70/30",
+        "en": "Humulin 30/70, Novolin 70/30"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Respectez l'horaire des injections et surveillez votre glycémie selon les recommandations.",
+          "en": "Follow the injection schedule and monitor your blood sugar as recommended."
+        }
+      },
+      "essential": {
+        "fr": "Aide à contrôler le taux de sucre dans le sang.",
+        "en": "Helps control blood sugar levels."
+      },
+      "whyTaken": {
+        "fr": "Elle est prescrite pour traiter le diabète lorsque l'organisme ne produit pas suffisamment d'insuline ou ne l'utilise pas efficacement. Cette insuline combine une action de courte durée et une action prolongée afin d'aider à contrôler la glycémie tout au long de la journée.",
+        "en": "It is prescribed to treat diabetes when the body does not produce enough insulin or does not use it effectively."
+      },
+      "goodToKnow": {
+        "fr": "Prenez cette insuline selon les recommandations de votre professionnel de la santé, généralement en lien avec les repas. N'interrompez pas le traitement sans avis médical.\n\nRespectez l'horaire des injections et surveillez votre glycémie selon les recommandations.",
+        "en": "Take this insulin as directed by your healthcare professional, generally in relation to meals."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez rapidement si vous présentez des signes d'hypoglycémie importante (confusion, perte de connaissance, convulsions), une réaction allergique importante ou si votre état se détériore rapidement.",
+        "en": "Get help promptly for severe hypoglycemia, a serious allergic reaction, or rapid worsening."
+      }
+    },
+    {
+      "id": "premixed_insulin_aspart",
+      "enabled": true,
+      "status": "approved",
+      "name": {
+        "fr": "Insuline asparte prémélangée",
+        "en": "Premixed insulin aspart"
+      },
+      "category": {
+        "fr": "Diabète",
+        "en": "Diabetes"
+      },
+      "brands": {
+        "fr": "NovoMix 30",
+        "en": "NovoMix 30"
+      },
+      "aliases": {
+        "fr": "NovoMix 30",
+        "en": "NovoMix 30"
+      },
+      "keyMessage": {
+        "section": "goodToKnow",
+        "text": {
+          "fr": "Respectez l'horaire des injections et surveillez votre glycémie selon les recommandations.",
+          "en": "Follow the injection schedule and monitor your blood sugar as recommended."
+        }
+      },
+      "essential": {
+        "fr": "Aide à contrôler le taux de sucre dans le sang.",
+        "en": "Helps control blood sugar levels."
+      },
+      "whyTaken": {
+        "fr": "Elle est prescrite pour traiter le diabète lorsque l'organisme ne produit pas suffisamment d'insuline ou ne l'utilise pas efficacement. Cette insuline combine une action très rapide et une action prolongée afin d'aider à contrôler la glycémie tout au long de la journée.",
+        "en": "It is prescribed to treat diabetes and combines a very rapid action with a prolonged action."
+      },
+      "goodToKnow": {
+        "fr": "Prenez cette insuline en lien avec le repas, selon les recommandations de votre professionnel de la santé. N'interrompez pas le traitement sans avis médical.\n\nRespectez l'horaire des injections et surveillez votre glycémie selon les recommandations.",
+        "en": "Take this insulin in relation to the meal, as directed by your healthcare professional."
+      },
+      "whenToGetHelp": {
+        "fr": "Consultez rapidement si vous présentez des signes d'hypoglycémie importante (confusion, perte de connaissance, convulsions), une réaction allergique importante ou si votre état se détériore rapidement.",
+        "en": "Get help promptly for severe hypoglycemia, a serious allergic reaction, or rapid worsening."
       }
     },
     {
