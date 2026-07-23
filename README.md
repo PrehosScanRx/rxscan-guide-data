@@ -34,6 +34,12 @@ npm run rollback:guide-stable -- --release-id <releaseId> --approval-id <id> --r
 npm test
 ```
 
+New RX_ID-linked candidates additionally require `--guide-source-commit`,
+`--medication-directory`, and `--medication-directory-provenance`. The build
+then checks every Guide card against that exact Medication Directory before it
+can create an immutable release. Historical catalogues without `rxId` continue
+to use the original contract.
+
 `build:guide-release` validates and creates a candidate; it never promotes it.
 Promotion and rollback print the proposed pointer diff first. Without `--dry-run`,
 they additionally require `--confirm`. Rollback always requires a reason.

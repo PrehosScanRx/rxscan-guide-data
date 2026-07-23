@@ -29,6 +29,29 @@ an existing release directory. Its generation timestamp is derived from the
 source commit unless explicitly supplied, so the same source and provenance
 produce identical output.
 
+### RX_ID-linked candidates
+
+New dynamically linked publications must pass all three reference arguments:
+
+```text
+npm run build:guide-release -- --catalog <guide-export.json> --source-commit <guide-sha> --guide-source-commit <guide-sha> --medication-directory <directory.json> --medication-directory-provenance <provenance.json> --dry-run
+```
+
+The Guide SHA values must agree. The Medication Directory bytes must match its
+provenance checksum and its `sourceRevision` must match the Data source commit.
+Before a release directory is created, every card must carry a unique `rxId`,
+every card id must be unique, every `rxId` must exist in the referenced
+directory, and mixed linked/legacy catalogues are rejected.
+
+Linked manifests declare `capabilities.rxIdLinkedGuideCards: true` and record
+total and active card counts, linked and unlinked counts, the Guide source SHA,
+the Data release/SHA reference, and the catalogue SHA-256. The unlinked count
+must be zero and the linked count must equal the active card count.
+
+Legacy releases remain byte-for-byte unchanged. Their manifests do not gain the
+capability or linkage metadata, and validation, promotion, and rollback retain
+their original behavior.
+
 ## Validate a release
 
 Validation compiles the Draft 2020-12 schemas and checks the directory name,

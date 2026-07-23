@@ -14,6 +14,7 @@ import {
   nextChannelPointer,
   prepareRelease,
   readJson,
+  readMedicationDirectory,
   releaseIdFor,
   sha256,
   validateCatalog,
@@ -69,6 +70,42 @@ function prepare(catalog, sourceCommit, generatedAt, root) {
       clinicalSourceVersion: catalog.contentVersion,
     },
     root,
+  });
+}
+
+function linkedCatalog() {
+  const catalog = structuredClone(gitJson(SOURCE_82, "catalog/guideCatalog.json"));
+  catalog.contentVersion = "linked-fixture";
+  catalog.medications.forEach((item, index) => { item.rxId = `RX_${String(index + 1).padStart(3, "0")}`; });
+  return catalog;
+}
+
+function prepareLinked(catalog, root, overrides = {}) {
+  const rxIds = new Set(Array.from({ length: 82 }, (_, index) => `RX_${String(index + 1).padStart(3, "0")}`));
+  return prepareRelease({
+    catalog,
+    sourceCommit: SOURCE_82,
+    generatedAt: FIXED_TIME_82,
+    publicationSource: "fixture",
+    minimumGuideVersion: "1.0.0",
+    provenance: {
+      sourceRepository: "PrehosScanRx/rxscan-guide-data",
+      importedAt: FIXED_TIME_82,
+      clinicalSource: "test fixture",
+      clinicalSourceVersion: catalog.contentVersion,
+    },
+    linkedRelease: {
+      guideSourceCommit: SOURCE_82,
+      medicationDirectory: {
+        sourceRepository: "RxScan Data",
+        sourceCommit: SOURCE_82,
+        releaseId: null,
+        directorySha256: "a".repeat(64),
+      },
+    },
+    knownRxIds: rxIds,
+    root,
+    ...overrides,
   });
 }
 
@@ -158,6 +195,93 @@ test("88-card saved publication remains review-safe and valid", () => {
   assert.equal(prepared.catalog.medications.filter((item) => item.status === "review").every((item) => item.status !== "approved"), true);
   const releaseDir = writeRelease(prepared, path.join(root, "releases"));
   assert.equal(validateRelease(releaseDir, root).manifest.counts.reviewCount, 6);
+});
+
+test("historical releases without rxId remain valid and have no linked capability", () => {
+  const root = workspace();
+  const prepared = prepare(gitJson(SOURCE_82, "catalog/guideCatalog.json"), SOURCE_82, FIXED_TIME_82, root);
+  const result = validateRelease(writeRelease(prepared, path.join(root, "releases")), root);
+  assert.equal(result.manifest.capabilities, undefined);
+  assert.equal(result.manifest.linkage, undefined);
+  assert.equal(result.catalog.medications.some((item) => Object.hasOwn(item, "rxId")), false);
+});
+
+test("linked release is valid and records exact linkage metadata", () => {
+  const root = workspace();
+  const prepared = prepareLinked(linkedCatalog(), root);
+  assert.deepEqual(prepared.manifest.capabilities, { rxIdLinkedGuideCards: true });
+  assert.equal(prepared.manifest.linkage.totalGuideCardCount, 82);
+  assert.equal(prepared.manifest.linkage.activeGuideCardCount, 82);
+  assert.equal(prepared.manifest.linkage.linkedRxIdCount, 82);
+  assert.equal(prepared.manifest.linkage.unlinkedGuideCardCount, 0);
+  assert.equal(prepared.manifest.linkage.catalogSha256, prepared.manifest.files[0].sha256);
+  const releaseDir = writeRelease(prepared, path.join(root, "releases"));
+  assert.equal(validateRelease(releaseDir, root).manifest.capabilities.rxIdLinkedGuideCards, true);
+});
+
+test("linked publication rejects mixed, missing, unknown, duplicate RX_ID and duplicate card id", () => {
+  const root = workspace();
+  const cases = [
+    ["mixed", (catalog) => { delete catalog.medications[0].rxId; }, /mix|rxId is required/],
+    ["missing rxId", (catalog) => { catalog.medications.forEach((item) => { delete item.rxId; }); }, /rxId is required/],
+    ["unknown rxId", (catalog) => { catalog.medications[0].rxId = "RX_999"; }, /rxId is unknown/],
+    ["duplicate rxId", (catalog) => { catalog.medications[1].rxId = catalog.medications[0].rxId; }, /rxId is duplicated/],
+    ["duplicate guideCardId", (catalog) => { catalog.medications[1].id = catalog.medications[0].id; }, /id is duplicated/],
+  ];
+  for (const [label, mutate, expected] of cases) {
+    const catalog = linkedCatalog();
+    mutate(catalog);
+    assert.throws(() => prepareLinked(catalog, root), expected, label);
+  }
+});
+
+test("linked publication rejects missing metadata and divergent Guide provenance", () => {
+  const root = workspace();
+  const catalog = linkedCatalog();
+  assert.throws(() => prepare(catalog, SOURCE_82, FIXED_TIME_82, root), /requires RX_ID release metadata/);
+  assert.throws(() => prepareLinked(catalog, root, {
+    linkedRelease: {
+      guideSourceCommit: SOURCE_88,
+      medicationDirectory: {
+        sourceRepository: "RxScan Data",
+        sourceCommit: SOURCE_82,
+        releaseId: null,
+        directorySha256: "a".repeat(64),
+      },
+    },
+  }), /Guide provenance sourceCommit mismatch/);
+});
+
+test("Medication Directory reader rejects divergent Data provenance and checksum", () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), "guide-directory-test-"));
+  const directoryPath = path.join(root, "directory.json");
+  const provenancePath = path.join(root, "provenance.json");
+  const directory = { sourceRevision: SOURCE_82, medications: [{ rxId: "RX_001" }] };
+  fs.writeFileSync(directoryPath, canonicalJson(directory));
+  fs.writeFileSync(provenancePath, canonicalJson({
+    sourceRepository: "RxScan Data",
+    sourceCommit: SOURCE_88,
+    embeddedSha256: sha256(fs.readFileSync(directoryPath)),
+    stableReleaseId: null,
+  }));
+  assert.throws(() => readMedicationDirectory(directoryPath, provenancePath), /sourceCommit mismatch/);
+  rewriteJson(provenancePath, (value) => {
+    value.sourceCommit = SOURCE_82;
+    value.embeddedSha256 = "0".repeat(64);
+  });
+  assert.throws(() => readMedicationDirectory(directoryPath, provenancePath), /checksum mismatch/);
+});
+
+test("linked release rejects linkage count and catalog checksum corruption", () => {
+  const root = workspace();
+  const prepared = prepareLinked(linkedCatalog(), root);
+  const releaseDir = writeRelease(prepared, path.join(root, "releases"));
+  const countCopy = cloneRelease(releaseDir);
+  rewriteJson(path.join(countCopy, "manifest.json"), (manifest) => { manifest.linkage.linkedRxIdCount -= 1; });
+  assert.throws(() => validateRelease(countCopy, root), /linkage counts mismatch/);
+  const checksumCopy = cloneRelease(releaseDir);
+  rewriteJson(path.join(checksumCopy, "manifest.json"), (manifest) => { manifest.linkage.catalogSha256 = "0".repeat(64); });
+  assert.throws(() => validateRelease(checksumCopy, root), /Linked catalog SHA-256 mismatch/);
 });
 
 test("release identity changes with content and rejects invalid contentVersion", () => {

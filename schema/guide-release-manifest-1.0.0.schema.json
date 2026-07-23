@@ -4,6 +4,10 @@
   "title": "RxScan Guide editorial release manifest",
   "type": "object",
   "additionalProperties": false,
+  "dependentRequired": {
+    "capabilities": ["linkage"],
+    "linkage": ["capabilities"]
+  },
   "required": ["schemaVersion", "releaseId", "contentVersion", "generatedAt", "sourceCommit", "publicationSource", "releaseStatus", "compatibility", "minimumGuideVersion", "files", "counts", "provenance"],
   "properties": {
     "schemaVersion": { "const": "1.0.0" },
@@ -24,6 +28,36 @@
       }
     },
     "minimumGuideVersion": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "capabilities": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rxIdLinkedGuideCards"],
+      "properties": { "rxIdLinkedGuideCards": { "const": true } }
+    },
+    "linkage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["totalGuideCardCount", "activeGuideCardCount", "linkedRxIdCount", "unlinkedGuideCardCount", "guideSourceCommit", "medicationDirectory", "catalogSha256"],
+      "properties": {
+        "totalGuideCardCount": { "type": "integer", "minimum": 0 },
+        "activeGuideCardCount": { "type": "integer", "minimum": 0 },
+        "linkedRxIdCount": { "type": "integer", "minimum": 0 },
+        "unlinkedGuideCardCount": { "const": 0 },
+        "guideSourceCommit": { "type": "string", "pattern": "^[a-f0-9]{40}$" },
+        "catalogSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "medicationDirectory": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["sourceRepository", "sourceCommit", "releaseId", "directorySha256"],
+          "properties": {
+            "sourceRepository": { "type": "string", "minLength": 1 },
+            "sourceCommit": { "type": "string", "pattern": "^[a-f0-9]{40}$" },
+            "releaseId": { "type": ["string", "null"], "minLength": 1 },
+            "directorySha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+          }
+        }
+      }
+    },
     "files": {
       "type": "array",
       "minItems": 1,
