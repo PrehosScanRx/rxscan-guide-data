@@ -1,17 +1,18 @@
 {
-  "approvalId": "complete-guide-v4-78286db7",
+  "approvalId": "guide-rxid-transition-data-1.9.0",
   "channel": "stable",
-  "generation": 4,
-  "manifestPath": "releases/guide-catalog-clinical-reference-2026-07-15-v1+5d2a199cd0f3/manifest.json",
-  "manifestSha256": "32c4e6a3659d6fee75a0af4dbe2f9ad47415da972753c78e4155d0bbd3adcfbb",
-  "previousReleaseId": "guide-catalog-clinical-reference-2026-07-15-v1-lf1+848b0b336837",
-  "promotedAt": "2026-07-23T02:33:47.456Z",
+  "generation": 5,
+  "manifestPath": "releases/guide-catalog-clinical-reference-2026-07-15-v1+8490b73c2813/manifest.json",
+  "manifestSha256": "6ef7f3e48724add93a16443acc7f7b093e28b05de42476ce352c9df261c7f53a",
+  "previousReleaseId": "guide-catalog-clinical-reference-2026-07-15-v1+5d2a199cd0f3",
+  "promotedAt": "2026-07-23T20:04:59.110Z",
   "releaseHistory": [
     "guide-catalog-clinical-reference-2026-07-15-v1-lf1+848b0b336837",
     "guide-catalog-clinical-reference-2026-07-15-v1+c1aec7a4c4c5",
-    "guide-catalog-clinical-reference-2026-07-15-v1+5d2a199cd0f3"
+    "guide-catalog-clinical-reference-2026-07-15-v1+5d2a199cd0f3",
+    "guide-catalog-clinical-reference-2026-07-15-v1+8490b73c2813"
   ],
-  "releaseId": "guide-catalog-clinical-reference-2026-07-15-v1+5d2a199cd0f3",
+  "releaseId": "guide-catalog-clinical-reference-2026-07-15-v1+8490b73c2813",
   "rollbackReason": null,
   "schemaVersion": "1.0.0"
 }
