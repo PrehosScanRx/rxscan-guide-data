@@ -1,15 +1,16 @@
 {
-  "approvalId": "guide-v1-initial-release-windows-safe",
+  "approvalId": "guide-data-06a9563-guide-cfa662f",
   "channel": "stable",
-  "generation": 1,
-  "manifestPath": "releases/guide-catalog-clinical-reference-2026-07-15-v1-lf1+848b0b336837/manifest.json",
-  "manifestSha256": "db09200c313c36df8c86e0481cbee2e969d97579aca33674d69ba02cb554d30b",
-  "previousReleaseId": null,
-  "promotedAt": "2026-07-22T02:12:48.928Z",
+  "generation": 2,
+  "manifestPath": "releases/guide-catalog-clinical-reference-2026-07-15-v1+c1aec7a4c4c5/manifest.json",
+  "manifestSha256": "ef09c423dfd6dc7c162b73da95da4db85d63d6a5b27824bef929f2d9abc3f83f",
+  "previousReleaseId": "guide-catalog-clinical-reference-2026-07-15-v1-lf1+848b0b336837",
+  "promotedAt": "2026-07-23T00:41:58.958Z",
   "releaseHistory": [
-    "guide-catalog-clinical-reference-2026-07-15-v1-lf1+848b0b336837"
+    "guide-catalog-clinical-reference-2026-07-15-v1-lf1+848b0b336837",
+    "guide-catalog-clinical-reference-2026-07-15-v1+c1aec7a4c4c5"
   ],
-  "releaseId": "guide-catalog-clinical-reference-2026-07-15-v1-lf1+848b0b336837",
+  "releaseId": "guide-catalog-clinical-reference-2026-07-15-v1+c1aec7a4c4c5",
   "rollbackReason": null,
   "schemaVersion": "1.0.0"
 }

@@ -1,0 +1,40 @@
+{
+  "compatibility": {
+    "catalogSchema": "1.x",
+    "manifestSchema": "1.x",
+    "offlineCapable": true
+  },
+  "contentVersion": "clinical-reference-2026-07-15-v1",
+  "counts": {
+    "approvedCount": 85,
+    "disabledCount": 0,
+    "draftCount": 0,
+    "reviewCount": 5,
+    "totalCount": 90
+  },
+  "files": [
+    {
+      "bytes": 196830,
+      "mediaType": "application/json",
+      "path": "catalog/guideCatalog.json",
+      "recordCount": 90,
+      "required": true,
+      "role": "guide-catalog",
+      "sha256": "e2e4c9184bd64b6bea178520c3d10aedfd9d9ed5a56ac829aea31ef4bd5bc0a4"
+    }
+  ],
+  "generatedAt": "2026-07-22T20:41:32-04:00",
+  "minimumGuideVersion": "1.0.0",
+  "provenance": {
+    "clinicalSource": null,
+    "clinicalSourceVersion": null,
+    "importedAt": "2026-07-22T20:41:32-04:00",
+    "sourceCommit": "80a04f2a5c6bc90ce4858cd605d76afebe7ec694",
+    "sourceRepository": "PrehosScanRx/rxscan-guide-data"
+  },
+  "publicationSource": "canonical",
+  "releaseId": "guide-catalog-clinical-reference-2026-07-15-v1+c1aec7a4c4c5",
+  "releaseStatus": "candidate",
+  "schemaVersion": "1.0.0",
+  "sourceCommit": "80a04f2a5c6bc90ce4858cd605d76afebe7ec694"
+}
