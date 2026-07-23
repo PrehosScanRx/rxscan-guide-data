@@ -1,16 +1,16 @@
 {
-  "approvalId": "guide-data-06a9563-guide-cfa662f",
+  "approvalId": "rollback-installed-guide-compatibility",
   "channel": "stable",
-  "generation": 2,
-  "manifestPath": "releases/guide-catalog-clinical-reference-2026-07-15-v1+c1aec7a4c4c5/manifest.json",
-  "manifestSha256": "ef09c423dfd6dc7c162b73da95da4db85d63d6a5b27824bef929f2d9abc3f83f",
-  "previousReleaseId": "guide-catalog-clinical-reference-2026-07-15-v1-lf1+848b0b336837",
-  "promotedAt": "2026-07-23T00:41:58.958Z",
+  "generation": 3,
+  "manifestPath": "releases/guide-catalog-clinical-reference-2026-07-15-v1-lf1+848b0b336837/manifest.json",
+  "manifestSha256": "db09200c313c36df8c86e0481cbee2e969d97579aca33674d69ba02cb554d30b",
+  "previousReleaseId": "guide-catalog-clinical-reference-2026-07-15-v1+c1aec7a4c4c5",
+  "promotedAt": "2026-07-23T00:43:44.218Z",
   "releaseHistory": [
     "guide-catalog-clinical-reference-2026-07-15-v1-lf1+848b0b336837",
     "guide-catalog-clinical-reference-2026-07-15-v1+c1aec7a4c4c5"
   ],
-  "releaseId": "guide-catalog-clinical-reference-2026-07-15-v1+c1aec7a4c4c5",
-  "rollbackReason": null,
+  "releaseId": "guide-catalog-clinical-reference-2026-07-15-v1-lf1+848b0b336837",
+  "rollbackReason": "Installed Guide mapping predates RX_184 RX_503 RX_509 split",
   "schemaVersion": "1.0.0"
 }
