@@ -1,0 +1,57 @@
+{
+  "capabilities": {
+    "rxIdLinkedGuideCards": true
+  },
+  "compatibility": {
+    "catalogSchema": "1.x",
+    "manifestSchema": "1.x",
+    "offlineCapable": true
+  },
+  "contentVersion": "clinical-reference-2026-07-15-v1",
+  "counts": {
+    "approvedCount": 309,
+    "disabledCount": 0,
+    "draftCount": 0,
+    "reviewCount": 1,
+    "totalCount": 310
+  },
+  "files": [
+    {
+      "bytes": 707278,
+      "mediaType": "application/json",
+      "path": "catalog/guideCatalog.json",
+      "recordCount": 310,
+      "required": true,
+      "role": "guide-catalog",
+      "sha256": "4065571c2ce6377574d4e3d7bd9f0dccf6beb2b1073462d094d0d442379479fd"
+    }
+  ],
+  "generatedAt": "2026-07-23T15:06:21-04:00",
+  "linkage": {
+    "activeGuideCardCount": 310,
+    "catalogSha256": "4065571c2ce6377574d4e3d7bd9f0dccf6beb2b1073462d094d0d442379479fd",
+    "guideSourceCommit": "d44e0b88ae9580a5f07dd8f68f18e0faaed5ffc1",
+    "linkedRxIdCount": 310,
+    "medicationDirectory": {
+      "directorySha256": "c11f8327979afa593cfb51013877ec9e7c7bd20653b60aa55c69e842393d40b2",
+      "releaseId": "rxscan-core-1.9.0@2026.07.23.1+3807ce05689a",
+      "sourceCommit": "c0c88aaa9713eb428514bd347bb017d0475a7ca7",
+      "sourceRepository": "RxScan Data"
+    },
+    "totalGuideCardCount": 310,
+    "unlinkedGuideCardCount": 0
+  },
+  "minimumGuideVersion": "1.0.0",
+  "provenance": {
+    "clinicalSource": "Clinical Reference",
+    "clinicalSourceVersion": "23e9738794b7b2c96df7b70707552200c7cea90c",
+    "importedAt": "2026-07-23T15:06:21-04:00",
+    "sourceCommit": "d44e0b88ae9580a5f07dd8f68f18e0faaed5ffc1",
+    "sourceRepository": "PrehosScanRx/rxscan-guide-data"
+  },
+  "publicationSource": "controlled-import",
+  "releaseId": "guide-catalog-clinical-reference-2026-07-15-v1+8490b73c2813",
+  "releaseStatus": "candidate",
+  "schemaVersion": "1.0.0",
+  "sourceCommit": "d44e0b88ae9580a5f07dd8f68f18e0faaed5ffc1"
+}
